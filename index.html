@@ -7,7 +7,7 @@
   <title>AI4Rad Lab · Medical Imaging AI</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Outfit:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -21,6 +21,8 @@
       <div class="nav__links">
         <a href="./" class="nav__link active">Home</a>
         <a href="./team.html" class="nav__link">Team</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#resources" class="nav__link">Resources</a>
         <a href="./index_ch.html" class="nav__link--lang">中文</a>
       </div>
       <button class="nav__theme-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
@@ -29,55 +31,159 @@
 
   <main class="wrapper">
     <section class="hero reveal">
-      <img src="images/brand/ssph-med-logo.svg" alt="Shanghai Sixth People's Hospital" class="hero__logo">
+      <div class="hero__logos">
+        <img src="images/brand/ssph-med-logo.svg" alt="Shanghai Sixth People's Hospital" class="hero__logo">
+        <span class="hero__logo-sep"></span>
+        <img src="images/brand/sjtu-logo-en.svg" alt="Shanghai Jiao Tong University" class="hero__sjtu">
+      </div>
       <div class="hero__badge">
         <span class="hero__badge-dot"></span>
         Department of Radiology · Shanghai Sixth People's Hospital · SJTU School of Medicine
       </div>
       <h1 class="hero__title">AI4Rad Lab</h1>
-      <p class="hero__subtitle">Medical Imaging Artificial Intelligence research group at Shanghai Sixth People's Hospital. We develop vision foundation models, multimodal LLMs, medical image generation, and spatial intelligence methods to solve clinical problems across seven medical domains.</p>
+      <p class="hero__slogan">AI for more precise diagnosis — and care for everyone.</p>
+      <p class="hero__subtitle">We bring the most advanced AI out of the lab and into the most real clinical settings — turning frontier models into trustworthy tools that make diagnosis more precise and healthcare more accessible.</p>
       <div class="hero__cta">
         <a href="./team.html" class="btn btn--primary">Meet the Team</a>
-        <a href="https://frankzhangrp.github.io/" class="btn btn--secondary" target="_blank" rel="noopener">PI's Homepage</a>
+        <a href="https://github.com/AI4Rad-SSPH" class="btn btn--secondary" target="_blank" rel="noopener">GitHub Organization</a>
       </div>
     </section>
 
-    <div class="stats reveal">
-      <div class="stat"><div class="stat__number">28</div><div class="stat__label">Team Members</div></div>
-      <div class="stat"><div class="stat__number">3</div><div class="stat__label">Research Directions</div></div>
-      <div class="stat"><div class="stat__number">12+</div><div class="stat__label">Publications</div></div>
-      <div class="stat"><div class="stat__number">3</div><div class="stat__label">Partner Universities</div></div>
+    <div class="portal reveal">
+      <a href="./team.html" class="portal-card">
+        <div class="portal-card__icon">👥</div>
+        <div class="portal-card__title">Team</div>
+        <div class="portal-card__desc">Clinicians, engineers and students working across medicine and engineering.</div>
+        <div class="portal-card__cta">Meet the team →</div>
+      </a>
+      <a href="#projects" class="portal-card">
+        <div class="portal-card__icon">🔬</div>
+        <div class="portal-card__title">Projects</div>
+        <div class="portal-card__desc">Clinical AI from brain-MRI reporting to vascular and stroke imaging.</div>
+        <div class="portal-card__cta">See projects →</div>
+      </a>
+      <a href="#demos" class="portal-card">
+        <span class="portal-card__badge">Soon</span>
+        <div class="portal-card__icon">▶️</div>
+        <div class="portal-card__title">Demos</div>
+        <div class="portal-card__desc">Interactive demonstrations of our models and clinical tools.</div>
+        <div class="portal-card__cta">Coming soon</div>
+      </a>
+      <a href="#resources" class="portal-card">
+        <div class="portal-card__icon">📦</div>
+        <div class="portal-card__title">Resources</div>
+        <div class="portal-card__desc">Code, publications and open resources released by the lab.</div>
+        <div class="portal-card__cta">Browse →</div>
+      </a>
     </div>
+
+    <section class="reveal" style="margin-top:8px;">
+      <div class="section-head">
+        <h2 class="section-head__title">Our Scope</h2>
+        <div class="section-head__line"></div>
+      </div>
+      <p style="color:var(--text-secondary);font-size:0.98rem;line-height:1.8;max-width:760px;">
+        AI4Rad Lab is the medical-imaging AI group of the Department of Radiology at Shanghai Sixth People's Hospital. We build on four technical pillars — vision foundation models, multimodal LLMs, medical image generation, and spatial intelligence — and apply them across seven clinical domains, from pan-vascular and musculoskeletal imaging to oncology, chronic-disease cohorts, and emergency radiology. Our north star is simple: <strong>technology that reaches the bedside</strong>.
+      </p>
+    </section>
 
     <section class="reveal" style="margin-top:48px;">
       <div class="section-head">
         <h2 class="section-head__title">Research Directions</h2>
         <div class="section-head__line"></div>
       </div>
-      <p style="color:var(--text-secondary);font-size:0.95rem;line-height:1.7;margin-bottom:22px;">
-        AI4Rad Lab builds on four technical pillars to address clinical problems across seven medical domains — from pan-vascular imaging and musculoskeletal quantification to oncology, chronic disease cohorts, emergency imaging, and emerging imaging technologies.
-      </p>
       <div class="research-areas">
         <div class="area-card">
           <div class="area-card__icon" style="background:#e7f4f3;">👁️</div>
           <div class="area-card__title">Vision Foundation Models</div>
-          <div class="area-card__desc">Medical visual representation and structured understanding for diagnosis, segmentation, detection, localization, and quantitative parameter extraction across imaging modalities.</div>
+          <div class="area-card__desc">Medical visual representation and structured understanding for diagnosis, segmentation, detection, localization, and quantitative parameter extraction.</div>
+          <div class="area-card__view-text">“Foundation models for medicine should be trained on real clinical distributions and judged by clinical utility — not leaderboard scores. We build backbones that output structured, quantifiable findings clinicians can act on.”</div>
         </div>
         <div class="area-card">
           <div class="area-card__icon" style="background:#e7f4f3;">🧠</div>
           <div class="area-card__title">Multimodal Large Language Models</div>
-          <div class="area-card__desc">Integrating medical images, radiology reports, clinical history, and knowledge bases for report generation, clinical reasoning, evaluation frameworks, and agentic AI.</div>
+          <div class="area-card__desc">Integrating images, radiology reports, clinical history, and knowledge bases for report generation, clinical reasoning, evaluation, and agentic AI.</div>
+          <div class="area-card__view-text">“A radiology report is reasoning, not captioning. We fuse images with reports, history and guidelines so models can explain and justify — and we hold them to reader-study-level evaluation.”</div>
         </div>
         <div class="area-card">
           <div class="area-card__icon" style="background:#e7f4f3;">🎨</div>
           <div class="area-card__title">Medical Image Generation</div>
-          <div class="area-card__desc">Cross-modal synthesis, low-dose denoising, image enhancement, fast imaging, missing-sequence completion, and downstream diagnostic utility assessment.</div>
+          <div class="area-card__desc">Cross-modal synthesis, low-dose denoising, image enhancement, fast imaging, and missing-sequence completion.</div>
+          <div class="area-card__view-text">“Generation only matters if it survives the clinic. We pursue synthesis, denoising and fast imaging that demonstrably preserve diagnostic information, validated on downstream tasks.”</div>
         </div>
         <div class="area-card">
           <div class="area-card__icon" style="background:#e7f4f3;">🌐</div>
           <div class="area-card__title">Spatial Intelligence &amp; Physics Simulation</div>
-          <div class="area-card__desc">3D spatial modeling, registration, hemodynamic simulation, musculoskeletal mechanics, vascular topology, and physics-consistent quantitative analysis.</div>
+          <div class="area-card__desc">3D spatial modeling, registration, hemodynamic simulation, musculoskeletal mechanics, and physics-consistent quantitative analysis.</div>
+          <div class="area-card__view-text">“Anatomy is 3D and physical. We model geometry, hemodynamics and biomechanics so that AI measurements stay consistent with the physics of the body.”</div>
         </div>
+      </div>
+    </section>
+
+    <section id="projects" class="reveal" style="margin-top:56px;">
+      <div class="section-head">
+        <h2 class="section-head__title">Projects</h2>
+        <div class="section-head__line"></div>
+      </div>
+      <p style="color:var(--text-secondary);font-size:0.92rem;line-height:1.7;margin-bottom:20px;">Representative clinical-AI efforts from the lab. More code and updates on our <a href="https://github.com/AI4Rad-SSPH" target="_blank" rel="noopener">GitHub organization</a>.</p>
+      <div class="projects">
+        <div class="project-card">
+          <div class="project-card__media"><img src="images/brainmind-npj.svg" alt="BrainMIND" loading="lazy"></div>
+          <div>
+            <div class="project-card__tag">Multimodal LLM · npj Digital Medicine 2026</div>
+            <div class="project-card__title">BrainMIND — LLM-generated diagnostic impressions from brain-MRI reports</div>
+            <div class="project-card__desc">A multicenter benchmark and reader study evaluating large language models for generating diagnostic impressions from brain-MRI findings.</div>
+            <div class="project-card__links"><a href="https://www.nature.com/articles/s41746-026-02380-4" target="_blank" rel="noopener">Paper →</a><a href="https://github.com/FrankZhangRp/BrainMIND" target="_blank" rel="noopener">Code →</a></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-card__media"><div class="project-card__icon">🧬</div></div>
+          <div>
+            <div class="project-card__tag">Vision FM · Radiology / European Radiology</div>
+            <div class="project-card__title">Cerebrovascular &amp; Stroke AI — aneurysm detection, ASPECTS, clot analysis</div>
+            <div class="project-card__desc">Multicenter deep-learning systems for cerebral-aneurysm detection on CTA, automatic ASPECTS scoring, and thrombus characterization in acute stroke.</div>
+            <div class="project-card__links"><a href="https://github.com/AI4Rad-SSPH" target="_blank" rel="noopener">GitHub Org →</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="demos" class="reveal" style="margin-top:56px;">
+      <div class="section-head">
+        <h2 class="section-head__title">Demos</h2>
+        <div class="section-head__line"></div>
+      </div>
+      <div class="resource-link" style="max-width:520px;">
+        <span class="resource-link__icon">▶️</span>
+        <div>
+          <div class="resource-link__title">Interactive demos are coming soon</div>
+          <div class="resource-link__desc">Live demonstrations of our imaging models will be published here. Follow our <a href="https://github.com/AI4Rad-SSPH" target="_blank" rel="noopener">GitHub</a> for releases.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resources" class="reveal" style="margin-top:56px;">
+      <div class="section-head">
+        <h2 class="section-head__title">Resources</h2>
+        <div class="section-head__line"></div>
+      </div>
+      <div class="resource-list">
+        <a class="resource-link" href="https://github.com/AI4Rad-SSPH" target="_blank" rel="noopener">
+          <span class="resource-link__icon">🐙</span>
+          <div><div class="resource-link__title">GitHub Organization</div><div class="resource-link__desc">Open-source code and model releases</div></div>
+        </a>
+        <a class="resource-link" href="./team.html">
+          <span class="resource-link__icon">👥</span>
+          <div><div class="resource-link__title">Team Members</div><div class="resource-link__desc">Investigators, students and alumni</div></div>
+        </a>
+        <a class="resource-link" href="https://scholar.google.com/citations?user=zj4WqewAAAAJ" target="_blank" rel="noopener">
+          <span class="resource-link__icon">🎓</span>
+          <div><div class="resource-link__title">Publications</div><div class="resource-link__desc">Selected papers on Google Scholar</div></div>
+        </a>
+        <a class="resource-link" href="mailto:zhangrp@sjtu.edu.cn">
+          <span class="resource-link__icon">✉️</span>
+          <div><div class="resource-link__title">Join / Collaborate</div><div class="resource-link__desc">Reach out to work with us</div></div>
+        </a>
       </div>
     </section>
 
@@ -96,8 +202,8 @@
           <span class="news-item__text">BrainMIND paper accepted by <em>npj Digital Medicine</em>: LLM-based diagnostic impression generation from brain MRI reports.</span>
         </div>
         <div class="news-item">
-          <span class="news-item__date">2025.03</span>
-          <span class="news-item__text">AI4Rad Lab website launched on GitHub Pages with bilingual support and hospital branding.</span>
+          <span class="news-item__date">2025.09</span>
+          <span class="news-item__text">AI4Rad Lab welcomes new PhD and Master students from the 2025 cohort.</span>
         </div>
       </div>
     </section>
@@ -114,14 +220,18 @@
   </main>
 
   <footer class="footer">
-    <img src="images/brand/ssph-med-logo.svg" alt="Shanghai Sixth People's Hospital" class="footer__logo">
+    <div class="footer__logos">
+      <img src="images/brand/ssph-med-logo.svg" alt="Shanghai Sixth People's Hospital" class="footer__logo" style="margin-bottom:0;">
+      <span class="footer__logo-sep"></span>
+      <img src="images/brand/sjtu-logo-en.svg" alt="Shanghai Jiao Tong University" class="footer__sjtu">
+    </div>
     <div class="footer__institution">Shanghai Sixth People's Hospital</div>
     <div class="footer__dept">Affiliated to Shanghai Jiao Tong University School of Medicine · Department of Radiology</div>
     <div class="footer__links">
       <a href="./">Home</a><span style="color:var(--ssph-line);">·</span>
       <a href="./team.html">Team</a><span style="color:var(--ssph-line);">·</span>
+      <a href="#projects">Projects</a><span style="color:var(--ssph-line);">·</span>
       <a href="mailto:zhangrp@sjtu.edu.cn">Email</a><span style="color:var(--ssph-line);">·</span>
-      <a href="https://scholar.google.com/citations?user=m7RzJxwAAAAJ">Google Scholar</a><span style="color:var(--ssph-line);">·</span>
       <a href="https://github.com/AI4Rad-SSPH">GitHub Org</a>
     </div>
     <p class="footer__meta">AI4Rad Lab · Department of Radiology · &copy; 2026</p>

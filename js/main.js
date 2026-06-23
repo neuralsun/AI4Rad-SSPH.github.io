@@ -70,13 +70,26 @@ function avatarUrl(member) {
   return 'https://api.dicebear.com/9.x/lorelei-neutral/svg?seed=' + encodeURIComponent(seed) + '&backgroundColor=' + bg;
 }
 
+// Where a member's avatar should link: internal member page if they have one,
+// otherwise their external homepage, otherwise nowhere.
+function memberLink(member) {
+  if (member.page) return 'members/?id=' + encodeURIComponent(member.id);
+  if (member.homepage) return member.homepage;
+  return '';
+}
+
 function renderLeader(member, lang) {
   var name = lang === 'cn' ? member.name_cn : member.name_en;
   var nameOther = lang === 'cn' ? member.name_en : member.name_cn;
   var dept = lang === 'cn' ? member.department_cn : member.department;
   var aff = lang === 'cn' ? member.affiliation_cn : member.affiliation;
-  var tags = member.tags ? member.tags.join('</span><span class="leader-card__tag">') : '';
-  return '<div class="leader-card reveal"><div class="leader-card__avatar"><img src="' + avatarUrl(member) + '" alt="' + name + '" loading="lazy"></div><div><div class="leader-card__name">' + name + '<span class="leader-card__name-en">' + nameOther + '</span></div><div class="leader-card__tags"><span class="leader-card__tag">' + tags + '</span></div><div class="leader-card__meta">' + (lang === 'cn' ? member.title_cn : member.title) + ' · ' + aff + '<br>' + dept + '</div></div></div>';
+  var tagArr = (lang === 'cn' ? member.tags_cn : member.tags_en) || member.tags || [];
+  var tags = tagArr.map(function(x){ return '<span class="leader-card__tag">' + x + '</span>'; }).join('');
+  var link = memberLink(member);
+  var aOpen = link ? '<a href="' + link + '"' + (member.page ? '' : ' target="_blank" rel="noopener"') + '>' : '';
+  var aClose = link ? '</a>' : '';
+  var title = lang === 'cn' ? member.title_cn : member.title;
+  return '<div class="leader-card reveal"><div class="leader-card__avatar">' + aOpen + '<img src="' + avatarUrl(member) + '" alt="' + name + '" loading="lazy">' + aClose + '</div><div><div class="leader-card__name">' + name + '<span class="leader-card__name-en">' + nameOther + '</span></div><div class="leader-card__tags">' + tags + '</div><div class="leader-card__meta">' + title + ' · ' + aff + '<br>' + dept + '</div></div></div>';
 }
 
 function renderPI(member, lang) {
@@ -88,8 +101,9 @@ function renderPI(member, lang) {
   var pos = lang === 'cn' ? member.position_cn : member.position;
   var dept = lang === 'cn' ? member.department_cn : member.department;
   var aff = lang === 'cn' ? member.affiliation_cn : member.affiliation;
-  var home = member.homepage ? '<a href="' + member.homepage + '" target="_blank" rel="noopener">' : '';
-  var homeEnd = member.homepage ? '</a>' : '';
+  var link = memberLink(member);
+  var home = link ? '<a href="' + link + '"' + (member.page ? '' : ' target="_blank" rel="noopener"') + '>' : '';
+  var homeEnd = link ? '</a>' : '';
   var line1Parts = [];
   if (degree) line1Parts.push(degree);
   if (univ) line1Parts.push(univ);
@@ -106,10 +120,16 @@ function renderPI(member, lang) {
 function renderMemberCard(member, lang) {
   var name = lang === 'cn' ? member.name_cn : member.name_en;
   var nameOther = lang === 'cn' ? member.name_en : member.name_cn;
-  var home = member.homepage ? '<a href="' + member.homepage + '" target="_blank" rel="noopener">' : '';
-  var homeEnd = member.homepage ? '</a>' : '';
+  var link = memberLink(member);
+  var home = link ? '<a href="' + link + '"' + (member.page ? '' : ' target="_blank" rel="noopener"') + '>' : '';
+  var homeEnd = link ? '</a>' : '';
   var metaParts = [];
-  if (member.degree) metaParts.push(lang === 'cn' ? member.degree_cn : member.degree);
+  // Our doctoral students are framed as "PhD & MD" to signal the lab's
+  // medicine-engineering crossover, unless an explicit degree is set (e.g. MD).
+  var degreeText = member.degree
+    ? (lang === 'cn' ? (member.degree_cn || member.degree) : member.degree)
+    : (member.role === 'phd' ? 'PhD & MD' : '');
+  if (degreeText) metaParts.push(degreeText);
   if (member.university) {
     var u = lang === 'cn' ? member.university_cn : member.university;
     if (member.school) u += ' · ' + (lang === 'cn' ? member.school_cn : member.school);

@@ -6,17 +6,17 @@
       "name_cn": "李跃华",
       "role": "leader",
       "role_cn": "团队负责人",
-      "avatar_type": "dicebear",
-      "avatar_seed": "YuehuaLi",
-      "avatar_bg": "b6e3f4",
-      "degree": "PhD, MD",
-      "title": " Distinguished Professor, Shanghai Jiao Tong University",
-      "title_cn": "上海交通大学特聘教授",
-      "affiliation": "Shanghai Sixth People's Hospital",
-      "affiliation_cn": "上海市第六人民医院",
+      "avatar_type": "photo",
+      "avatar_path": "images/members/yuehua-li.jpg",
+      "title": "Shanghai Jiao Tong University School of Medicine",
+      "title_cn": "上海交通大学医学院",
+      "affiliation": "Affiliated Sixth People's Hospital",
+      "affiliation_cn": "附属第六人民医院",
       "department": "Department of Radiology",
       "department_cn": "放射介入科",
-      "tags": ["团队负责人", "PhD · MD", "主任医师", "第六人民医院副院长"]
+      "tags_en": ["Lab Leader", "Vascular Imaging", "Stroke"],
+      "tags_cn": ["团队负责人", "血管影像", "卒中影像"],
+      "page": true
     }
   ],
   "pi": [
@@ -40,7 +40,8 @@
       "department_cn": "放射介入科",
       "position": "Assistant Researcher",
       "position_cn": "助理研究员",
-      "homepage": "https://frankzhangrp.github.io/"
+      "homepage": "https://frankzhangrp.github.io/",
+      "page": true
     },
     {
       "id": "jianyong-wei",
@@ -228,6 +229,33 @@
       "year": "2023",
       "note": "PhD Candidate",
       "note_cn": "博士在读"
+    },
+    {
+      "id": "hongda-wan",
+      "name_en": "Hongda Wan",
+      "name_cn": "万宏达",
+      "role": "phd",
+      "role_cn": "博士研究生",
+      "avatar_type": "dicebear",
+      "avatar_seed": "HongdaWan",
+      "avatar_bg": "cfe8d6",
+      "university": "SJTU School of Medicine",
+      "university_cn": "交大医学院",
+      "year": "2025",
+      "note": "Ruijin Hospital",
+      "note_cn": "瑞金医院"
+    },
+    {
+      "id": "jianqiao-ye",
+      "name_en": "Jianqiao Ye",
+      "name_cn": "叶剑桥",
+      "role": "phd",
+      "role_cn": "博士研究生",
+      "avatar_type": "dicebear",
+      "avatar_seed": "JianqiaoYe",
+      "avatar_bg": "e0d8f0",
+      "note": "PhD Candidate",
+      "note_cn": "博士候选人"
     }
   ],
   "master_engineering": [
@@ -445,14 +473,14 @@
       "name_cn": "代立松",
       "role": "alumni",
       "role_cn": "校友",
-      "avatar_type": "dicebear",
-      "avatar_seed": "LisongDai",
-      "avatar_bg": "e0e0e0",
+      "avatar_type": "photo",
+      "avatar_path": "images/members/lisong-dai.jpg",
       "degree": "PhD",
       "degree_cn": "博士",
       "university": "SJTU School of Medicine",
       "university_cn": "交大医学院",
       "year": "2022",
+      "page": true,
       "links": {
         "github": "https://github.com/LisongDai"
       }

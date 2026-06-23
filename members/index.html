@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI4Rad Lab member profile.">
+  <title>Member · AI4Rad Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* ---- Member-page-specific components (built on the shared SSPH tokens) ---- */
+    .mp-profile { display: grid; grid-template-columns: 1fr 264px; gap: 44px; align-items: center; padding: 40px 0 32px; }
+    .mp-photo-wrap { position: relative; }
+    .mp-photo { width: 100%; aspect-ratio: 3/4; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); border: 4px solid var(--bg-card); outline: 1px solid var(--border); }
+    .mp-avatar-fallback { width: 100%; aspect-ratio: 3/4; border-radius: var(--radius-lg); object-fit: cover; background: var(--blue-50); border: 4px solid var(--bg-card); outline: 1px solid var(--border); }
+    .mp-name { font-family: var(--font-display); font-size: 2.5rem; font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; background: linear-gradient(135deg, var(--ssph-ink) 0%, var(--ssph-blue) 45%, var(--ssph-teal) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    [data-theme="dark"] .mp-name { background: linear-gradient(135deg, #e8f4f2 0%, #6ee4da 55%, #36c7ba 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .mp-name-sub { font-family: var(--font-body); font-size: 1.05rem; font-weight: 400; color: var(--text-secondary); margin-left: 10px; }
+    .mp-title { font-size: 0.82rem; font-weight: 600; color: var(--blue-600); text-transform: uppercase; letter-spacing: 0.06em; margin: 10px 0 14px; }
+    .mp-bio { color: var(--text-secondary); font-size: 0.92rem; line-height: 1.85; }
+    .mp-bio strong { color: var(--text-primary); }
+    .mp-contacts { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 18px; }
+    .mp-contact { display: inline-flex; align-items: center; gap: 6px; padding: 7px 15px; font-size: 0.78rem; font-weight: 500; background: var(--bg-card); border: 1px solid var(--border); border-radius: 999px; color: var(--text-secondary); transition: all 0.2s; }
+    .mp-contact:hover { background: var(--blue-600); border-color: var(--blue-600); color: #fff; transform: translateY(-1px); box-shadow: var(--shadow-md); }
+    .mp-scholar { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; padding: 16px 22px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: 8px; }
+    .mp-scholar__num { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; background: linear-gradient(135deg, var(--blue-600), var(--teal-600)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .mp-scholar__lbl { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+    .mp-interests { list-style: none; padding: 0; margin: 0; }
+    .mp-interests li { position: relative; padding: 7px 0 7px 20px; color: var(--text-secondary); font-size: 0.9rem; }
+    .mp-interests li::before { content: ''; position: absolute; left: 0; top: 14px; width: 6px; height: 6px; background: var(--blue-600); border-radius: 50%; }
+    .news-item--hl { border-left: 4px solid var(--blue-600); }
+    .pub-card { display: grid; grid-template-columns: 160px 1fr; gap: 22px; padding: 22px 0; border-bottom: 1px solid var(--border-light); }
+    .pub-card:last-child { border-bottom: none; }
+    .pub-card__img { width: 160px; height: 100px; border-radius: var(--radius-md); overflow: hidden; background: var(--blue-50); flex-shrink: 0; }
+    .pub-card__img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s; }
+    .pub-card:hover .pub-card__img img { transform: scale(1.05); }
+    .pub-card__title { font-size: 0.95rem; font-weight: 600; line-height: 1.45; color: var(--text-primary); }
+    .pub-card__title a { color: inherit; }
+    .pub-card__title a:hover { color: var(--blue-600); }
+    .pub-card__authors { font-size: 0.82rem; color: var(--text-secondary); margin-top: 4px; line-height: 1.55; }
+    .pub-card__authors strong { color: var(--text-primary); }
+    .pub-card__venue { font-size: 0.82rem; font-style: italic; color: var(--text-muted); margin-top: 2px; }
+    .pub-card.pub-card--noimg { grid-template-columns: 1fr; }
+    .pub-cites { font-size: 0.72rem; font-weight: 600; color: var(--blue-600); margin-top: 5px; }
+    .pub-featured { background: linear-gradient(120deg, #fef3c7, #fde68a); padding: 1px 8px; border-radius: var(--radius-sm); font-weight: 600; font-size: 0.7rem; margin-right: 6px; color: #92590a; }
+    .pub-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+    .mp-tag { display: inline-flex; align-items: center; padding: 2px 9px; font-size: 0.65rem; font-weight: 700; border-radius: 999px; white-space: nowrap; }
+    .mp-tag--ccf { background: #e8edff; color: #3f51b5; }
+    .mp-tag--jcr { background: var(--ssph-teal-soft); color: var(--ssph-teal-dark); }
+    .mp-tag--cas { background: #e2f3f0; color: #0f766e; }
+    .mp-tag--if  { background: #eef4ff; color: #1d4ed8; border: 1px solid #c7d7fe; }
+    .mp-tag--venue { background: var(--slate-100); color: var(--slate-600); }
+    .mp-tag--award { background: #fef9c3; color: #a16207; }
+    [data-theme="dark"] .mp-tag--ccf { background: #1a1f4d; color: #a5b4fc; }
+    [data-theme="dark"] .mp-tag--jcr { background: #0f2d28; color: #5eead4; }
+    [data-theme="dark"] .mp-tag--cas { background: #0f2d28; color: #5eead4; }
+    [data-theme="dark"] .mp-tag--if  { background: #172554; color: #93c5fd; border-color: #1e3a5f; }
+    [data-theme="dark"] .mp-tag--venue { background: #1e293b; color: #94a3b8; }
+    [data-theme="dark"] .mp-tag--award { background: #3b3700; color: #fde68a; }
+    .pub-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .pub-links a { display: inline-block; padding: 3px 12px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 999px; font-size: 0.7rem; font-weight: 500; color: var(--text-muted); transition: all 0.2s; }
+    .pub-links a:hover { background: var(--blue-600); border-color: var(--blue-600); color: #fff; }
+    .mp-group-label { font-size: 0.72rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin: 22px 0 4px; }
+    .list-block ul { list-style: none; padding: 0; }
+    .list-block ul li { position: relative; padding: 9px 0 9px 22px; color: var(--text-secondary); font-size: 0.9rem; }
+    .list-block ul li::before { content: ''; position: absolute; left: 0; top: 16px; width: 6px; height: 6px; background: var(--blue-600); border-radius: 50%; }
+    .mp-back { display: inline-flex; align-items: center; gap: 6px; font-size: 0.8rem; font-weight: 500; color: var(--text-muted); margin: 8px 0 0; }
+    .mp-empty { text-align: center; color: var(--text-muted); padding: 80px 0; }
+    @media (max-width: 768px) {
+      .mp-profile { grid-template-columns: 1fr; gap: 22px; padding: 28px 0 20px; }
+      .mp-photo-wrap { order: -1; max-width: 190px; margin: 0 auto; }
+      .mp-name { font-size: 1.9rem; text-align: center; }
+      .mp-name-sub { display: block; margin: 4px 0 0; }
+      .mp-title, .mp-contacts { justify-content: center; text-align: center; }
+      .pub-card { grid-template-columns: 110px 1fr; gap: 14px; }
+      .pub-card__img { width: 110px; height: 70px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="../" class="nav__brand">
+        <img src="../images/brand/ssph-med-icons.png" alt="SSPH" class="nav__brand-logo">
+        <span class="nav__brand-text">AI4Rad Lab</span>
+      </a>
+      <div class="nav__links">
+        <a href="../" class="nav__link">Home</a>
+        <a href="../team.html" class="nav__link">Team</a>
+        <a href="#" id="langToggle" class="nav__link--lang">中文</a>
+      </div>
+      <button class="nav__theme-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+    </div>
+  </nav>
+
+  <main class="wrapper">
+    <div id="mp-root">
+      <p class="mp-empty">Loading…</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <img src="../images/brand/ssph-med-logo.svg" alt="Shanghai Sixth People's Hospital" class="footer__logo">
+    <div class="footer__institution">Shanghai Sixth People's Hospital</div>
+    <div class="footer__dept">Affiliated to Shanghai Jiao Tong University School of Medicine · Department of Radiology</div>
+    <div class="footer__links">
+      <a href="../">Home</a><span style="color:var(--ssph-line);">·</span>
+      <a href="../team.html">Team</a><span style="color:var(--ssph-line);">·</span>
+      <a href="https://github.com/AI4Rad-SSPH">GitHub Org</a>
+    </div>
+    <p class="footer__meta">AI4Rad Lab · Department of Radiology · &copy; 2026</p>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>
+  (function(){
+    var params = new URLSearchParams(location.search);
+    var id = (params.get('id') || '').replace(/[^a-z0-9\-]/gi, '');
+    var lang = params.get('lang') === 'cn' ? 'cn' : 'en';
+    var root = document.getElementById('mp-root');
+
+    // Language toggle keeps the current member but flips lang.
+    var lt = document.getElementById('langToggle');
+    lt.textContent = lang === 'cn' ? 'EN' : '中文';
+    lt.setAttribute('href', '?id=' + id + (lang === 'cn' ? '' : '&lang=cn'));
+
+    function t(en, cn){ return lang === 'cn' ? cn : en; }
+    function asset(p){ if (!p) return ''; return /^(https?:|data:)/.test(p) ? p : '../' + p; }
+    function esc(s){ return String(s == null ? '' : s); }
+
+    if (!id) { root.innerHTML = '<p class="mp-empty">No member specified. <a href="../team.html">Back to the team page →</a></p>'; return; }
+
+    fetch('../data/members/' + id + '.json')
+      .then(function(r){ if (!r.ok) throw new Error('not found'); return r.json(); })
+      .then(function(m){ render(m); })
+      .catch(function(){
+        root.innerHTML = '<p class="mp-empty">' + t('This member has not set up a profile page yet.', '该成员尚未创建个人页面。') + '<br><a href="../team.html">' + t('Back to the team page →', '返回团队页面 →') + '</a></p>';
+      });
+
+    function contactSvg(kind){
+      var s = { mail:'<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>' };
+      return '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">' + (s[kind] || '') + '</svg>';
+    }
+
+    function sectionHead(title){
+      return '<div class="section-head"><h2 class="section-head__title">' + title + '</h2><div class="section-head__line"></div></div>';
+    }
+
+    function render(m){
+      var name = t(m.name_en, m.name_cn);
+      var other = t(m.name_cn, m.name_en);
+      document.title = name + ' · AI4Rad Lab';
+      var L = m.links || {};
+      var html = '';
+
+      // Profile
+      html += '<section class="mp-profile reveal"><div>';
+      html += '<a href="../team.html" class="mp-back">← ' + t('Team', '团队') + '</a>';
+      html += '<h1 class="mp-name">' + name + '<span class="mp-name-sub">' + esc(other) + '</span></h1>';
+      if (m.title_en || m.title_cn) html += '<p class="mp-title">' + esc(t(m.title_en, m.title_cn)) + '</p>';
+      if (m.bio_en || m.bio_cn) html += '<p class="mp-bio">' + t(m.bio_en, m.bio_cn) + '</p>';
+      html += '<div class="mp-contacts">';
+      if (L.email) html += '<a class="mp-contact" href="mailto:' + L.email + '">' + contactSvg('mail') + t('Email', '邮箱') + '</a>';
+      if (L.scholar) html += '<a class="mp-contact" href="' + L.scholar + '" target="_blank" rel="noopener">Google Scholar</a>';
+      if (L.github) html += '<a class="mp-contact" href="' + L.github + '" target="_blank" rel="noopener">GitHub</a>';
+      if (L.homepage) html += '<a class="mp-contact" href="' + L.homepage + '" target="_blank" rel="noopener">' + t('Homepage', '个人主页') + '</a>';
+      html += '</div></div>';
+      html += '<div class="mp-photo-wrap">';
+      if (m.photo) html += '<img class="mp-photo" src="' + asset(m.photo) + '" alt="' + esc(name) + '" loading="lazy">';
+      else html += '<img class="mp-avatar-fallback" src="https://api.dicebear.com/9.x/lorelei-neutral/svg?seed=' + encodeURIComponent(m.avatar_seed || id) + '&backgroundColor=' + (m.avatar_bg || 'd4eef5') + '" alt="' + esc(name) + '">';
+      html += '</div></section>';
+
+      // Scholar + interests
+      if (m.scholar || (m.interests_en && m.interests_en.length)) {
+        html += '<div class="reveal" style="margin-top:8px;">';
+        if (m.scholar) {
+          var sc = m.scholar;
+          html += '<div class="mp-scholar">';
+          if (sc.citations != null) html += '<div><div class="mp-scholar__num">' + sc.citations + '</div><div class="mp-scholar__lbl">' + t('Citations', '总引用') + '</div></div>';
+          if (sc.h_index != null) html += '<div><div class="mp-scholar__num">' + sc.h_index + '</div><div class="mp-scholar__lbl">h-index</div></div>';
+          if (sc.i10_index != null) html += '<div><div class="mp-scholar__num">' + sc.i10_index + '</div><div class="mp-scholar__lbl">i10-index</div></div>';
+          html += '</div>';
+        }
+        var interests = t(m.interests_en, m.interests_cn);
+        if (interests && interests.length) {
+          html += '<ul class="mp-interests">' + interests.map(function(x){ return '<li>' + x + '</li>'; }).join('') + '</ul>';
+        }
+        html += '</div>';
+      }
+
+      // News
+      var news = t(m.news_en, m.news_cn);
+      if (news && news.length) {
+        html += '<section class="reveal" style="margin-top:40px;">' + sectionHead(t('News', '最新动态'));
+        html += '<div class="news-list">' + news.map(function(n){
+          return '<div class="news-item' + (n.highlight ? ' news-item--hl' : '') + '"><span class="news-item__date">' + esc(n.date) + '</span><span class="news-item__text">' + n.text + '</span></div>';
+        }).join('') + '</div></section>';
+      }
+
+      // Publications
+      if (m.publications && m.publications.length) {
+        html += '<section class="reveal" style="margin-top:44px;">' + sectionHead(t('Publications', '论文成果'));
+        m.publications.forEach(function(group){
+          if (group.group_en || group.group_cn) html += '<div class="mp-group-label">' + esc(t(group.group_en, group.group_cn)) + '</div>';
+          (group.items || []).forEach(function(p){
+            var hasImg = !!p.img;
+            html += '<div class="pub-card' + (hasImg ? '' : ' pub-card--noimg') + '">';
+            if (hasImg) html += '<div class="pub-card__img"><img src="' + asset(p.img) + '" alt="" loading="lazy"></div>';
+            html += '<div>';
+            var titleInner = (p.featured ? '<span class="pub-featured">' + t('Featured', '代表作') + '</span>' : '') + esc(p.title);
+            html += '<div class="pub-card__title">' + (p.url ? '<a href="' + p.url + '" target="_blank" rel="noopener">' + titleInner + '</a>' : titleInner) + '</div>';
+            if (p.authors) html += '<div class="pub-card__authors">' + p.authors + '</div>';
+            if (p.venue) html += '<div class="pub-card__venue">' + esc(p.venue) + '</div>';
+            if (p.cites != null && p.cites !== '') html += '<div class="pub-cites">' + t('Cited by ', '被引 ') + p.cites + '</div>';
+            if (p.tags && p.tags.length) html += '<div class="pub-tags">' + p.tags.map(function(tg){ return '<span class="mp-tag mp-tag--' + (tg.kind || 'venue') + '">' + esc(tg.label) + '</span>'; }).join('') + '</div>';
+            if (p.links && p.links.length) html += '<div class="pub-links">' + p.links.map(function(lk){ return '<a href="' + lk.url + '" target="_blank" rel="noopener">' + esc(lk.label) + '</a>'; }).join('') + '</div>';
+            html += '</div></div>';
+          });
+        });
+        html += '</section>';
+      }
+
+      // Awards
+      var awards = t(m.awards_en, m.awards_cn);
+      if (awards && awards.length) {
+        html += '<section class="reveal" style="margin-top:44px;">' + sectionHead(t('Honors & Awards', '荣誉奖项'));
+        html += '<div class="list-block"><ul>' + awards.map(function(a){ return '<li>' + a + '</li>'; }).join('') + '</ul></div></section>';
+      }
+
+      // Services
+      var services = t(m.services_en, m.services_cn);
+      if (services && services.length) {
+        html += '<section class="reveal" style="margin-top:44px;">' + sectionHead(t('Academic Services', '学术服务'));
+        html += '<div class="list-block"><ul>' + services.map(function(s){ return '<li>' + s + '</li>'; }).join('') + '</ul></div></section>';
+      }
+
+      root.innerHTML = html;
+      if (lang === 'cn') document.documentElement.setAttribute('lang', 'zh-CN');
+
+      // Reveal-on-scroll for the freshly inserted sections.
+      var obs = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){ if (e.isIntersecting) e.target.classList.add('visible'); });
+      }, { threshold: 0.05 });
+      root.querySelectorAll('.reveal').forEach(function(el){ obs.observe(el); });
+    }
+  })();
+  </script>
+</body>
+</html>

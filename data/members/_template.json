@@ -1,0 +1,52 @@
+{
+  "id": "your-id",
+  "name_en": "Your Name",
+  "name_cn": "你的中文名",
+  "photo": "images/members/your-id.jpg",
+  "title_en": "PhD Student · AI4Rad Lab · Shanghai Sixth People's Hospital",
+  "title_cn": "博士研究生 · AI4Rad Lab · 上海市第六人民医院",
+  "bio_en": "One short paragraph about yourself. You may use <strong>bold</strong> and <a href=\"https://example.com\">links</a>.",
+  "bio_cn": "一段关于你自己的简介。可使用 <strong>加粗</strong> 与 <a href=\"https://example.com\">链接</a>。",
+  "links": {
+    "email": "you@sjtu.edu.cn",
+    "scholar": "https://scholar.google.com/citations?user=XXXX",
+    "github": "https://github.com/your-handle",
+    "homepage": ""
+  },
+  "scholar": { "citations": "0", "h_index": 0, "i10_index": 0 },
+  "interests_en": [
+    "<strong>Topic A</strong> — one line on what you work on",
+    "<strong>Topic B</strong> — another line"
+  ],
+  "interests_cn": [
+    "<strong>方向一</strong> — 一句话描述",
+    "<strong>方向二</strong> — 一句话描述"
+  ],
+  "news_en": [
+    { "date": "Jan 2026", "highlight": true, "text": "A milestone worth highlighting." }
+  ],
+  "news_cn": [
+    { "date": "2026年1月", "highlight": true, "text": "值得标注的进展。" }
+  ],
+  "publications": [
+    {
+      "group_en": "Conference Papers", "group_cn": "会议论文",
+      "items": [
+        {
+          "img": "images/members/your-paper.png",
+          "featured": false,
+          "title": "Your Paper Title",
+          "url": "https://link-to-paper",
+          "authors": "<strong>Your Name</strong>, Co-author, Advisor.",
+          "venue": "Venue, 2026",
+          "tags": [{ "label": "CCF-A", "kind": "ccf" }],
+          "links": [{ "label": "pdf", "url": "https://link-to-pdf" }, { "label": "code", "url": "https://github.com/..." }]
+        }
+      ]
+    }
+  ],
+  "awards_en": [ "Some award (2025)" ],
+  "awards_cn": [ "某项奖励（2025）" ],
+  "services_en": [ "<strong>Reviewer:</strong> Venue 2025" ],
+  "services_cn": [ "<strong>审稿人：</strong>某会议 2025" ]
+}
