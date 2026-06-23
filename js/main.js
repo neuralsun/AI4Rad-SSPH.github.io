@@ -89,7 +89,7 @@ function renderLeader(member, lang) {
   var aOpen = link ? '<a href="' + link + '"' + (member.page ? '' : ' target="_blank" rel="noopener"') + '>' : '';
   var aClose = link ? '</a>' : '';
   var title = lang === 'cn' ? member.title_cn : member.title;
-  return '<div class="leader-card reveal"><div class="leader-card__avatar">' + aOpen + '<img src="' + avatarUrl(member) + '" alt="' + name + '" loading="lazy">' + aClose + '</div><div><div class="leader-card__name">' + name + '<span class="leader-card__name-en">' + nameOther + '</span></div><div class="leader-card__tags">' + tags + '</div><div class="leader-card__meta">' + title + ' · ' + aff + '<br>' + dept + '</div></div></div>';
+  return '<div class="leader-card reveal"><div class="leader-card__avatar">' + aOpen + '<img src="' + avatarUrl(member) + '" alt="' + name + '" loading="eager">' + aClose + '</div><div><div class="leader-card__name">' + name + '<span class="leader-card__name-en">' + nameOther + '</span></div><div class="leader-card__tags">' + tags + '</div><div class="leader-card__meta">' + title + ' · ' + aff + '<br>' + dept + '</div></div></div>';
 }
 
 function renderPI(member, lang) {
@@ -114,7 +114,7 @@ function renderPI(member, lang) {
   if (dept) line2Parts.push(dept);
   if (aff) line2Parts.push(aff);
   var line2 = line2Parts.join(', ');
-  return '<div class="pi-card reveal"><div class="pi-card__avatar">' + home + '<img src="' + avatarUrl(member) + '" alt="' + name + '" loading="lazy">' + homeEnd + '</div><div><div class="pi-card__name">' + name + '<span class="' + (lang === 'cn' ? 'pi-card__name-en' : 'pi-card__name-cn') + '">' + nameOther + '</span></div><div class="pi-card__meta">' + line1 + (line1 && line2 ? '<br>' : '') + line2 + '</div></div></div>';
+  return '<div class="pi-card reveal"><div class="pi-card__avatar">' + home + '<img src="' + avatarUrl(member) + '" alt="' + name + '" loading="eager">' + homeEnd + '</div><div><div class="pi-card__name">' + name + '<span class="' + (lang === 'cn' ? 'pi-card__name-en' : 'pi-card__name-cn') + '">' + nameOther + '</span></div><div class="pi-card__meta">' + line1 + (line1 && line2 ? '<br>' : '') + line2 + '</div></div></div>';
 }
 
 function renderMemberCard(member, lang) {
@@ -124,11 +124,11 @@ function renderMemberCard(member, lang) {
   var home = link ? '<a href="' + link + '"' + (member.page ? '' : ' target="_blank" rel="noopener"') + '>' : '';
   var homeEnd = link ? '</a>' : '';
   var metaParts = [];
-  // Our doctoral students are framed as "PhD & MD" to signal the lab's
-  // medicine-engineering crossover, unless an explicit degree is set (e.g. MD).
+  // Default doctoral students to plain "PhD"; explicit degrees (e.g. MD, MD/PhD)
+  // are used when provided in the data.
   var degreeText = member.degree
     ? (lang === 'cn' ? (member.degree_cn || member.degree) : member.degree)
-    : (member.role === 'phd' ? 'PhD & MD' : '');
+    : (member.role === 'phd' ? (lang === 'cn' ? '博士' : 'PhD') : '');
   if (degreeText) metaParts.push(degreeText);
   if (member.university) {
     var u = lang === 'cn' ? member.university_cn : member.university;
@@ -143,7 +143,7 @@ function renderMemberCard(member, lang) {
   if (member.links && member.links.github) {
     meta += ' · <a href="' + member.links.github + '" target="_blank" rel="noopener">GitHub</a>';
   }
-  return '<div class="member-card"><div class="member-card__avatar">' + home + '<img src="' + avatarUrl(member) + '" alt="' + name + '" loading="lazy">' + homeEnd + '</div><div class="member-card__info"><div class="member-card__name">' + name + ' <span class="' + (lang === 'cn' ? 'member-card__name-en' : 'member-card__name-cn') + '">' + nameOther + '</span></div><div class="member-card__meta">' + meta + '</div></div></div>';
+  return '<div class="member-card"><div class="member-card__avatar">' + home + '<img src="' + avatarUrl(member) + '" alt="' + name + '" loading="eager">' + homeEnd + '</div><div class="member-card__info"><div class="member-card__name">' + name + ' <span class="' + (lang === 'cn' ? 'member-card__name-en' : 'member-card__name-cn') + '">' + nameOther + '</span></div><div class="member-card__meta">' + meta + '</div></div></div>';
 }
 
 function renderTeam(data, lang) {

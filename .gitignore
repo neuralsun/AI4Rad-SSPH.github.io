@@ -1,2 +1,2 @@
-.DS_Store
-Thumbs.db
+# WorkBuddy workspace metadata and temporary files
+.workbuddy/
