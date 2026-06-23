@@ -90,7 +90,17 @@ function renderPI(member, lang) {
   var aff = lang === 'cn' ? member.affiliation_cn : member.affiliation;
   var home = member.homepage ? '<a href="' + member.homepage + '" target="_blank" rel="noopener">' : '';
   var homeEnd = member.homepage ? '</a>' : '';
-  return '<div class="pi-card reveal"><div class="pi-card__avatar">' + home + '<img src="' + avatarUrl(member) + '" alt="' + name + '" loading="lazy">' + homeEnd + '</div><div><div class="pi-card__name">' + name + '<span class="' + (lang === 'cn' ? 'pi-card__name-en' : 'pi-card__name-cn') + '">' + nameOther + '</span></div><div class="pi-card__meta">' + degree + ', ' + univ + ' · ' + major + '<br>' + pos + ', ' + dept + ', ' + aff + '</div></div></div>';
+  var line1Parts = [];
+  if (degree) line1Parts.push(degree);
+  if (univ) line1Parts.push(univ);
+  if (major) line1Parts.push(major);
+  var line1 = line1Parts.join(', ');
+  var line2Parts = [];
+  if (pos) line2Parts.push(pos);
+  if (dept) line2Parts.push(dept);
+  if (aff) line2Parts.push(aff);
+  var line2 = line2Parts.join(', ');
+  return '<div class="pi-card reveal"><div class="pi-card__avatar">' + home + '<img src="' + avatarUrl(member) + '" alt="' + name + '" loading="lazy">' + homeEnd + '</div><div><div class="pi-card__name">' + name + '<span class="' + (lang === 'cn' ? 'pi-card__name-en' : 'pi-card__name-cn') + '">' + nameOther + '</span></div><div class="pi-card__meta">' + line1 + (line1 && line2 ? '<br>' : '') + line2 + '</div></div></div>';
 }
 
 function renderMemberCard(member, lang) {
