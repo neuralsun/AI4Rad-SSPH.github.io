@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI4Rad Lab by SSPH — 上海市第六人民医院放射介入科医学影像人工智能研究团队">
+  <title>AI4Rad 实验室 · 医学影像人工智能</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="./" class="nav__brand"><span class="nav__brand-dot"></span>AI4Rad 实验室</a>
+      <div class="nav__links">
+        <a href="./" class="nav__link active">主页</a>
+        <a href="./team_ch.html" class="nav__link">团队</a>
+        <a href="./index.html" class="nav__link--lang">EN</a>
+      </div>
+      <button class="nav__theme-btn" id="themeToggle" aria-label="切换深色模式" title="切换深色模式">🌙</button>
+    </div>
+  </nav>
+
+  <main class="wrapper">
+    <section class="hero reveal">
+      <div class="hero__badge">
+        <span class="hero__badge-dot"></span>
+        放射介入科 · 上海市第六人民医院 · 上海交通大学医学院
+      </div>
+      <h1 class="hero__title">AI4Rad 实验室</h1>
+      <p class="hero__subtitle">上海市第六人民医院放射介入科医学影像人工智能研究团队。我们致力于面向临床放射学的医学视觉语言模型研发与验证，并关注跨分布泛化等机器学习基础问题。</p>
+      <div class="hero__cta">
+        <a href="./team_ch.html" class="btn btn--primary">认识团队</a>
+        <a href="https://frankzhangrp.github.io/" class="btn btn--secondary" target="_blank" rel="noopener">课题组长主页</a>
+      </div>
+    </section>
+
+    <div class="stats reveal">
+      <div class="stat"><div class="stat__number">28</div><div class="stat__label">团队成员</div></div>
+      <div class="stat"><div class="stat__number">3</div><div class="stat__label">研究方向</div></div>
+      <div class="stat"><div class="stat__number">12+</div><div class="stat__label">发表论文</div></div>
+      <div class="stat"><div class="stat__number">3</div><div class="stat__label">合作院校</div></div>
+    </div>
+
+    <section class="reveal" style="margin-top:48px;">
+      <div class="section-head">
+        <h2 class="section-head__title">研究方向</h2>
+        <div class="section-head__line"></div>
+      </div>
+      <div class="research-areas">
+        <div class="area-card">
+          <div class="area-card__icon" style="background:#eff6ff;">🩻</div>
+          <div class="area-card__title">医学视觉语言模型</div>
+          <div class="area-card__desc">研发面向放射学的视觉语言模型，开展诊断报告生成、临床推理及真实工作流中的人机协同研究。</div>
+        </div>
+        <div class="area-card">
+          <div class="area-card__icon" style="background:#ecfdf5;">🏥</div>
+          <div class="area-card__title">AI 临床转化应用</div>
+          <div class="area-card__desc">通过多中心验证、读片研究和部署框架，将 AI 模型从实验室推向胸部、脑部及介入影像的临床应用。</div>
+        </div>
+        <div class="area-card">
+          <div class="area-card__icon" style="background:#fef3c7;">🔄</div>
+          <div class="area-card__title">跨分布泛化</div>
+          <div class="area-card__desc">研究领域泛化、联邦学习及鲁棒表征学习，使临床 AI 在不同医院、设备和患者群体中稳定运行。</div>
+        </div>
+        <div class="area-card">
+          <div class="area-card__icon" style="background:#fce7f3;">🫁</div>
+          <div class="area-card__title">胸部与神经影像</div>
+          <div class="area-card__desc">构建大规模、多源胸部 X 光/CT 分析模型与基准，以及脑 MRI 报告生成系统。</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal" style="margin-top:56px;">
+      <div class="section-head">
+        <h2 class="section-head__title">最新动态</h2>
+        <div class="section-head__line"></div>
+      </div>
+      <div class="news-list">
+        <div class="news-item">
+          <span class="news-item__date">2026.06</span>
+          <span class="news-item__text">AI4Rad Lab 组织主页在 GitHub Pages 上线。</span>
+        </div>
+        <div class="news-item">
+          <span class="news-item__date">2026.04</span>
+          <span class="news-item__text">BrainMIND 研究被 <em>npj Digital Medicine</em> 接收：基于大语言模型的脑 MRI 报告诊断印象生成。</span>
+        </div>
+        <div class="news-item">
+          <span class="news-item__date">2024.09</span>
+          <span class="news-item__text">UniChest 发表于 <em>IEEE TMI</em>：面向多源胸部 X 光分类的征服-分割预训练方法。</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal" style="margin-top:56px;">
+      <div class="section-head">
+        <h2 class="section-head__title">加入我们</h2>
+        <div class="section-head__line"></div>
+      </div>
+      <p style="color:var(--text-secondary);font-size:0.92rem;line-height:1.75;">
+        我们长期招收医学影像人工智能、机器学习及临床数据科学方向的博士和硕士研究生。如果你有兴趣加入 AI4Rad 实验室，请将简历发送至 <a href="mailto:zhangrp@sjtu.edu.cn">zhangrp@sjtu.edu.cn</a>。
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__links">
+      <a href="./">主页</a><span style="color:var(--slate-300);">·</span>
+      <a href="./team_ch.html">团队</a><span style="color:var(--slate-300);">·</span>
+      <a href="mailto:zhangrp@sjtu.edu.cn">邮箱</a><span style="color:var(--slate-300);">·</span>
+      <a href="https://scholar.google.com/citations?user=m7RzJxwAAAAJ&hl=zh-CN">谷歌学术</a><span style="color:var(--slate-300);">·</span>
+      <a href="https://github.com/AI4Rad-SSPH">GitHub 组织</a>
+    </div>
+    <p class="footer__meta">AI4Rad 实验室 · 上海市第六人民医院放射介入科 · &copy; 2026</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

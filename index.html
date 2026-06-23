@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI4Rad Lab by SSPH — Medical Imaging AI research team at Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine.">
+  <title>AI4Rad Lab · Medical Imaging AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="./" class="nav__brand"><span class="nav__brand-dot"></span>AI4Rad Lab</a>
+      <div class="nav__links">
+        <a href="./" class="nav__link active">Home</a>
+        <a href="./team.html" class="nav__link">Team</a>
+        <a href="./index_ch.html" class="nav__link--lang">中文</a>
+      </div>
+      <button class="nav__theme-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+    </div>
+  </nav>
+
+  <main class="wrapper">
+    <section class="hero reveal">
+      <div class="hero__badge">
+        <span class="hero__badge-dot"></span>
+        Department of Radiology · Shanghai Sixth People's Hospital · SJTU School of Medicine
+      </div>
+      <h1 class="hero__title">AI4Rad Lab</h1>
+      <p class="hero__subtitle">Medical Imaging Artificial Intelligence research group at Shanghai Sixth People's Hospital. We develop and validate AI methods for clinical radiology, with a focus on medical vision-language models and cross-distribution generalization.</p>
+      <div class="hero__cta">
+        <a href="./team.html" class="btn btn--primary">Meet the Team</a>
+        <a href="https://frankzhangrp.github.io/" class="btn btn--secondary" target="_blank" rel="noopener">PI's Homepage</a>
+      </div>
+    </section>
+
+    <div class="stats reveal">
+      <div class="stat"><div class="stat__number">28</div><div class="stat__label">Team Members</div></div>
+      <div class="stat"><div class="stat__number">3</div><div class="stat__label">Research Directions</div></div>
+      <div class="stat"><div class="stat__number">12+</div><div class="stat__label">Publications</div></div>
+      <div class="stat"><div class="stat__number">3</div><div class="stat__label">Partner Universities</div></div>
+    </div>
+
+    <section class="reveal" style="margin-top:48px;">
+      <div class="section-head">
+        <h2 class="section-head__title">Research Directions</h2>
+        <div class="section-head__line"></div>
+      </div>
+      <div class="research-areas">
+        <div class="area-card">
+          <div class="area-card__icon" style="background:#eff6ff;">🩻</div>
+          <div class="area-card__title">Medical Vision-Language Models</div>
+          <div class="area-card__desc">Developing and clinically validating VLM-based systems for radiology reporting, diagnostic reasoning, and human-AI collaboration in real-world workflows.</div>
+        </div>
+        <div class="area-card">
+          <div class="area-card__icon" style="background:#ecfdf5;">🏥</div>
+          <div class="area-card__title">Clinical Use of AI</div>
+          <div class="area-card__desc">Translating AI models from bench to bedside through multi-center validation, reader studies, and deployment frameworks for chest, brain, and interventional imaging.</div>
+        </div>
+        <div class="area-card">
+          <div class="area-card__icon" style="background:#fef3c7;">🔄</div>
+          <div class="area-card__title">Cross-Distribution Generalization</div>
+          <div class="area-card__desc">Investigating domain generalization, federated learning, and robust representation learning so that clinical AI performs reliably across hospitals, scanners, and patient populations.</div>
+        </div>
+        <div class="area-card">
+          <div class="area-card__icon" style="background:#fce7f3;">🫁</div>
+          <div class="area-card__title">Chest &amp; Neuro Imaging</div>
+          <div class="area-card__desc">Building large-scale, multi-source models and benchmarks for chest X-ray/CT analysis and brain MRI report generation.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal" style="margin-top:56px;">
+      <div class="section-head">
+        <h2 class="section-head__title">Latest News</h2>
+        <div class="section-head__line"></div>
+      </div>
+      <div class="news-list">
+        <div class="news-item">
+          <span class="news-item__date">2026.06</span>
+          <span class="news-item__text">AI4Rad Lab organization website launched on GitHub Pages.</span>
+        </div>
+        <div class="news-item">
+          <span class="news-item__date">2026.04</span>
+          <span class="news-item__text">BrainMIND paper accepted by <em>npj Digital Medicine</em>: LLM-based diagnostic impression generation from brain MRI reports.</span>
+        </div>
+        <div class="news-item">
+          <span class="news-item__date">2024.09</span>
+          <span class="news-item__text">UniChest published in <em>IEEE TMI</em>: conquer-and-divide pre-training for multi-source chest X-ray classification.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal" style="margin-top:56px;">
+      <div class="section-head">
+        <h2 class="section-head__title">Join Us</h2>
+        <div class="section-head__line"></div>
+      </div>
+      <p style="color:var(--text-secondary);font-size:0.92rem;line-height:1.75;">
+        We are recruiting motivated PhD and Master students in medical imaging AI, machine learning, and clinical data science. If you are interested in joining AI4Rad Lab, please contact <a href="mailto:zhangrp@sjtu.edu.cn">zhangrp@sjtu.edu.cn</a> with your CV.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__links">
+      <a href="./">Home</a><span style="color:var(--slate-300);">·</span>
+      <a href="./team.html">Team</a><span style="color:var(--slate-300);">·</span>
+      <a href="mailto:zhangrp@sjtu.edu.cn">Email</a><span style="color:var(--slate-300);">·</span>
+      <a href="https://scholar.google.com/citations?user=m7RzJxwAAAAJ">Google Scholar</a><span style="color:var(--slate-300);">·</span>
+      <a href="https://github.com/AI4Rad-SSPH">GitHub Org</a>
+    </div>
+    <p class="footer__meta">AI4Rad Lab · Shanghai Sixth People's Hospital · &copy; 2026</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

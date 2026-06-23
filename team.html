@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI4Rad Lab team members — leader, principal investigators, postdocs, PhD and master students, and alumni.">
+  <title>Team · AI4Rad Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="./" class="nav__brand"><span class="nav__brand-dot"></span>AI4Rad Lab</a>
+      <div class="nav__links">
+        <a href="./" class="nav__link--home">Home</a>
+        <a href="#investigators" class="nav__link">Investigators</a>
+        <a href="#postdoc" class="nav__link">Postdoc</a>
+        <a href="#phd" class="nav__link">PhD</a>
+        <a href="#master" class="nav__link">Master</a>
+        <a href="#alumni" class="nav__link">Alumni</a>
+        <a href="./team_ch.html" class="nav__link--lang">中文</a>
+      </div>
+      <button class="nav__theme-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+    </div>
+  </nav>
+
+  <main class="wrapper">
+    <section class="hero reveal">
+      <div class="hero__badge">
+        <span class="hero__badge-dot"></span>
+        Department of Radiology · Shanghai Sixth People's Hospital · SJTU School of Medicine
+      </div>
+      <h1 class="hero__title">Our Team</h1>
+      <p class="hero__subtitle">A multidisciplinary group of clinicians, engineers, and students working together to advance medical imaging AI.</p>
+    </section>
+
+    <div class="stats reveal">
+      <div class="stat"><div class="stat__number">28</div><div class="stat__label">Team Members</div></div>
+      <div class="stat"><div class="stat__number">3</div><div class="stat__label">Principal Investigators</div></div>
+      <div class="stat"><div class="stat__number">1</div><div class="stat__label">Postdoc</div></div>
+      <div class="stat"><div class="stat__number">13</div><div class="stat__label">Students</div></div>
+    </div>
+
+    <div id="team-content">
+      <p style="text-align:center;color:var(--text-muted);padding:40px 0;">Loading team data...</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__links">
+      <a href="./">Home</a><span style="color:var(--slate-300);">·</span>
+      <a href="./team.html">Team</a><span style="color:var(--slate-300);">·</span>
+      <a href="mailto:zhangrp@sjtu.edu.cn">Email</a><span style="color:var(--slate-300);">·</span>
+      <a href="https://github.com/AI4Rad-SSPH">GitHub Org</a><span style="color:var(--slate-300);">·</span>
+      <a href="./team_ch.html">中文团队</a>
+    </div>
+    <p class="footer__meta">AI4Rad Lab · Shanghai Sixth People's Hospital · &copy; 2026</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    (function(){
+      fetch('data/team.json')
+        .then(function(r){ return r.json(); })
+        .then(function(data){ renderTeam(data, 'en'); })
+        .catch(function(e){
+          document.getElementById('team-content').innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px 0;">Failed to load team data. Please refresh.</p>';
+          console.error(e);
+        });
+    })();
+  </script>
+</body>
+</html>
