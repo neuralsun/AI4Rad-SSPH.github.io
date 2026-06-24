@@ -2,24 +2,24 @@
   "id": "ruipeng-zhang",
   "name_en": "Ruipeng Zhang",
   "name_cn": "张瑞鹏",
+  "photo": "images/my_photo.jpg",
   "title_en": "PI, AI4Rad Lab · Assistant Researcher · Shanghai Sixth People's Hospital",
   "title_cn": "AI4Rad Lab 课题组 PI · 助理研究员 · 上海交通大学医学院附属第六人民医院",
-  "bio_en": "Principal Investigator, <strong>AI4Rad Lab</strong> · Assistant Researcher, Department of Radiology, <strong>Shanghai Sixth People's Hospital</strong>, Shanghai Jiao Tong University School of Medicine. Ph.D. in Information and Communication Engineering from <a href=\"https://www.sjtu.edu.cn/\">Shanghai Jiao Tong University</a> (2024), supervised by <a href=\"https://mediabrain.sjtu.edu.cn/yazhang/\">Prof. Ya Zhang</a> in the <a href=\"https://mediabrain.sjtu.edu.cn/\">MediaBrain Lab</a>. Research focuses on <strong>medical vision-language models</strong> and <strong>cross-distribution generalization</strong> of AI on clinical data.",
-  "bio_cn": "<strong>AI4Rad 实验室</strong>课题组 PI、上海交通大学医学院附属<strong>第六人民医院放射介入科</strong>助理研究员。2024 年 6 月于<a href=\"https://www.sjtu.edu.cn/\">上海交通大学</a>获信息与通信工程博士学位，师从 <a href=\"https://mediabrain.sjtu.edu.cn/\">MediaBrain 实验室</a><a href=\"https://mediabrain.sjtu.edu.cn/yazhang/\">张娅教授</a>。研究方向聚焦<strong>医学视觉语言模型</strong>与<strong>临床数据跨分布泛化</strong>。",
+  "bio_en": "PI of AI4Rad Lab and Assistant Researcher at Shanghai Sixth People's Hospital, SJTU School of Medicine. PhD in Information and Communication Engineering from Shanghai Jiao Tong University (2024), advised by Prof. Ya Zhang. Research interests include medical vision-language models and cross-distribution generalization on clinical data.",
+  "bio_cn": "AI4Rad 实验室课题组 PI、上海交通大学医学院附属第六人民医院放射介入科助理研究员。2024 年于上海交通大学获信息与通信工程博士学位，师从张娅教授。研究方向为医学视觉语言模型与临床数据跨分布泛化。",
   "links": {
     "email": "zhangrp@sjtu.edu.cn",
     "scholar": "https://scholar.google.com/citations?user=m7RzJxwAAAAJ&hl=en",
     "github": "https://github.com/FrankZhangRp/",
     "homepage": "https://frankzhangrp.github.io/"
   },
-  "scholar": { "citations": "1,477", "h_index": 12, "i10_index": 13 },
   "interests_en": [
-    "<strong>Medical VLM</strong> — vision-language model pretraining, fine-tuning, and clinical diagnostic reasoning",
-    "<strong>Machine Learning</strong> — cross-distribution generalization of AI models on clinical data"
+    "Medical vision-language models",
+    "Cross-distribution generalization on clinical data"
   ],
   "interests_cn": [
-    "<strong>医学视觉语言模型</strong> — 预训练、微调与临床诊断推理",
-    "<strong>机器学习</strong> — 临床数据上的跨分布泛化"
+    "医学视觉语言模型",
+    "临床数据跨分布泛化"
   ],
   "news_en": [
     { "date": "Jan 2026", "highlight": true, "text": "Paper accepted in <strong><em>npj Digital Medicine</em></strong> (SCI Q1, IF 15.2). Co-first author." },

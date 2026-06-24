@@ -69,7 +69,13 @@ function memberInitials(member, lang) {
   var name = lang === 'cn' ? member.name_cn : member.name_en;
   if (!name) name = lang === 'cn' ? member.name_en : member.name_cn;
   if (!name) return '?';
-  var parts = name.trim().split(/\s+/);
+  name = name.trim();
+  // For pure Chinese names, use the last two characters (given name) when possible.
+  if (/^[\u4e00-\u9fa5]+$/.test(name)) {
+    if (name.length >= 2) return name.slice(-2);
+    return name;
+  }
+  var parts = name.split(/\s+/);
   if (parts.length >= 2) {
     return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
   }

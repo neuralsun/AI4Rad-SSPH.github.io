@@ -144,7 +144,12 @@
       var name = lang === 'cn' ? m.name_cn : m.name_en;
       if (!name) name = lang === 'cn' ? m.name_en : m.name_cn;
       if (!name) return '?';
-      var parts = name.trim().split(/\s+/);
+      name = name.trim();
+      if (/^[\u4e00-\u9fa5]+$/.test(name)) {
+        if (name.length >= 2) return name.slice(-2);
+        return name;
+      }
+      var parts = name.split(/\s+/);
       if (parts.length >= 2) return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
       return name.substring(0, 2).toUpperCase();
     }
@@ -200,22 +205,10 @@
       html += '</div></div>';
       html += '<div class="mp-photo-wrap">' + renderPhoto(m) + '</div></section>';
 
-      // Scholar + interests
-      if (m.scholar || (m.interests_en && m.interests_en.length)) {
-        html += '<div class="reveal" style="margin-top:8px;">';
-        if (m.scholar) {
-          var sc = m.scholar;
-          html += '<div class="mp-scholar">';
-          if (sc.citations != null) html += '<div><div class="mp-scholar__num">' + sc.citations + '</div><div class="mp-scholar__lbl">' + t('Citations', '总引用') + '</div></div>';
-          if (sc.h_index != null) html += '<div><div class="mp-scholar__num">' + sc.h_index + '</div><div class="mp-scholar__lbl">h-index</div></div>';
-          if (sc.i10_index != null) html += '<div><div class="mp-scholar__num">' + sc.i10_index + '</div><div class="mp-scholar__lbl">i10-index</div></div>';
-          html += '</div>';
-        }
-        var interests = t(m.interests_en, m.interests_cn);
-        if (interests && interests.length) {
-          html += '<ul class="mp-interests">' + interests.map(function(x){ return '<li>' + x + '</li>'; }).join('') + '</ul>';
-        }
-        html += '</div>';
+      // Interests
+      var interests = t(m.interests_en, m.interests_cn);
+      if (interests && interests.length) {
+        html += '<div class="reveal" style="margin-top:8px;"><ul class="mp-interests">' + interests.map(function(x){ return '<li>' + x + '</li>'; }).join('') + '</ul></div>';
       }
 
       // News
