@@ -14,7 +14,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "evaluation-large-language-models.json",
@@ -45,10 +46,11 @@
     "doi": "",
     "links": {
       "pdf": "https://www.nature.com/articles/s41746-026-02380-4",
-      "code": "https://github.com/FrankZhangRp/BrainMIND"
+      "code": "https://github.com/AI4Rad-SSPH/BrainMIND"
     },
     "topic": [],
-    "featured": true
+    "featured": true,
+    "lab": false
   },
   {
     "file": "enhancing-bone-metastasis-ct.json",
@@ -68,7 +70,8 @@
       "doi": "https://doi.org/10.1186/s12913-026-14350-3"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "brainmind-evaluation-large-language.json",
@@ -87,7 +90,8 @@
       "pdf": "https://www.nature.com/articles/s41746-026-02380-4"
     },
     "topic": [],
-    "featured": true
+    "featured": true,
+    "lab": true
   },
   {
     "file": "unibrain-universal-brain-mri.json",
@@ -105,7 +109,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "expanding-point-cloud-statistical.json",
@@ -126,7 +131,8 @@
       "doi": "https://doi.org/10.1016/j.cmpb.2025.108924"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "deep-learningbased-automatic-aspects.json",
@@ -144,7 +150,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "biomimetic-microenvironment-nanomodulators-reactive.json",
@@ -163,7 +170,8 @@
       "pdf": "https://pubs.acs.org/doi/10.1021/acsnano.5c21630"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "unichest-conqueranddivide-pretraining-multisource.json",
@@ -202,7 +210,8 @@
       "project": "https://tianjiedai.github.io/unichest/"
     },
     "topic": [],
-    "featured": true
+    "featured": true,
+    "lab": false
   },
   {
     "file": "precision-structuring-freetext-surgical.json",
@@ -222,7 +231,8 @@
       "doi": "https://doi.org/10.2147/JMDH.S486449"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "largescale-longtailed-disease-diagnosis.json",
@@ -240,7 +250,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "knowledgeaugmented-deep-learning-segmenting.json",
@@ -258,7 +269,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "ischemic-stroke-infarct-segmentation.json",
@@ -278,7 +290,8 @@
       "doi": "https://doi.org/10.7507/1001-5515.202308001"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "fairnessguided-federated-training-generalization.json",
@@ -315,7 +328,8 @@
       "pdf": "https://link.springer.com/article/10.1631/FITEE.2400279"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "domaininspired-sharpnessaware-minimization-under.json",
@@ -341,7 +355,8 @@
       "project": "https://github.com/MediaBrain-SJTU/DISAM"
     },
     "topic": [],
-    "featured": true
+    "featured": true,
+    "lab": false
   },
   {
     "file": "development-validation-deep-learning.json",
@@ -358,7 +373,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "coronary-inflammation-pericoronary-adipose.json",
@@ -375,7 +391,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "boosting-deep-learning-interpretable.json",
@@ -393,7 +410,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "autorgbrain-grounded-report-generation.json",
@@ -411,7 +429,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "simde-simple-domain-expansion.json",
@@ -436,7 +455,8 @@
       "pdf": "https://openaccess.thecvf.com/content/CVPR2023W/L3D-IVU/papers/Xu_SimDE_A_Simple_Domain_Expansion_Approach_for_Single-Source_Domain_Generalization_CVPRW_2023_paper.pdf"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "prevalence-unruptured-cerebral-aneurysms.json",
@@ -455,7 +475,8 @@
       "pdf": "https://www.acpjournals.org/doi/10.7326/0003-4819-159-8-201310150-00004"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "grace-enhancing-federated-learning.json",
@@ -481,7 +502,8 @@
       "project": "https://github.com/MediaBrain-SJTU/GPFL-GRACE"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "fourierbased-augmentation-applications-domain.json",
@@ -518,7 +540,8 @@
       "pdf": "https://www.sciencedirect.com/science/article/pii/S0031320323001747"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "federated-learning-bilateral-curation.json",
@@ -544,7 +567,8 @@
       "project": "https://github.com/MediaBrain-SJTU/FedGELA"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "federated-domain-generalization-generalization.json",
@@ -571,7 +595,8 @@
       "video": "https://www.bilibili.com/video/BV1Po4y137Pn/"
     },
     "topic": [],
-    "featured": true
+    "featured": true,
+    "lab": false
   },
   {
     "file": "federated-adversarial-domain-hallucination.json",
@@ -608,7 +633,8 @@
       "pdf": "https://ieeexplore.ieee.org/abstract/document/10073578/"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "clotbased-radiomics-model-cardioembolic.json",
@@ -625,7 +651,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "assessment-automatic-rib-fracture.json",
@@ -642,7 +669,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "semisupervised-domain-generalization-medical.json",
@@ -662,7 +690,8 @@
       "pdf": "https://ieeexplore.ieee.org/abstract/document/9761561"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "prussian-blue-nanozyme-promotes.json",
@@ -681,7 +710,8 @@
       "pdf": "https://pubs.acs.org/doi/10.1021/acsnano.2c02832"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "engineering-vanadium-carbide-mxene.json",
@@ -698,7 +728,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "domainconditioned-normalization-testtime-domain.json",
@@ -727,7 +758,8 @@
       "pdf": "https://link.springer.com/chapter/10.1007/978-3-031-25085-9_17"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "visualization-thrombus-enhancement-thinslab.json",
@@ -744,7 +776,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "neutrophillike-cellmembranecoated-nanozyme-therapy.json",
@@ -763,7 +796,8 @@
       "pdf": "https://pubs.acs.org/doi/10.1021/acsnano.0c07973"
     },
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "joint-learning-3d-lesion.json",
@@ -780,7 +814,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "deep-learningbased-classification-lower.json",
@@ -797,7 +832,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   },
   {
     "file": "fourierbased-framework-domain-generalization.json",
@@ -823,7 +859,8 @@
       "project": "https://github.com/MediaBrain-SJTU/FACT"
     },
     "topic": [],
-    "featured": true
+    "featured": true,
+    "lab": false
   },
   {
     "file": "2d-vanadium-carbide-mxenzyme.json",
@@ -840,7 +877,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "rapid-vessel-segmentation-reconstruction.json",
@@ -857,7 +895,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "opportunistic-screening-using-lowdose.json",
@@ -874,7 +913,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "detection-hemodynamically-significant-coronary.json",
@@ -891,7 +931,8 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": true
   },
   {
     "file": "brain-structural-functional-changes.json",
@@ -908,6 +949,7 @@
     "doi": "",
     "links": {},
     "topic": [],
-    "featured": false
+    "featured": false,
+    "lab": false
   }
 ]

@@ -33,7 +33,7 @@ VALID_TYPES = {"journal", "conference", "preprint", "other"}
 MANIFEST_FIELDS = [
     "id", "file", "title", "authors_text", "author_ids",
     "type", "year", "venue", "cover", "tags", "doi", "links",
-    "topic", "featured", "abstract",
+    "topic", "featured", "abstract", "lab",
 ]
 
 
@@ -105,6 +105,7 @@ def main():
         entry.setdefault("links", {})
         entry.setdefault("topic", [])
         entry.setdefault("featured", False)
+        entry.setdefault("lab", True)  # only lab papers show on the site-wide list
         papers.append(entry)
 
     papers.sort(key=lambda x: (x.get("year", 0), x.get("title", "")), reverse=True)

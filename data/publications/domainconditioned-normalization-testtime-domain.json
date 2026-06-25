@@ -24,5 +24,6 @@
   },
   "topic": [],
   "featured": false,
-  "cover": "images/dcn.jpg"
+  "cover": "images/dcn.jpg",
+  "lab": false
 }

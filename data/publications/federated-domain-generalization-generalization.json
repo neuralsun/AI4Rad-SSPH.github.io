@@ -22,5 +22,6 @@
   },
   "topic": [],
   "featured": true,
-  "cover": "images/FedDG-GA.png"
+  "cover": "images/FedDG-GA.png",
+  "lab": false
 }

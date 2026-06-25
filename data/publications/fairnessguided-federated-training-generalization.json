@@ -32,5 +32,6 @@
   },
   "topic": [],
   "featured": false,
-  "cover": "images/fftgp.png"
+  "cover": "images/fftgp.png",
+  "lab": false
 }

@@ -25,9 +25,10 @@
   "doi": "",
   "links": {
     "pdf": "https://www.nature.com/articles/s41746-026-02380-4",
-    "code": "https://github.com/FrankZhangRp/BrainMIND"
+    "code": "https://github.com/AI4Rad-SSPH/BrainMIND"
   },
   "topic": [],
   "featured": true,
-  "cover": "images/brainmind-npj.png"
+  "cover": "images/brainmind-npj.png",
+  "lab": false
 }

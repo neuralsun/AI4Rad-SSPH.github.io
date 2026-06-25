@@ -34,5 +34,6 @@
   },
   "topic": [],
   "featured": true,
-  "cover": "images/unichest.png"
+  "cover": "images/unichest.png",
+  "lab": false
 }

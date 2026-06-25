@@ -15,5 +15,6 @@
   },
   "topic": [],
   "featured": false,
-  "cover": "images/isbi2022.png"
+  "cover": "images/isbi2022.png",
+  "lab": false
 }

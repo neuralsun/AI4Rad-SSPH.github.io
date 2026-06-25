@@ -75,6 +75,8 @@
       fetch('data/team.json').then(function (r) { return r.json(); })
     ]).then(function (res) {
       var papers = res[0], team = res[1];
+      // Site-wide list shows only lab papers (those with Yuehua Li).
+      papers = papers.filter(function (p) { return p.lab !== false; });
       var names = {};
       ['leader', 'pi', 'postdoc', 'phd_engineering', 'phd_medical',
        'master_engineering', 'master_medical', 'alumni'].forEach(function (cat) {

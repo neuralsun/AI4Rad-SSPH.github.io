@@ -20,5 +20,6 @@
   },
   "topic": [],
   "featured": false,
-  "cover": "images/simde.jpg"
+  "cover": "images/simde.jpg",
+  "lab": false
 }

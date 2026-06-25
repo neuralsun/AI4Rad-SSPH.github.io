@@ -32,5 +32,6 @@
   },
   "topic": [],
   "featured": false,
-  "cover": "images/fact-pr.jpg"
+  "cover": "images/fact-pr.jpg",
+  "lab": false
 }

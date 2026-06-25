@@ -32,5 +32,6 @@
   },
   "topic": [],
   "featured": false,
-  "cover": "images/fadh.jpg"
+  "cover": "images/fadh.jpg",
+  "lab": false
 }
