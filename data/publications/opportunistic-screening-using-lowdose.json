@@ -8,9 +8,23 @@
   "type": "journal",
   "year": 2020,
   "venue": "Journal of Bone and Mineral Research, 2020",
-  "tags": [],
-  "doi": "",
-  "links": {},
-  "topic": [],
-  "featured": false
+  "tags": [
+    {
+      "label": "JCR Q1",
+      "kind": "jcr"
+    },
+    {
+      "label": "IF 5.0",
+      "kind": "if"
+    }
+  ],
+  "doi": "10.1002/jbmr.4187",
+  "links": {
+    "pdf": "https://doi.org/10.1002/jbmr.4187"
+  },
+  "topic": [
+    "ct"
+  ],
+  "featured": false,
+  "abstract": "Nationwide multicenter study establishing Chinese reference data for opportunistic osteoporosis screening using low-dose chest CT."
 }

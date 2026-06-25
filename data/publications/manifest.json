@@ -84,13 +84,26 @@
     "type": "journal",
     "year": 2026,
     "venue": "npj Digital Medicine, 2026",
-    "tags": [],
-    "doi": "",
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 12.4",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1038/s41746-026-02380-4",
     "links": {
-      "pdf": "https://www.nature.com/articles/s41746-026-02380-4"
+      "pdf": "https://doi.org/10.1038/s41746-026-02380-4"
     },
-    "topic": [],
+    "topic": [
+      "neuro",
+      "ai"
+    ],
     "featured": true,
+    "abstract": "Benchmarked 10 large language models on generating diagnostic impressions from brain MRI reports across a multicenter dataset, establishing a reproducible evaluation for LLM-based radiology.",
     "lab": true
   },
   {
@@ -105,11 +118,27 @@
     "type": "journal",
     "year": 2025,
     "venue": "Computerized Medical Imaging and Graphics, 2025",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "JCR Q2",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 5.4",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1016/j.compmedimag.2025.102516",
+    "links": {
+      "pdf": "https://doi.org/10.1016/j.compmedimag.2025.102516",
+      "code": "https://github.com/ljy19970415/unibrain"
+    },
+    "topic": [
+      "neuro",
+      "ai"
+    ],
     "featured": false,
+    "abstract": "Hierarchical knowledge-enhanced pre-training framework for universal brain MRI diagnosis, validated on in-domain and out-of-domain datasets.",
     "lab": true
   },
   {
@@ -146,11 +175,28 @@
     "type": "journal",
     "year": 2025,
     "venue": "European Radiology, 2025",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 5.9",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1007/s00330-024-10960-9",
+    "links": {
+      "pdf": "https://doi.org/10.1007/s00330-024-10960-9"
+    },
+    "topic": [
+      "neuro",
+      "stroke",
+      "ai",
+      "ct"
+    ],
     "featured": false,
+    "abstract": "Deep-learning ASPECTS scoring on non-contrast CT improves diagnostic efficiency for acute ischemic stroke across multiple centers.",
     "lab": true
   },
   {
@@ -164,13 +210,26 @@
     "type": "journal",
     "year": 2025,
     "venue": "ACS Nano, 2025",
-    "tags": [],
-    "doi": "",
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 15.8",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1021/acsnano.5c21630",
     "links": {
-      "pdf": "https://pubs.acs.org/doi/10.1021/acsnano.5c21630"
+      "pdf": "https://doi.org/10.1021/acsnano.5c21630"
     },
-    "topic": [],
+    "topic": [
+      "nanomedicine",
+      "ct"
+    ],
     "featured": false,
+    "abstract": "ROS-responsive T1-T2 dual-modal MRI nanomodulators for visualized treatment of atherosclerosis.",
     "lab": true
   },
   {
@@ -246,11 +305,26 @@
     "type": "journal",
     "year": 2024,
     "venue": "Nature Communications, 2024",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 14.7",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1038/s41467-024-54601-w",
+    "links": {
+      "pdf": "https://doi.org/10.1038/s41467-024-54601-w"
+    },
+    "topic": [
+      "ai",
+      "diagnosis"
+    ],
     "featured": false,
+    "abstract": "A foundation-model approach addressing the long-tailed distribution of radiology diagnoses, improving recognition of rare conditions on medical images.",
     "lab": true
   },
   {
@@ -265,11 +339,27 @@
     "type": "journal",
     "year": 2024,
     "venue": "Radiology, 2024",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 19.7",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1148/radiol.233197",
+    "links": {
+      "pdf": "https://doi.org/10.1148/radiol.233197"
+    },
+    "topic": [
+      "neuro",
+      "ai",
+      "ct"
+    ],
     "featured": false,
+    "abstract": "Knowledge-augmented deep learning to segment and detect cerebral aneurysms on CT angiography, validated in a multicenter study with stable external performance.",
     "lab": true
   },
   {
@@ -406,11 +496,27 @@
     "type": "journal",
     "year": 2024,
     "venue": "Radiology: Artificial Intelligence, 2024",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 19.7",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1148/ryai.230520",
+    "links": {
+      "pdf": "https://doi.org/10.1148/ryai.230520"
+    },
+    "topic": [
+      "neuro",
+      "ai",
+      "ct"
+    ],
     "featured": false,
+    "abstract": "Integrates radiology report information into deep learning to improve interpretable brain MRI lesion detection.",
     "lab": true
   },
   {
@@ -425,11 +531,23 @@
     "type": "preprint",
     "year": 2024,
     "venue": "arXiv preprint, 2024",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "Preprint",
+        "kind": "venue"
+      }
+    ],
+    "doi": "10.48550/arXiv.2407.16684",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2407.16684",
+      "code": "https://github.com/JiayuLei1520/AutoRG-Brain"
+    },
+    "topic": [
+      "neuro",
+      "ai"
+    ],
     "featured": false,
+    "abstract": "The first brain MRI report generation system with pixel-level grounded visual clues, using a two-stage segmentation-then-generation framework.",
     "lab": true
   },
   {
@@ -469,13 +587,26 @@
     "type": "journal",
     "year": 2023,
     "venue": "Annals of Internal Medicine, 2023",
-    "tags": [],
-    "doi": "",
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 39.2",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.7326/0003-4819-159-8-201310150-00004",
     "links": {
-      "pdf": "https://www.acpjournals.org/doi/10.7326/0003-4819-159-8-201310150-00004"
+      "pdf": "https://doi.org/10.7326/0003-4819-159-8-201310150-00004"
     },
-    "topic": [],
+    "topic": [
+      "neuro",
+      "ct"
+    ],
     "featured": false,
+    "abstract": "Cross-sectional study reporting a 7.0% prevalence of unruptured cerebral aneurysms in Chinese adults aged 35–75, with most lesions <5 mm.",
     "lab": true
   },
   {
@@ -647,11 +778,27 @@
     "type": "journal",
     "year": 2023,
     "venue": "European Radiology, 2023",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 5.9",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1007/s00330-022-09116-4",
+    "links": {
+      "pdf": "https://doi.org/10.1007/s00330-022-09116-4"
+    },
+    "topic": [
+      "neuro",
+      "stroke",
+      "ct"
+    ],
     "featured": false,
+    "abstract": "A clot-based radiomics model on pre-treatment CT to predict cardioembolic stroke source before recanalization, validated multicenter.",
     "lab": true
   },
   {
@@ -665,11 +812,26 @@
     "type": "journal",
     "year": 2023,
     "venue": "European Radiology, 2023",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 5.9",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1007/s00330-022-09156-w",
+    "links": {
+      "pdf": "https://doi.org/10.1007/s00330-022-09156-w"
+    },
+    "topic": [
+      "ai",
+      "ct"
+    ],
     "featured": false,
+    "abstract": "Deep-learning algorithm for automatic rib fracture detection on chest CT with high sensitivity, assessed for clinical deployment.",
     "lab": true
   },
   {
@@ -704,13 +866,25 @@
     "type": "journal",
     "year": 2022,
     "venue": "ACS Nano, 2022",
-    "tags": [],
-    "doi": "",
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 15.8",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1021/acsnano.2c02832",
     "links": {
-      "pdf": "https://pubs.acs.org/doi/10.1021/acsnano.2c02832"
+      "pdf": "https://doi.org/10.1021/acsnano.2c02832"
     },
-    "topic": [],
+    "topic": [
+      "nanomedicine"
+    ],
     "featured": false,
+    "abstract": "Prussian blue nanozyme promotes skin flap survival by scavenging ROS and maintaining a normal microenvironment against ischemia-reperfusion injury.",
     "lab": true
   },
   {
@@ -724,11 +898,27 @@
     "type": "journal",
     "year": 2022,
     "venue": "Chemical Engineering Journal, 2022",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 15.1",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1016/j.cej.2022.135921",
+    "links": {
+      "pdf": "https://doi.org/10.1016/j.cej.2022.135921"
+    },
+    "topic": [
+      "neuro",
+      "stroke",
+      "nanomedicine"
+    ],
     "featured": false,
+    "abstract": "Engineered vanadium carbide MXene as multienzyme mimetics for efficient in vivo ischemic stroke treatment by alleviating oxidative stress.",
     "lab": true
   },
   {
@@ -772,11 +962,27 @@
     "type": "journal",
     "year": 2021,
     "venue": "Radiology, 2021",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 19.7",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1148/radiol.2020201548",
+    "links": {
+      "pdf": "https://doi.org/10.1148/radiol.2020201548"
+    },
+    "topic": [
+      "neuro",
+      "stroke",
+      "ct"
+    ],
     "featured": false,
+    "abstract": "Describes a thin-slab MIP imaging sign on CT angiography for predicting stroke source and thrombus histological composition.",
     "lab": true
   },
   {
@@ -790,13 +996,27 @@
     "type": "journal",
     "year": 2021,
     "venue": "ACS Nano, 2021",
-    "tags": [],
-    "doi": "",
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 15.8",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1021/acsnano.0c07973",
     "links": {
-      "pdf": "https://pubs.acs.org/doi/10.1021/acsnano.0c07973"
+      "pdf": "https://doi.org/10.1021/acsnano.0c07973"
     },
-    "topic": [],
+    "topic": [
+      "neuro",
+      "stroke",
+      "nanomedicine"
+    ],
     "featured": false,
+    "abstract": "Neutrophil-like cell-membrane-coated nanozyme enabling active targeting therapy for ischemic brain damage and long-term neurological recovery.",
     "lab": true
   },
   {
@@ -873,11 +1093,25 @@
     "type": "journal",
     "year": 2021,
     "venue": "Nature Communications, 2021",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 14.7",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1038/s41467-021-22278-x",
+    "links": {
+      "pdf": "https://doi.org/10.1038/s41467-021-22278-x"
+    },
+    "topic": [
+      "nanomedicine"
+    ],
     "featured": false,
+    "abstract": "2D V₂C MXene nanozyme that scavenges reactive oxygen species to alleviate ROS-mediated inflammatory and neurodegenerative diseases.",
     "lab": true
   },
   {
@@ -891,11 +1125,27 @@
     "type": "journal",
     "year": 2020,
     "venue": "Nature Communications, 2020",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 14.7",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1038/s41467-020-18606-2",
+    "links": {
+      "pdf": "https://doi.org/10.1038/s41467-020-18606-2"
+    },
+    "topic": [
+      "vascular",
+      "ai",
+      "ct"
+    ],
     "featured": false,
+    "abstract": "A 3D CNN that rapidly segments and reconstructs head and neck vessels from CT angiograms with high accuracy and efficiency, validated across multiple centers.",
     "lab": true
   },
   {
@@ -909,11 +1159,25 @@
     "type": "journal",
     "year": 2020,
     "venue": "Journal of Bone and Mineral Research, 2020",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 5.0",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1002/jbmr.4187",
+    "links": {
+      "pdf": "https://doi.org/10.1002/jbmr.4187"
+    },
+    "topic": [
+      "ct"
+    ],
     "featured": false,
+    "abstract": "Nationwide multicenter study establishing Chinese reference data for opportunistic osteoporosis screening using low-dose chest CT.",
     "lab": true
   },
   {
@@ -927,11 +1191,27 @@
     "type": "journal",
     "year": 2019,
     "venue": "Radiology, 2019",
-    "tags": [],
-    "doi": "",
-    "links": {},
-    "topic": [],
+    "tags": [
+      {
+        "label": "JCR Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 19.7",
+        "kind": "if"
+      }
+    ],
+    "doi": "10.1148/radiol.2019190098",
+    "links": {
+      "pdf": "https://doi.org/10.1148/radiol.2019190098"
+    },
+    "topic": [
+      "cardiac",
+      "ai",
+      "ct"
+    ],
     "featured": false,
+    "abstract": "Compares CT myocardial perfusion versus machine-learning CT fractional flow reserve for detecting hemodynamically significant coronary stenosis.",
     "lab": true
   },
   {

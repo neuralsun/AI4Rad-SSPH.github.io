@@ -9,9 +9,25 @@
   "type": "journal",
   "year": 2025,
   "venue": "Computerized Medical Imaging and Graphics, 2025",
-  "tags": [],
-  "doi": "",
-  "links": {},
-  "topic": [],
-  "featured": false
+  "tags": [
+    {
+      "label": "JCR Q2",
+      "kind": "jcr"
+    },
+    {
+      "label": "IF 5.4",
+      "kind": "if"
+    }
+  ],
+  "doi": "10.1016/j.compmedimag.2025.102516",
+  "links": {
+    "pdf": "https://doi.org/10.1016/j.compmedimag.2025.102516",
+    "code": "https://github.com/ljy19970415/unibrain"
+  },
+  "topic": [
+    "neuro",
+    "ai"
+  ],
+  "featured": false,
+  "abstract": "Hierarchical knowledge-enhanced pre-training framework for universal brain MRI diagnosis, validated on in-domain and out-of-domain datasets."
 }

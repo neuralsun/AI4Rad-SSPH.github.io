@@ -9,9 +9,24 @@
   "type": "journal",
   "year": 2024,
   "venue": "Nature Communications, 2024",
-  "tags": [],
-  "doi": "",
-  "links": {},
-  "topic": [],
-  "featured": false
+  "tags": [
+    {
+      "label": "JCR Q1",
+      "kind": "jcr"
+    },
+    {
+      "label": "IF 14.7",
+      "kind": "if"
+    }
+  ],
+  "doi": "10.1038/s41467-024-54601-w",
+  "links": {
+    "pdf": "https://doi.org/10.1038/s41467-024-54601-w"
+  },
+  "topic": [
+    "ai",
+    "diagnosis"
+  ],
+  "featured": false,
+  "abstract": "A foundation-model approach addressing the long-tailed distribution of radiology diagnoses, improving recognition of rare conditions on medical images."
 }

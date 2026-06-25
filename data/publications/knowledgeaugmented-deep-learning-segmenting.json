@@ -9,9 +9,25 @@
   "type": "journal",
   "year": 2024,
   "venue": "Radiology, 2024",
-  "tags": [],
-  "doi": "",
-  "links": {},
-  "topic": [],
-  "featured": false
+  "tags": [
+    {
+      "label": "JCR Q1",
+      "kind": "jcr"
+    },
+    {
+      "label": "IF 19.7",
+      "kind": "if"
+    }
+  ],
+  "doi": "10.1148/radiol.233197",
+  "links": {
+    "pdf": "https://doi.org/10.1148/radiol.233197"
+  },
+  "topic": [
+    "neuro",
+    "ai",
+    "ct"
+  ],
+  "featured": false,
+  "abstract": "Knowledge-augmented deep learning to segment and detect cerebral aneurysms on CT angiography, validated in a multicenter study with stable external performance."
 }

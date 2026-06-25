@@ -8,9 +8,25 @@
   "type": "journal",
   "year": 2020,
   "venue": "Nature Communications, 2020",
-  "tags": [],
-  "doi": "",
-  "links": {},
-  "topic": [],
-  "featured": false
+  "tags": [
+    {
+      "label": "JCR Q1",
+      "kind": "jcr"
+    },
+    {
+      "label": "IF 14.7",
+      "kind": "if"
+    }
+  ],
+  "doi": "10.1038/s41467-020-18606-2",
+  "links": {
+    "pdf": "https://doi.org/10.1038/s41467-020-18606-2"
+  },
+  "topic": [
+    "vascular",
+    "ai",
+    "ct"
+  ],
+  "featured": false,
+  "abstract": "A 3D CNN that rapidly segments and reconstructs head and neck vessels from CT angiograms with high accuracy and efficiency, validated across multiple centers."
 }

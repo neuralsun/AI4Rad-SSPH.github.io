@@ -9,9 +9,21 @@
   "type": "preprint",
   "year": 2024,
   "venue": "arXiv preprint, 2024",
-  "tags": [],
-  "doi": "",
-  "links": {},
-  "topic": [],
-  "featured": false
+  "tags": [
+    {
+      "label": "Preprint",
+      "kind": "venue"
+    }
+  ],
+  "doi": "10.48550/arXiv.2407.16684",
+  "links": {
+    "pdf": "https://arxiv.org/abs/2407.16684",
+    "code": "https://github.com/JiayuLei1520/AutoRG-Brain"
+  },
+  "topic": [
+    "neuro",
+    "ai"
+  ],
+  "featured": false,
+  "abstract": "The first brain MRI report generation system with pixel-level grounded visual clues, using a two-stage segmentation-then-generation framework."
 }

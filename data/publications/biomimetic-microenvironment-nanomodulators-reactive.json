@@ -8,11 +8,24 @@
   "type": "journal",
   "year": 2025,
   "venue": "ACS Nano, 2025",
-  "tags": [],
-  "doi": "",
+  "tags": [
+    {
+      "label": "JCR Q1",
+      "kind": "jcr"
+    },
+    {
+      "label": "IF 15.8",
+      "kind": "if"
+    }
+  ],
+  "doi": "10.1021/acsnano.5c21630",
   "links": {
-    "pdf": "https://pubs.acs.org/doi/10.1021/acsnano.5c21630"
+    "pdf": "https://doi.org/10.1021/acsnano.5c21630"
   },
-  "topic": [],
-  "featured": false
+  "topic": [
+    "nanomedicine",
+    "ct"
+  ],
+  "featured": false,
+  "abstract": "ROS-responsive T1-T2 dual-modal MRI nanomodulators for visualized treatment of atherosclerosis."
 }

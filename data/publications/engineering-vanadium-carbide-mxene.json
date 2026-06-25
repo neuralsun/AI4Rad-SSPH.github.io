@@ -8,9 +8,25 @@
   "type": "journal",
   "year": 2022,
   "venue": "Chemical Engineering Journal, 2022",
-  "tags": [],
-  "doi": "",
-  "links": {},
-  "topic": [],
-  "featured": false
+  "tags": [
+    {
+      "label": "JCR Q1",
+      "kind": "jcr"
+    },
+    {
+      "label": "IF 15.1",
+      "kind": "if"
+    }
+  ],
+  "doi": "10.1016/j.cej.2022.135921",
+  "links": {
+    "pdf": "https://doi.org/10.1016/j.cej.2022.135921"
+  },
+  "topic": [
+    "neuro",
+    "stroke",
+    "nanomedicine"
+  ],
+  "featured": false,
+  "abstract": "Engineered vanadium carbide MXene as multienzyme mimetics for efficient in vivo ischemic stroke treatment by alleviating oxidative stress."
 }

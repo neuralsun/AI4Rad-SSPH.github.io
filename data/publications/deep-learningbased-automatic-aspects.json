@@ -9,9 +9,26 @@
   "type": "journal",
   "year": 2025,
   "venue": "European Radiology, 2025",
-  "tags": [],
-  "doi": "",
-  "links": {},
-  "topic": [],
-  "featured": false
+  "tags": [
+    {
+      "label": "JCR Q1",
+      "kind": "jcr"
+    },
+    {
+      "label": "IF 5.9",
+      "kind": "if"
+    }
+  ],
+  "doi": "10.1007/s00330-024-10960-9",
+  "links": {
+    "pdf": "https://doi.org/10.1007/s00330-024-10960-9"
+  },
+  "topic": [
+    "neuro",
+    "stroke",
+    "ai",
+    "ct"
+  ],
+  "featured": false,
+  "abstract": "Deep-learning ASPECTS scoring on non-contrast CT improves diagnostic efficiency for acute ischemic stroke across multiple centers."
 }

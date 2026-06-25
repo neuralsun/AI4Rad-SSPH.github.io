@@ -8,11 +8,25 @@
   "type": "journal",
   "year": 2021,
   "venue": "ACS Nano, 2021",
-  "tags": [],
-  "doi": "",
+  "tags": [
+    {
+      "label": "JCR Q1",
+      "kind": "jcr"
+    },
+    {
+      "label": "IF 15.8",
+      "kind": "if"
+    }
+  ],
+  "doi": "10.1021/acsnano.0c07973",
   "links": {
-    "pdf": "https://pubs.acs.org/doi/10.1021/acsnano.0c07973"
+    "pdf": "https://doi.org/10.1021/acsnano.0c07973"
   },
-  "topic": [],
-  "featured": false
+  "topic": [
+    "neuro",
+    "stroke",
+    "nanomedicine"
+  ],
+  "featured": false,
+  "abstract": "Neutrophil-like cell-membrane-coated nanozyme enabling active targeting therapy for ischemic brain damage and long-term neurological recovery."
 }

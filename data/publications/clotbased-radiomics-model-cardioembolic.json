@@ -8,9 +8,25 @@
   "type": "journal",
   "year": 2023,
   "venue": "European Radiology, 2023",
-  "tags": [],
-  "doi": "",
-  "links": {},
-  "topic": [],
-  "featured": false
+  "tags": [
+    {
+      "label": "JCR Q1",
+      "kind": "jcr"
+    },
+    {
+      "label": "IF 5.9",
+      "kind": "if"
+    }
+  ],
+  "doi": "10.1007/s00330-022-09116-4",
+  "links": {
+    "pdf": "https://doi.org/10.1007/s00330-022-09116-4"
+  },
+  "topic": [
+    "neuro",
+    "stroke",
+    "ct"
+  ],
+  "featured": false,
+  "abstract": "A clot-based radiomics model on pre-treatment CT to predict cardioembolic stroke source before recanalization, validated multicenter."
 }

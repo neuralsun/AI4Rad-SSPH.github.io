@@ -8,9 +8,24 @@
   "type": "journal",
   "year": 2023,
   "venue": "European Radiology, 2023",
-  "tags": [],
-  "doi": "",
-  "links": {},
-  "topic": [],
-  "featured": false
+  "tags": [
+    {
+      "label": "JCR Q1",
+      "kind": "jcr"
+    },
+    {
+      "label": "IF 5.9",
+      "kind": "if"
+    }
+  ],
+  "doi": "10.1007/s00330-022-09156-w",
+  "links": {
+    "pdf": "https://doi.org/10.1007/s00330-022-09156-w"
+  },
+  "topic": [
+    "ai",
+    "ct"
+  ],
+  "featured": false,
+  "abstract": "Deep-learning algorithm for automatic rib fracture detection on chest CT with high sensitivity, assessed for clinical deployment."
 }

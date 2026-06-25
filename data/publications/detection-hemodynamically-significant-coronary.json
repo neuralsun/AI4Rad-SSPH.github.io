@@ -8,9 +8,25 @@
   "type": "journal",
   "year": 2019,
   "venue": "Radiology, 2019",
-  "tags": [],
-  "doi": "",
-  "links": {},
-  "topic": [],
-  "featured": false
+  "tags": [
+    {
+      "label": "JCR Q1",
+      "kind": "jcr"
+    },
+    {
+      "label": "IF 19.7",
+      "kind": "if"
+    }
+  ],
+  "doi": "10.1148/radiol.2019190098",
+  "links": {
+    "pdf": "https://doi.org/10.1148/radiol.2019190098"
+  },
+  "topic": [
+    "cardiac",
+    "ai",
+    "ct"
+  ],
+  "featured": false,
+  "abstract": "Compares CT myocardial perfusion versus machine-learning CT fractional flow reserve for detecting hemodynamically significant coronary stenosis."
 }
