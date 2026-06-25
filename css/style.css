@@ -104,7 +104,7 @@ a:hover { color: var(--ai4rad-blue); }
 /* Footer — minimal */
 .footer { margin-top: 96px; padding: 44px 0 52px; border-top: 1px solid var(--border); text-align: center; background: var(--bg-page); }
 .footer__brand { margin-bottom: 26px; }
-.footer__brandlogo { height: clamp(64px, 8vw, 92px); width: auto; max-width: 100%; opacity: 0.95; }
+.footer__brandlogo { height: clamp(60px, 7.5vw, 88px); width: auto; max-width: 100%; opacity: 0.95; }
 .footer__links { display: flex; justify-content: center; gap: 18px; margin-bottom: 16px; flex-wrap: wrap; }
 .footer__links a { font-size: 0.85rem; color: var(--text-secondary); font-weight: 500; }
 .footer__links a:hover { color: var(--text-primary); }
@@ -348,7 +348,8 @@ a:hover { color: var(--ai4rad-blue); }
   .hero { padding: 88px 0 44px; }
   .hero__title { font-size: 2.8rem; }
   .section-title { font-size: 1.5rem; }
-  .footer { padding: 52px 0 56px; }
+  .footer { padding: 56px 0 60px; }
+  .footer__brandlogo { height: 104px; }
 }
 
 /* 2K (QHD) — scale type, spacing, and brand marks up */
@@ -362,7 +363,10 @@ a:hover { color: var(--ai4rad-blue); }
   .nav__brand-text { font-size: 1.08rem; }
   .nav__link { font-size: 0.86rem; }
   .section-title { font-size: 1.6rem; }
-  .footer__brandlogo { height: 104px; }
+  .footer__brandlogo { height: 140px; }
+  .footer__affil .a-ssph { height: 50px; }
+  .footer__affil .a-sjtu { height: 42px; }
+  .footer__affil-sep { height: 46px; }
 }
 
 /* 4K — cap the measure so lines stay readable, keep scaling marks up */
@@ -371,7 +375,11 @@ a:hover { color: var(--ai4rad-blue); }
   body { font-size: 18px; }
   .hero__title { font-size: 3.4rem; }
   .hero__emblem { height: 88px; }
-  .footer__brandlogo { height: 120px; }
+  .footer__brandlogo { height: 200px; }
+  .footer__affil .a-ssph { height: 60px; }
+  .footer__affil .a-sjtu { height: 50px; }
+  .footer__affil-sep { height: 54px; }
+  .footer__affil-logos { gap: 40px; }
 }
 
 @media print { body { background: #fff; padding-top: 0; } .nav { display: none; } .reveal { opacity: 1; transform: none; } }

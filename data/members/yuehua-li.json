@@ -8,7 +8,9 @@
   "bio_en": "Yuehua Li is the Lab Leader of <strong>AI4Rad Lab</strong> and a radiologist at the Department of Radiology, <strong>Shanghai Sixth People's Hospital</strong>, Shanghai Jiao Tong University School of Medicine. His research centers on vascular and stroke imaging, cardiac and coronary CT, and the clinical translation of AI across radiology — from vessel segmentation and perfusion analysis to large-scale disease diagnosis and automated reporting.",
   "bio_cn": "李跃华是 <strong>AI4Rad 实验室</strong>负责人，上海交通大学医学院附属<strong>第六人民医院放射介入科</strong>医师。研究方向涵盖血管与卒中影像、心脏与冠脉 CT，以及人工智能在放射领域的临床转化——从血管分割、灌注分析到大规模疾病诊断与报告自动生成。",
   "links": {
-    "scholar": "https://scholar.google.com/citations?user=zj4WqewAAAAJ&hl=en"
+    "email": "liyuehua77@sjtu.edu.cn",
+    "scholar": "https://scholar.google.com/citations?user=zj4WqewAAAAJ&hl=en",
+    "orcid": "https://orcid.org/0000-0001-8028-248X"
   },
   "scholar": { "citations": "2,516" },
   "interests_en": [
@@ -56,6 +58,16 @@
       "items": [
         { "title": "Assessment of automatic rib fracture detection on chest CT using a deep learning algorithm", "authors": "S Wang, D Wu, L Ye, Z Chen, Y Zhan, <strong>Y Li</strong>", "venue": "European Radiology, 2023", "cites": 38 },
         { "title": "Opportunistic screening using low-dose CT and the prevalence of osteoporosis in China: a nationwide, multicenter study", "authors": "X Cheng, K Zhao, X Zha, … <strong>Y Li</strong>, et al.", "venue": "Journal of Bone and Mineral Research, 2020", "cites": 239 }
+      ]
+    },
+    {
+      "group_en": "Nanomedicine & Translational Research", "group_cn": "纳米医学与转化研究",
+      "items": [
+        { "title": "2D vanadium carbide MXenzyme to alleviate ROS-mediated disorders", "authors": "… <strong>Y Li</strong>, et al.", "venue": "Nature Communications, 2021", "cites": 529 },
+        { "title": "Engineering vanadium carbide MXene as multienzyme mimetics for efficient in vivo ischemic stroke treatment", "authors": "… <strong>Y Li</strong>, et al.", "venue": "Chemical Engineering Journal, 2022", "cites": 265 },
+        { "title": "Prussian Blue Nanozyme Promotes the Survival Rate of Skin Flaps", "authors": "… <strong>Y Li</strong>, et al.", "venue": "ACS Nano, 2022", "cites": 172, "url": "https://pubs.acs.org/doi/10.1021/acsnano.2c02832" },
+        { "title": "Neutrophil-like cell-membrane-coated nanozyme therapy for ischemic stroke", "authors": "… <strong>Y Li</strong>, et al.", "venue": "ACS Nano, 2021", "cites": 180, "url": "https://pubs.acs.org/doi/10.1021/acsnano.0c07973" },
+        { "title": "Biomimetic microenvironment nanomodulators for reactive oxygen species regulation", "authors": "… <strong>Y Li</strong>, et al.", "venue": "ACS Nano, 2025", "cites": 8, "url": "https://pubs.acs.org/doi/10.1021/acsnano.5c21630" }
       ]
     }
   ]
