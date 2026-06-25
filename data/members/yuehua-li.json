@@ -10,7 +10,7 @@
   "links": {
     "scholar": "https://scholar.google.com/citations?user=zj4WqewAAAAJ&hl=en"
   },
-  "scholar": { "citations": "2,513" },
+  "scholar": { "citations": "2,516" },
   "interests_en": [
     "<strong>Vascular & Stroke Imaging</strong> — CT/MR angiography, perfusion, thrombus characterization",
     "<strong>Cardiac & Coronary CT</strong> — CT-FFR, myocardial perfusion, plaque analysis",
@@ -25,20 +25,37 @@
   ],
   "publications": [
     {
-      "group_en": "Selected Publications", "group_cn": "代表性论文",
+      "group_en": "Recent & Representative", "group_cn": "近期与代表作",
       "items": [
-        { "title": "Opportunistic screening using low-dose CT and the prevalence of osteoporosis in China: a nationwide, multicenter study", "authors": "X Cheng, K Zhao, X Zha, … <strong>Y Li</strong>, et al.", "venue": "Journal of Bone and Mineral Research, 2020", "cites": 239 },
-        { "title": "Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network", "authors": "F Fu, J Wei, M Zhang, F Yu, … <strong>Y Li</strong>, et al.", "venue": "Nature Communications, 2020", "cites": 204 },
-        { "title": "Detection of hemodynamically significant coronary stenosis: CT myocardial perfusion versus machine learning CT fractional flow reserve", "authors": "<strong>Y Li</strong>, M Yu, X Dai, Z Lu, C Shen, et al.", "venue": "Radiology, 2019", "cites": 103 },
-        { "title": "Visualization of thrombus enhancement on thin-slab maximum intensity projection of CT angiography: an imaging sign for predicting stroke source and thrombus compositions", "authors": "L Wei, Y Zhu, J Deng, <strong>Y Li</strong>, M Li, H Lu, Y Zhao", "venue": "Radiology, 2021", "cites": 45 },
-        { "title": "Clot-based radiomics model for cardioembolic stroke prediction with CT imaging before recanalization: a multicenter study", "authors": "J Jiang, J Wei, Y Zhu, … <strong>Y Li</strong>, et al.", "venue": "European Radiology, 2023", "cites": 42 },
-        { "title": "Large-scale long-tailed disease diagnosis on radiology images", "authors": "Q Zheng, W Zhao, C Wu, X Zhang, L Dai, … <strong>Y Li</strong>, et al.", "venue": "Nature Communications, 2024", "cites": 40 },
-        { "title": "Assessment of automatic rib fracture detection on chest CT using a deep learning algorithm", "authors": "S Wang, D Wu, L Ye, Z Chen, Y Zhan, <strong>Y Li</strong>", "venue": "European Radiology, 2023", "cites": 38 },
-        { "title": "Knowledge-augmented deep learning for segmenting and detecting cerebral aneurysms with CT angiography: a multicenter study", "authors": "J Wei, X Song, X Wei, Z Yang, L Dai, M Wang, Z Sun, … <strong>Y Li</strong>", "venue": "Radiology, 2024", "cites": 32 },
-        { "title": "AutoRG-Brain: Grounded report generation for brain MRI", "authors": "J Lei, X Zhang, C Wu, L Dai, … <strong>Y Li</strong>", "venue": "arXiv preprint, 2024", "cites": 30 },
+        { "featured": true, "title": "BrainMIND: evaluation of large language models for diagnostic impression generation from brain MRI report findings — a multicenter benchmark and reader study", "authors": "ML Wang*, <strong>Y Li</strong>*, et al.", "venue": "npj Digital Medicine, 2026", "cites": 0, "url": "https://www.nature.com/articles/s41746-026-02380-4" },
+        { "title": "Deep learning-based automatic ASPECTS calculation can improve diagnosis efficiency in patients with acute ischemic stroke: a multicenter study", "authors": "J Wei, K Shang, X Wei, … <strong>Y Li</strong>, et al.", "venue": "European Radiology, 2025", "cites": 26 },
         { "title": "UniBrain: Universal brain MRI diagnosis with hierarchical knowledge-enhanced pre-training", "authors": "J Lei, L Dai, H Jiang, C Wu, X Zhang, et al.", "venue": "Computerized Medical Imaging and Graphics, 2025", "cites": 28 },
-        { "title": "Deep learning-based automatic ASPECTS calculation can improve diagnosis efficiency in patients with acute ischemic stroke: a multicenter study", "authors": "J Wei, K Shang, X Wei, … L Dai, Z Sun, … <strong>Y Li</strong>", "venue": "European Radiology, 2025", "cites": 26 },
-        { "title": "Boosting deep learning for interpretable brain MRI lesion detection through the integration of radiology report information", "authors": "L Dai, J Lei, F Ma, Z Sun, … J Wei, … <strong>Y Li</strong>, et al.", "venue": "Radiology: Artificial Intelligence, 2024", "cites": 13 }
+        { "title": "Knowledge-augmented deep learning for segmenting and detecting cerebral aneurysms with CT angiography: a multicenter study", "authors": "J Wei, X Song, X Wei, Z Yang, L Dai, M Wang, Z Sun, … <strong>Y Li</strong>", "venue": "Radiology, 2024", "cites": 32 },
+        { "title": "Large-scale long-tailed disease diagnosis on radiology images", "authors": "Q Zheng, W Zhao, C Wu, X Zhang, L Dai, … <strong>Y Li</strong>, et al.", "venue": "Nature Communications, 2024", "cites": 40 },
+        { "title": "Boosting deep learning for interpretable brain MRI lesion detection through the integration of radiology report information", "authors": "L Dai, J Lei, F Ma, Z Sun, … J Wei, … <strong>Y Li</strong>, et al.", "venue": "Radiology: Artificial Intelligence, 2024", "cites": 13 },
+        { "title": "AutoRG-Brain: Grounded report generation for brain MRI", "authors": "J Lei, X Zhang, C Wu, L Dai, … <strong>Y Li</strong>", "venue": "arXiv preprint, 2024", "cites": 30 }
+      ]
+    },
+    {
+      "group_en": "Stroke & Thrombus Imaging", "group_cn": "卒中与血栓影像",
+      "items": [
+        { "title": "Clot-based radiomics model for cardioembolic stroke prediction with CT imaging before recanalization: a multicenter study", "authors": "J Jiang, J Wei, Y Zhu, … <strong>Y Li</strong>, et al.", "venue": "European Radiology, 2023", "cites": 42 },
+        { "title": "Visualization of thrombus enhancement on thin-slab maximum intensity projection of CT angiography: an imaging sign for predicting stroke source and thrombus compositions", "authors": "L Wei, Y Zhu, J Deng, <strong>Y Li</strong>, M Li, H Lu, Y Zhao", "venue": "Radiology, 2021", "cites": 45 },
+        { "title": "Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network", "authors": "F Fu, J Wei, M Zhang, F Yu, … <strong>Y Li</strong>, et al.", "venue": "Nature Communications, 2020", "cites": 204 },
+        { "title": "Prevalence of unruptured cerebral aneurysms in Chinese adults aged 35 to 75 years: a cross-sectional study", "authors": "… <strong>Y Li</strong>, et al.", "venue": "Annals of Internal Medicine, 2023", "cites": 56, "url": "https://www.acpjournals.org/doi/10.7326/0003-4819-159-8-201310150-00004" }
+      ]
+    },
+    {
+      "group_en": "Cardiac & Coronary CT", "group_cn": "心脏与冠脉 CT",
+      "items": [
+        { "title": "Detection of hemodynamically significant coronary stenosis: CT myocardial perfusion versus machine learning CT fractional flow reserve", "authors": "<strong>Y Li</strong>, M Yu, X Dai, Z Lu, C Shen, et al.", "venue": "Radiology, 2019", "cites": 103 }
+      ]
+    },
+    {
+      "group_en": "AI & Deep Learning in Radiology", "group_cn": "人工智能与深度学习",
+      "items": [
+        { "title": "Assessment of automatic rib fracture detection on chest CT using a deep learning algorithm", "authors": "S Wang, D Wu, L Ye, Z Chen, Y Zhan, <strong>Y Li</strong>", "venue": "European Radiology, 2023", "cites": 38 },
+        { "title": "Opportunistic screening using low-dose CT and the prevalence of osteoporosis in China: a nationwide, multicenter study", "authors": "X Cheng, K Zhao, X Zha, … <strong>Y Li</strong>, et al.", "venue": "Journal of Bone and Mineral Research, 2020", "cites": 239 }
       ]
     }
   ]

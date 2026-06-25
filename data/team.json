@@ -158,6 +158,18 @@
       "program": "Medical-Engineering Cross Program",
       "program_cn": "医工交叉专项",
       "year": "2025"
+    },
+    {
+      "id": "jianqiao-ye",
+      "name_en": "Jianqiao Ye",
+      "name_cn": "叶剑桥",
+      "role": "phd",
+      "role_cn": "博士研究生",
+      "avatar_type": "initials",
+      "degree": "PhD",
+      "degree_cn": "博士",
+      "note": "PhD Candidate",
+      "note_cn": "博士候选人"
     }
   ],
   "phd_medical": [
@@ -232,16 +244,6 @@
       "year": "2025",
       "note": "Ruijin Hospital",
       "note_cn": "瑞金医院"
-    },
-    {
-      "id": "jianqiao-ye",
-      "name_en": "Jianqiao Ye",
-      "name_cn": "叶剑桥",
-      "role": "phd",
-      "role_cn": "博士研究生",
-      "avatar_type": "initials",
-      "note": "PhD Candidate",
-      "note_cn": "博士候选人"
     }
   ],
   "master_engineering": [
