@@ -384,7 +384,7 @@ a:hover { color: var(--ai4rad-blue); }
   :root { --content-max: 940px; --nav-height: 66px; }
   body { font-size: 19px; }
   .hero { padding: 104px 0 52px; }
-  .hero__emblem { height: 96px; }
+  .hero__emblem { height: 128px; }
   .hero__title { font-size: 3.5rem; }
   .hero__subtitle { font-size: 1.42rem; }
   .hero__links { font-size: 1.06rem; }
@@ -406,7 +406,7 @@ a:hover { color: var(--ai4rad-blue); }
   :root { --content-max: 1080px; }
   body { font-size: 22px; }
   .hero { padding: 120px 0 60px; }
-  .hero__emblem { height: 116px; }
+  .hero__emblem { height: 160px; }
   .hero__title { font-size: 4.2rem; }
   .hero__subtitle { font-size: 1.66rem; }
   .hero__links { font-size: 1.22rem; }
