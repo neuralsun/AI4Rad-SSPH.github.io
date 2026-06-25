@@ -9,8 +9,11 @@
   "year": 2024,
   "venue": "Radiology: Artificial Intelligence, 2024",
   "tags": [],
-  "doi": "",
-  "links": {},
+  "doi": "10.1148/ryai.230362",
+  "links": {
+    "doi": "https://doi.org/10.1148/ryai.230362",
+    "pdf": "https://doi.org/10.1148/ryai.230362"
+  },
   "topic": [],
   "featured": false,
   "lab": false

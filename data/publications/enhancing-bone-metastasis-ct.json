@@ -3,7 +3,14 @@
   "title": "Enhancing bone metastasis CT report analysis: a comparison of local and proprietary large language models for privacy and resource efficiency",
   "authors_text": "Zhuo Li*, <strong>Mengfei Wang*</strong>, Ao Liu, Yao Zeng, Bicong Yan, Zhongzheng Cao, Jinyu Zhu, Yulu Yang, Yuehua Li. <em>* Co-first authors.</em>",
   "author_ids": [
-    "mengfei-wang"
+    "mengfei-wang",
+    "yao-zeng",
+    "bicong-yan",
+    "zhongzheng-cao",
+    "yulu-yang",
+    "zhuo-li",
+    "ao-liu",
+    "yuehua-li"
   ],
   "type": "journal",
   "year": 2026,

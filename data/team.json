@@ -69,7 +69,8 @@
       "department": "Clinical Research Center",
       "department_cn": "临床研究中心",
       "position": "Assistant Researcher",
-      "position_cn": "助理研究员"
+      "position_cn": "助理研究员",
+      "page": true
     },
     {
       "id": "zheng-sun",
@@ -87,9 +88,10 @@
       "affiliation": "Shanghai Sixth People's Hospital",
       "affiliation_cn": "上海市第六人民医院",
       "department": "Department of Radiology",
-      "department_cn": "放射介入科",
+      "department_cn": "放射干预科",
       "position": "Chief Technician",
-      "position_cn": "主管技师"
+      "position_cn": "主管技师",
+      "page": true
     }
   ],
   "postdoc": [
@@ -204,7 +206,7 @@
       "avatar_type": "initials",
       "university": "SJTU School of Medicine",
       "university_cn": "交大医学院",
-      "year": "2025"
+      "year": "2024"
     },
     {
       "id": "xinyu-song",
@@ -215,7 +217,8 @@
       "avatar_type": "initials",
       "university": "SJTU School of Medicine",
       "university_cn": "交大医学院",
-      "year": "2024"
+      "year": "2024",
+      "page": true
     },
     {
       "id": "bicong-yan",
@@ -230,7 +233,8 @@
       "university_cn": "交大医学院",
       "year": "2023",
       "note": "PhD Candidate",
-      "note_cn": "博士在读"
+      "note_cn": "博士在读",
+      "page": true
     },
     {
       "id": "hongda-wan",
@@ -319,7 +323,8 @@
       "avatar_type": "initials",
       "university": "SJTU School of Medicine",
       "university_cn": "交大医学院",
-      "year": "2024"
+      "year": "2024",
+      "page": true
     },
     {
       "id": "yifan-tu",
@@ -380,7 +385,8 @@
       "university_cn": "上海理工大学",
       "major": "Biomedical Engineering",
       "major_cn": "生物医学工程",
-      "year": "2023"
+      "year": "2023",
+      "page": true
     },
     {
       "id": "jingying-tao",
@@ -412,7 +418,8 @@
       "major_cn": "工科",
       "year": "2023",
       "note": "PhD at Donghua University · 2026",
-      "note_cn": "2026级东华大学信智学院博士"
+      "note_cn": "2026级东华大学信智学院博士",
+      "page": true
     },
     {
       "id": "ao-liu",
@@ -425,7 +432,8 @@
       "degree_cn": "硕士",
       "major": "Engineering",
       "major_cn": "工科",
-      "year": "2023"
+      "year": "2023",
+      "page": true
     },
     {
       "id": "lisong-dai",

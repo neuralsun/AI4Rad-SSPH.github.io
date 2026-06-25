@@ -9,8 +9,11 @@
   "year": 2024,
   "venue": "Cardiovascular Diabetology, 2024",
   "tags": [],
-  "doi": "",
-  "links": {},
+  "doi": "10.1186/s12933-024-02199-x",
+  "links": {
+    "doi": "https://doi.org/10.1186/s12933-024-02199-x",
+    "pdf": "https://doi.org/10.1186/s12933-024-02199-x"
+  },
   "topic": [],
   "featured": false,
   "lab": false

@@ -18,12 +18,50 @@
     "lab": false
   },
   {
+    "file": "predicting-infarct-thrombectomy-knowledge-guided.json",
+    "id": "predicting-infarct-thrombectomy-knowledge-guided",
+    "title": "Predicting Infarct Outcomes After Extended Time Window Thrombectomy in Large Vessel Occlusion Using Knowledge-Guided Deep Learning",
+    "authors_text": "Lisong Dai, Lei Yuan, Houwang Zhang, Zheng Sun, Jingxuan Jiang, Zhaohui Li, Yuehua Li, Yunfei Zha.",
+    "author_ids": [
+      "lisong-dai",
+      "zheng-sun",
+      "yuehua-li"
+    ],
+    "type": "journal",
+    "year": 2026,
+    "venue": "Journal of NeuroInterventional Surgery",
+    "tags": [
+      {
+        "label": "JNIS",
+        "kind": "venue"
+      },
+      {
+        "label": "Q1",
+        "kind": "metric"
+      }
+    ],
+    "doi": "10.1136/jnis-2025-023355",
+    "links": {
+      "doi": "https://doi.org/10.1136/jnis-2025-023355",
+      "pdf": "https://doi.org/10.1136/jnis-2025-023355"
+    },
+    "topic": [
+      "Stroke Imaging",
+      "Deep Learning"
+    ],
+    "featured": false,
+    "abstract": "This study develops a knowledge-guided deep learning model to predict final infarct outcomes after extended time window thrombectomy in large vessel occlusion. By incorporating clinical and imaging knowledge priors, the model supports patient selection for reperfusion therapy in the extended treatment window.",
+    "lab": true
+  },
+  {
     "file": "evaluation-large-language-models.json",
     "id": "evaluation-large-language-models",
     "title": "Evaluation of large language models for diagnostic impression generation from brain MRI report findings: a multicenter benchmark and reader study",
     "authors_text": "Ming-Liang Wang*, <strong>Rui-Peng Zhang*</strong>, Wen-Juan Wu, Yu Lu, Xiao-Er Wei, Zheng Sun, Bao-Hui Guan, Jun-Jie Zhang, Xue Wu, Lei Zhang, Tian-Le Wang, Yue-Hua Li.",
     "author_ids": [
-      "ruipeng-zhang"
+      "ruipeng-zhang",
+      "zheng-sun",
+      "yuehua-li"
     ],
     "type": "journal",
     "year": 2026,
@@ -58,7 +96,14 @@
     "title": "Enhancing bone metastasis CT report analysis: a comparison of local and proprietary large language models for privacy and resource efficiency",
     "authors_text": "Zhuo Li*, <strong>Mengfei Wang*</strong>, Ao Liu, Yao Zeng, Bicong Yan, Zhongzheng Cao, Jinyu Zhu, Yulu Yang, Yuehua Li. <em>* Co-first authors.</em>",
     "author_ids": [
-      "mengfei-wang"
+      "mengfei-wang",
+      "yao-zeng",
+      "bicong-yan",
+      "zhongzheng-cao",
+      "yulu-yang",
+      "zhuo-li",
+      "ao-liu",
+      "yuehua-li"
     ],
     "type": "journal",
     "year": 2026,
@@ -107,6 +152,45 @@
     "lab": true
   },
   {
+    "file": "multiagent-llm-emergency-stroke.json",
+    "id": "multiagent-llm-emergency-stroke",
+    "title": "A Multi-Agent Large Language Model Framework for Emergency Treatment Recommendation in Acute Ischemic Stroke: Development and Validation Study",
+    "authors_text": "Yuehua Li, Bi-Cong Yan, Ruipeng Zhang, Xinyu Song, Li Chen, Zhongzheng Cao.",
+    "author_ids": [
+      "yuehua-li",
+      "bicong-yan",
+      "ruipeng-zhang",
+      "xinyu-song",
+      "zhongzheng-cao"
+    ],
+    "type": "journal",
+    "year": 2026,
+    "venue": "Journal of Medical Internet Research",
+    "tags": [
+      {
+        "label": "JMIR",
+        "kind": "venue"
+      },
+      {
+        "label": "Q1",
+        "kind": "metric"
+      }
+    ],
+    "doi": "10.2196/96304",
+    "links": {
+      "doi": "https://doi.org/10.2196/96304",
+      "pdf": "https://doi.org/10.2196/96304"
+    },
+    "topic": [
+      "Large Language Models",
+      "Stroke Imaging",
+      "Clinical Decision Support"
+    ],
+    "featured": false,
+    "abstract": "Acute ischemic stroke requires rapid, guideline-driven treatment decisions within narrow time windows. This study presents a multi-agent large language model framework that orchestrates specialized agents for imaging interpretation, clinical feature extraction, and treatment recommendation, supporting real-world clinical decision-making in acute ischemic stroke. Developed and validated on multicenter data, the framework demonstrates the feasibility of agentic LLM systems for time-critical emergency stroke workflows.",
+    "lab": true
+  },
+  {
     "file": "unibrain-universal-brain-mri.json",
     "id": "unibrain-universal-brain-mri",
     "title": "UniBrain: Universal brain MRI diagnosis with hierarchical knowledge-enhanced pre-training",
@@ -148,7 +232,11 @@
     "authors_text": "Yao Zeng, Zheng Sun, <strong>Mengfei Wang</strong>, Zhuo Li, Ao Liu, Meixiu Pan, Haifeng Zhao, Yuehua Li.",
     "author_ids": [
       "mengfei-wang",
-      "yao-zeng"
+      "yao-zeng",
+      "zheng-sun",
+      "zhuo-li",
+      "ao-liu",
+      "yuehua-li"
     ],
     "type": "journal",
     "year": 2025,
@@ -273,12 +361,51 @@
     "lab": false
   },
   {
+    "file": "synchronous-superficial-middle-cerebral-vein.json",
+    "id": "synchronous-superficial-middle-cerebral-vein",
+    "title": "Synchronous Superficial Middle Cerebral Vein Outflow Correlates Favorable Tissue Fate After Mechanical Thrombectomy for Acute Ischemic Stroke",
+    "authors_text": "Lisong Dai, Zheng Sun, Jingxuan Jiang, Jianyong Wei, Xinyu Song, Shen Chen, Yuehua Li.",
+    "author_ids": [
+      "lisong-dai",
+      "zheng-sun",
+      "jianyong-wei",
+      "xinyu-song",
+      "yuehua-li"
+    ],
+    "type": "journal",
+    "year": 2024,
+    "venue": "Academic Radiology",
+    "tags": [
+      {
+        "label": "Academic Radiology",
+        "kind": "venue"
+      }
+    ],
+    "doi": "10.1016/j.acra.2023.07.005",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.acra.2023.07.005",
+      "pdf": "https://doi.org/10.1016/j.acra.2023.07.005"
+    },
+    "topic": [
+      "Stroke Imaging",
+      "Vascular Imaging"
+    ],
+    "featured": false,
+    "abstract": "This study investigates the relationship between superficial middle cerebral vein (SMCV) outflow patterns and tissue outcomes following mechanical thrombectomy in acute ischemic stroke. Synchronous SMCV outflow was found to correlate with favorable tissue fate, supporting venous outflow assessment as an imaging marker for prognosis after reperfusion therapy.",
+    "lab": true
+  },
+  {
     "file": "precision-structuring-freetext-surgical.json",
     "id": "precision-structuring-freetext-surgical",
     "title": "Precision Structuring of Free-Text Surgical Record for Enhanced Stroke Management: A Comparative Evaluation of Large Language Models",
     "authors_text": "<strong>Mengfei Wang</strong>, Jianyong Wei, Yao Zeng, Lisong Dai, Bicong Yan, Yueqi Zhu, Xiaoer Wei, Yidong Jin, Yuehua Li.",
     "author_ids": [
-      "mengfei-wang"
+      "mengfei-wang",
+      "jianyong-wei",
+      "yao-zeng",
+      "lisong-dai",
+      "bicong-yan",
+      "yuehua-li"
     ],
     "type": "journal",
     "year": 2024,
@@ -315,9 +442,10 @@
         "kind": "if"
       }
     ],
-    "doi": "10.1038/s41467-024-54601-w",
+    "doi": "10.1038/s41467-024-54424-6",
     "links": {
-      "pdf": "https://doi.org/10.1038/s41467-024-54601-w"
+      "pdf": "https://doi.org/10.1038/s41467-024-54424-6",
+      "doi": "https://doi.org/10.1038/s41467-024-54424-6"
     },
     "topic": [
       "ai",
@@ -368,7 +496,8 @@
     "title": "Ischemic stroke infarct segmentation model based on depthwise separable convolution for multimodal magnetic resonance imaging",
     "authors_text": "Yidong Jin, <strong>Mengfei Wang</strong>, Jiayan Chen, Yuehua Li.",
     "author_ids": [
-      "mengfei-wang"
+      "mengfei-wang",
+      "yuehua-li"
     ],
     "type": "journal",
     "year": 2024,
@@ -460,8 +589,11 @@
     "year": 2024,
     "venue": "Radiology: Artificial Intelligence, 2024",
     "tags": [],
-    "doi": "",
-    "links": {},
+    "doi": "10.1148/ryai.230362",
+    "links": {
+      "doi": "https://doi.org/10.1148/ryai.230362",
+      "pdf": "https://doi.org/10.1148/ryai.230362"
+    },
     "topic": [],
     "featured": false,
     "lab": false
@@ -478,8 +610,11 @@
     "year": 2024,
     "venue": "Cardiovascular Diabetology, 2024",
     "tags": [],
-    "doi": "",
-    "links": {},
+    "doi": "10.1186/s12933-024-02199-x",
+    "links": {
+      "doi": "https://doi.org/10.1186/s12933-024-02199-x",
+      "pdf": "https://doi.org/10.1186/s12933-024-02199-x"
+    },
     "topic": [],
     "featured": false,
     "lab": false
@@ -551,6 +686,78 @@
     "lab": true
   },
   {
+    "file": "dualenergy-ct-radiomics-stroke-onset.json",
+    "id": "dualenergy-ct-radiomics-stroke-onset",
+    "title": "A Dual-Energy Computed Tomography-Based Radiomics Nomogram for Predicting Time Since Stroke Onset: A Multicenter Study",
+    "authors_text": "Jingxuan Jiang, Kai Sheng, Minda Li, Huilin Zhao, Baohui Guan, Lisong Dai, Yuehua Li.",
+    "author_ids": [
+      "lisong-dai",
+      "yuehua-li"
+    ],
+    "type": "journal",
+    "year": 2024,
+    "venue": "European Radiology",
+    "tags": [
+      {
+        "label": "European Radiology",
+        "kind": "venue"
+      },
+      {
+        "label": "Q1",
+        "kind": "metric"
+      },
+      {
+        "label": "IF 5.9",
+        "kind": "metric"
+      }
+    ],
+    "doi": "10.1007/s00330-024-10802-8",
+    "links": {
+      "doi": "https://doi.org/10.1007/s00330-024-10802-8",
+      "pdf": "https://doi.org/10.1007/s00330-024-10802-8"
+    },
+    "topic": [
+      "Stroke Imaging",
+      "Radiomics",
+      "CT Imaging"
+    ],
+    "featured": false,
+    "abstract": "Accurate estimation of time since stroke onset is critical for treatment eligibility decisions. This multicenter study develops a dual-energy CT-based radiomics nomogram to predict onset time, combining quantitative iodine maps and radiomic features. The model provides a clinically actionable tool for refining treatment windows in acute ischemic stroke.",
+    "lab": true
+  },
+  {
+    "file": "dualenergy-cta-clot-composition.json",
+    "id": "dualenergy-cta-clot-composition",
+    "title": "The Value of Dual-Energy Computed Tomography Angiography-Derived Parameters in the Evaluation of Clot Composition",
+    "authors_text": "Jingxuan Jiang, Hongmei Gu, Minda Li, Ye Hua, Sijia Wang, Lisong Dai, Yuehua Li.",
+    "author_ids": [
+      "lisong-dai",
+      "yuehua-li"
+    ],
+    "type": "journal",
+    "year": 2023,
+    "venue": "Academic Radiology",
+    "tags": [
+      {
+        "label": "Academic Radiology",
+        "kind": "venue"
+      }
+    ],
+    "doi": "10.1016/j.acra.2022.12.023",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.acra.2022.12.023",
+      "pdf": "https://doi.org/10.1016/j.acra.2022.12.023"
+    },
+    "topic": [
+      "Stroke Imaging",
+      "Vascular Imaging",
+      "CT Imaging"
+    ],
+    "featured": false,
+    "abstract": "This study evaluates dual-energy CT angiography-derived parameters for assessing clot composition in acute ischemic stroke, demonstrating the added value of dual-energy acquisition over conventional imaging for thrombus characterization and treatment planning.",
+    "lab": true
+  },
+  {
     "file": "simde-simple-domain-expansion.json",
     "id": "simde-simple-domain-expansion",
     "title": "SimDE: A Simple Domain Expansion Approach for Single-Source Domain Generalization",
@@ -575,6 +782,74 @@
     "topic": [],
     "featured": false,
     "lab": false
+  },
+  {
+    "file": "redox-responsive-peptide-coacervates.json",
+    "id": "redox-responsive-peptide-coacervates",
+    "title": "Redox-Responsive Peptide-Based Complex Coacervates as Delivery Vehicles with Controlled Release of Proteinous Drugs",
+    "authors_text": "Jiahua Wang, Manzar Abbas, Yu Huang, Junyou Wang, Yuehua Li.",
+    "author_ids": [
+      "yuehua-li"
+    ],
+    "type": "journal",
+    "year": 2023,
+    "venue": "Communications Chemistry",
+    "tags": [
+      {
+        "label": "Communications Chemistry",
+        "kind": "venue"
+      },
+      {
+        "label": "Nature",
+        "kind": "venue"
+      }
+    ],
+    "doi": "10.1038/s42004-023-01044-8",
+    "links": {
+      "doi": "https://doi.org/10.1038/s42004-023-01044-8",
+      "pdf": "https://doi.org/10.1038/s42004-023-01044-8"
+    },
+    "topic": [
+      "Nanomedicine",
+      "Drug Delivery"
+    ],
+    "featured": false,
+    "abstract": "Proteinous drugs are highly promising therapeutics but suffer from limited circulation times and severe off-target side effects. Inspired by active membraneless organelles capable of dynamic recruitment and release of specific proteins, this study designs coacervates as therapeutic protocells from small metabolites, providing redox-responsive controlled release of proteinous drugs.",
+    "lab": true
+  },
+  {
+    "file": "stress-perfusion-cardiac-mr-review.json",
+    "id": "stress-perfusion-cardiac-mr-review",
+    "title": "Qualitative and Quantitative Stress Perfusion Cardiac Magnetic Resonance in Clinical Practice: A Comprehensive Review",
+    "authors_text": "Wenli Zhou, Jason Sin, Andrew T. Yan, Haonan Wang, Jing Lu, Yuehua Li, Paul Kim, Amit R. Patel, Ming-Yen Ng.",
+    "author_ids": [
+      "yuehua-li"
+    ],
+    "type": "journal",
+    "year": 2023,
+    "venue": "Diagnostics",
+    "tags": [
+      {
+        "label": "Diagnostics",
+        "kind": "venue"
+      },
+      {
+        "label": "Review",
+        "kind": "type"
+      }
+    ],
+    "doi": "10.3390/diagnostics13030524",
+    "links": {
+      "doi": "https://doi.org/10.3390/diagnostics13030524",
+      "pdf": "https://doi.org/10.3390/diagnostics13030524"
+    },
+    "topic": [
+      "Cardiac Imaging",
+      "MRI Imaging"
+    ],
+    "featured": false,
+    "abstract": "This comprehensive review covers qualitative and quantitative stress perfusion cardiac magnetic resonance methods in clinical practice, including acquisition protocols, analysis techniques, and clinical applications for ischemic heart disease assessment.",
+    "lab": true
   },
   {
     "file": "prevalence-unruptured-cerebral-aneurysms.json",
@@ -835,6 +1110,36 @@
     "lab": true
   },
   {
+    "file": "transferrin-bbb-nanozyme-ischemic-stroke.json",
+    "id": "transferrin-bbb-nanozyme-ischemic-stroke",
+    "title": "Transferrin-Enabled Blood–Brain Barrier Crossing Manganese-Based Nanozyme for Rebalancing the Reactive Oxygen Species Level in Ischemic Stroke",
+    "authors_text": "Qianqian Zhao, Wenxian Du, Lingling Zhou, Jianrong Wu, Xiaoxing Zhang, Xiaoer Wei, Sijia Wang, Yu Huang, Yuehua Li.",
+    "author_ids": [
+      "yuehua-li"
+    ],
+    "type": "journal",
+    "year": 2022,
+    "venue": "Pharmaceutics",
+    "tags": [
+      {
+        "label": "Pharmaceutics",
+        "kind": "venue"
+      }
+    ],
+    "doi": "10.3390/pharmaceutics14061122",
+    "links": {
+      "doi": "https://doi.org/10.3390/pharmaceutics14061122",
+      "pdf": "https://doi.org/10.3390/pharmaceutics14061122"
+    },
+    "topic": [
+      "Nanomedicine",
+      "Stroke Imaging"
+    ],
+    "featured": false,
+    "abstract": "This study presents a transferrin-enabled, manganese-based nanozyme that crosses the blood–brain barrier to rebalance reactive oxygen species levels in ischemic stroke, offering a theranostic nanomedicine approach combining antioxidant therapy with manganese-based imaging contrast.",
+    "lab": true
+  },
+  {
     "file": "semisupervised-domain-generalization-medical.json",
     "id": "semisupervised-domain-generalization-medical",
     "title": "Semi-Supervised Domain Generalization for Medical Image Analysis",
@@ -885,6 +1190,36 @@
     ],
     "featured": false,
     "abstract": "Prussian blue nanozyme promotes skin flap survival by scavenging ROS and maintaining a normal microenvironment against ischemia-reperfusion injury.",
+    "lab": true
+  },
+  {
+    "file": "black-phosphorus-nanosheet-bioimaging.json",
+    "id": "black-phosphorus-nanosheet-bioimaging",
+    "title": "Facile Synthesis of Black Phosphorus Nanosheet@NaReF4 Nanocomposites for Potential Bioimaging",
+    "authors_text": "Dongya Wang, Jingcan Qin, Chuan Zhang, Yuehua Li.",
+    "author_ids": [
+      "yuehua-li"
+    ],
+    "type": "journal",
+    "year": 2022,
+    "venue": "Nanomaterials",
+    "tags": [
+      {
+        "label": "Nanomaterials",
+        "kind": "venue"
+      }
+    ],
+    "doi": "10.3390/nano12193383",
+    "links": {
+      "doi": "https://doi.org/10.3390/nano12193383",
+      "pdf": "https://doi.org/10.3390/nano12193383"
+    },
+    "topic": [
+      "Nanomedicine",
+      "Neuroimaging"
+    ],
+    "featured": false,
+    "abstract": "This work reports a facile synthesis of black phosphorus nanosheet@NaReF4 nanocomposites for potential bioimaging applications, combining the photothermal and photodynamic properties of black phosphorus with rare-earth-doped upconversion nanoparticles.",
     "lab": true
   },
   {
@@ -950,6 +1285,36 @@
     "topic": [],
     "featured": false,
     "lab": false
+  },
+  {
+    "file": "plasma-tau181-nfl-cognitive-decline.json",
+    "id": "plasma-tau181-nfl-cognitive-decline",
+    "title": "Associations of Plasma Phosphorylated Tau181 and Neurofilament Light Chain with Brain Amyloid Burden and Cognition in Objectively Defined Subtle Cognitive Decline Patients",
+    "authors_text": "Yanlu Huang, Yuehua Li, Fang Xie, Qihao Guo.",
+    "author_ids": [
+      "yuehua-li"
+    ],
+    "type": "journal",
+    "year": 2022,
+    "venue": "CNS Neuroscience & Therapeutics",
+    "tags": [
+      {
+        "label": "CNS Neurosci Ther",
+        "kind": "venue"
+      }
+    ],
+    "doi": "10.1111/cns.13962",
+    "links": {
+      "doi": "https://doi.org/10.1111/cns.13962",
+      "pdf": "https://doi.org/10.1111/cns.13962"
+    },
+    "topic": [
+      "Neuroimaging",
+      "Alzheimer's Disease"
+    ],
+    "featured": false,
+    "abstract": "This study examines the associations of plasma phosphorylated tau181 and neurofilament light chain with brain amyloid burden and cognition in patients with objectively defined subtle cognitive decline, exploring blood biomarkers for early Alzheimer's disease detection.",
+    "lab": true
   },
   {
     "file": "visualization-thrombus-enhancement-thinslab.json",
@@ -1038,6 +1403,67 @@
     "lab": false
   },
   {
+    "file": "inorganic-nanomaterial-brain-imaging.json",
+    "id": "inorganic-nanomaterial-brain-imaging",
+    "title": "Inorganic Nanomaterial for Biomedical Imaging of Brain Diseases",
+    "authors_text": "Wenxian Du, Lingling Zhou, Qiang Zhang, Xin Liu, Xiaoer Wei, Yuehua Li.",
+    "author_ids": [
+      "yuehua-li"
+    ],
+    "type": "journal",
+    "year": 2021,
+    "venue": "Molecules",
+    "tags": [
+      {
+        "label": "Molecules",
+        "kind": "venue"
+      }
+    ],
+    "doi": "10.3390/molecules26237340",
+    "links": {
+      "doi": "https://doi.org/10.3390/molecules26237340",
+      "pdf": "https://doi.org/10.3390/molecules26237340"
+    },
+    "topic": [
+      "Nanomedicine",
+      "Neuroimaging"
+    ],
+    "featured": false,
+    "abstract": "This review surveys inorganic nanomaterials used for biomedical imaging of brain diseases, covering design principles, imaging modalities, and translational considerations for nanomaterial-based neuroimaging probes.",
+    "lab": true
+  },
+  {
+    "file": "encephalomalacia-flair-posttraumatic-epilepsy.json",
+    "id": "encephalomalacia-flair-posttraumatic-epilepsy",
+    "title": "Experimental Imaging Study of Encephalomalacia Fluid-Attenuated Inversion Recovery (FLAIR) Hyperintense Lesions in Posttraumatic Epilepsy",
+    "authors_text": "Dan Wang, Kai Shang, Zheng Sun, Yue-Hua Li.",
+    "author_ids": [
+      "zheng-sun",
+      "yuehua-li"
+    ],
+    "type": "journal",
+    "year": 2021,
+    "venue": "Neural Plasticity",
+    "tags": [
+      {
+        "label": "Neural Plasticity",
+        "kind": "venue"
+      }
+    ],
+    "doi": "10.1155/2021/2678379",
+    "links": {
+      "doi": "https://doi.org/10.1155/2021/2678379",
+      "pdf": "https://doi.org/10.1155/2021/2678379"
+    },
+    "topic": [
+      "Neuroradiology",
+      "MRI Imaging"
+    ],
+    "featured": false,
+    "abstract": "This study applies advanced MRI techniques, including neurite orientation dispersion and density imaging (NODDI), to characterize encephalomalacia FLAIR hyperintense lesions in posttraumatic epilepsy. The three-compartment tissue model enables examination of intra- and extracellular white matter properties, distinguishing aspects of axonal pathology underlying posttraumatic epileptogenic lesions.",
+    "lab": true
+  },
+  {
     "file": "deep-learningbased-classification-lower.json",
     "id": "deep-learningbased-classification-lower",
     "title": "Deep learning-based classification of lower extremity arterial stenosis in computed tomography angiography",
@@ -1049,8 +1475,11 @@
     "year": 2021,
     "venue": "European Journal of Radiology, 2021",
     "tags": [],
-    "doi": "",
-    "links": {},
+    "doi": "10.1016/j.ejrad.2021.109528",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.ejrad.2021.109528",
+      "pdf": "https://doi.org/10.1016/j.ejrad.2021.109528"
+    },
     "topic": [],
     "featured": false,
     "lab": false
@@ -1178,6 +1607,36 @@
     ],
     "featured": false,
     "abstract": "Nationwide multicenter study establishing Chinese reference data for opportunistic osteoporosis screening using low-dose chest CT.",
+    "lab": true
+  },
+  {
+    "file": "transient-ischemic-attack-carotid-web.json",
+    "id": "transient-ischemic-attack-carotid-web",
+    "title": "Transient Ischemic Attack and Carotid Web",
+    "authors_text": "H. Hu, X. Zhang, J. Zhao, Y. Li, Y. Zhao.",
+    "author_ids": [
+      "yuehua-li"
+    ],
+    "type": "journal",
+    "year": 2019,
+    "venue": "American Journal of Neuroradiology",
+    "tags": [
+      {
+        "label": "AJNR",
+        "kind": "venue"
+      }
+    ],
+    "doi": "10.3174/ajnr.A5946",
+    "links": {
+      "doi": "https://doi.org/10.3174/ajnr.A5946",
+      "pdf": "https://doi.org/10.3174/ajnr.A5946"
+    },
+    "topic": [
+      "Stroke Imaging",
+      "Vascular Imaging"
+    ],
+    "featured": false,
+    "abstract": "This study describes the association between carotid web—a thin, fibrous intimal shelf in the internal carotid artery—and transient ischemic attack, highlighting the vascular imaging features of this under-recognized cause of ischemic stroke in young patients.",
     "lab": true
   },
   {
