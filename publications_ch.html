@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AI4Rad 实验室团队成员 — 团队负责人、课题组PI、博士后、博士研究生、硕士研究生及校友。">
-  <title>团队成员 · AI4Rad 实验室</title>
+  <meta name="description" content="AI4Rad 实验室论文成果 — 医学影像人工智能期刊与会议论文。">
+  <title>论文成果 · AI4Rad 实验室</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet">
@@ -20,10 +20,10 @@
       </a>
       <div class="nav__links">
         <a href="./index_ch.html" class="nav__link">首页</a>
-        <a href="./team_ch.html" class="nav__link active">团队</a>
-        <a href="./publications_ch.html" class="nav__link">论文成果</a>
+        <a href="./team_ch.html" class="nav__link">团队</a>
+        <a href="./publications_ch.html" class="nav__link active">论文成果</a>
         <a href="mailto:zhangrp@sjtu.edu.cn" class="nav__link">联系</a>
-        <a href="./team.html" class="nav__link--lang">EN</a>
+        <a href="./publications.html" class="nav__link--lang">EN</a>
       </div>
       <button class="nav__theme-btn" id="themeToggle" aria-label="切换深色模式" title="切换深色模式"></button>
     </div>
@@ -31,12 +31,14 @@
 
   <main class="wrapper">
     <section class="hero reveal">
-      <h1 class="hero__title">团队成员</h1>
-      <p class="hero__subtitle">临床医生、工程师与学生，共同推进医学影像人工智能研究。</p>
+      <h1 class="hero__title">论文成果</h1>
+      <p class="hero__subtitle">实验室代表性期刊与会议论文。完整列表亦见 <a href="https://scholar.google.com/citations?user=zj4WqewAAAAJ" target="_blank" rel="noopener">Google Scholar</a>。</p>
     </section>
 
-    <div id="team-content">
-      <p style="text-align:center;color:var(--text-muted);padding:40px 0;">正在加载团队数据...</p>
+    <div id="pub-root" class="reveal">
+      <div class="filters"></div>
+      <p class="filter-count"></p>
+      <ul class="pub-list pub-list--cards"></ul>
     </div>
   </main>
 
@@ -48,7 +50,7 @@
     <div class="footer__links">
       <a href="./index_ch.html">首页</a>
       <a href="./team_ch.html">团队</a>
-      <a href="https://scholar.google.com/citations?user=zj4WqewAAAAJ&hl=zh-CN" target="_blank" rel="noopener">论文</a>
+      <a href="./publications_ch.html">论文成果</a>
       <a href="mailto:zhangrp@sjtu.edu.cn">邮箱</a>
       <a href="https://github.com/AI4Rad-SSPH" target="_blank" rel="noopener">GitHub</a>
     </div>
@@ -64,16 +66,28 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/pub.js"></script>
   <script>
-    (function(){
-      fetch('data/team.json')
-        .then(function(r){ return r.json(); })
-        .then(function(data){ renderTeam(data, 'cn'); })
-        .catch(function(e){
-          document.getElementById('team-content').innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px 0;">团队数据加载失败，请刷新页面。</p>';
-          console.error(e);
-        });
-    })();
+  (function () {
+    var memberNameById = null;
+    Promise.all([
+      fetch('data/publications/manifest.json').then(function (r) { return r.json(); }),
+      fetch('data/team.json').then(function (r) { return r.json(); })
+    ]).then(function (res) {
+      var papers = res[0], team = res[1];
+      var names = {};
+      ['leader', 'pi', 'postdoc', 'phd_engineering', 'phd_medical',
+       'master_engineering', 'master_medical', 'alumni'].forEach(function (cat) {
+        (team[cat] || []).forEach(function (m) { names[m.id] = m.name_cn; });
+      });
+      memberNameById = function (id) { return names[id]; };
+      window.Pub.initFilter('pub-root', papers, 'cn', memberNameById);
+    }).catch(function (e) {
+      document.querySelector('#pub-root .pub-list').innerHTML =
+        '<li class="pub-empty">加载论文列表失败，请刷新重试。</li>';
+      console.error(e);
+    });
+  })();
   </script>
 </body>
 </html>

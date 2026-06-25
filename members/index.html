@@ -86,6 +86,7 @@
       <div class="nav__links">
         <a href="../" class="nav__link">Home</a>
         <a href="../team.html" class="nav__link">Team</a>
+        <a href="../publications.html" class="nav__link">Publications</a>
         <a href="../" id="langToggle" class="nav__link--lang">中文</a>
       </div>
       <button class="nav__theme-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode"></button>
@@ -120,6 +121,7 @@
   </footer>
 
   <script src="../js/main.js"></script>
+  <script src="../js/pub.js"></script>
   <script>
   (function(){
     var params = new URLSearchParams(location.search);
@@ -206,24 +208,9 @@
         }).join('') + '</ul></section>';
       }
 
-      if (m.publications && m.publications.length) {
-        html += '<section class="reveal">' + sectionHead(t('Publications', '论文成果'));
-        html += '<ul class="pub-list">';
-        m.publications.forEach(function(group){
-          if (group.group_en || group.group_cn) html += '<li class="mp-group-label" style="list-style:none;padding-left:0;margin:16px 0 8px;">' + esc(t(group.group_en, group.group_cn)) + '</li>';
-          (group.items || []).forEach(function(p){
-            html += '<li class="pub-item">';
-            var titleInner = (p.featured ? '<span class="pub-featured">' + t('Featured', '代表作') + '</span>' : '') + esc(p.title);
-            html += '<div class="pub-title">' + (p.url ? '<a href="' + p.url + '" target="_blank" rel="noopener">' + titleInner + '</a>' : titleInner) + '</div>';
-            if (p.authors) html += '<div class="pub-authors">' + p.authors + '</div>';
-            if (p.venue) html += '<div class="pub-venue">' + esc(p.venue) + '</div>';
-            if (p.tags && p.tags.length) html += '<div class="pub-tags">' + p.tags.map(function(tag){ return '<span class="pub-tag pub-tag--' + esc(tag.kind || 'venue') + '">' + esc(tag.label) + '</span>'; }).join('') + '</div>';
-            if (p.links && p.links.length) html += '<div class="pub-links">' + p.links.map(function(lk){ return '<a href="' + lk.url + '" target="_blank" rel="noopener">' + esc(lk.label) + '</a>'; }).join('') + '</div>';
-            html += '</li>';
-          });
-        });
-        html += '</ul></section>';
-      }
+      // Publications: rendered from the shared manifest, filtered to this member.
+      // Falls back to any legacy embedded publications if manifest is unavailable.
+      html += '<section class="reveal" id="mp-pubs">' + sectionHead(t('Publications', '论文成果')) + '</section>';
 
       var awards = t(m.awards_en, m.awards_cn);
       if (awards && awards.length) {
@@ -238,6 +225,31 @@
       }
 
       root.innerHTML = html;
+
+      // Fill the publications section from the shared manifest, filtered to
+      // papers whose author_ids include this member. Falls back gracefully.
+      (function () {
+        var pubSec = document.getElementById('mp-pubs');
+        if (!pubSec) return;
+        var renderPubs = function (papers) {
+          var mine = papers.filter(function (p) {
+            return (p.author_ids || []).indexOf(m.id) >= 0;
+          });
+          if (!mine.length) { pubSec.remove(); return; }
+          // newest first
+          mine.sort(function (a, b) { return (b.year || 0) - (a.year || 0); });
+          pubSec.innerHTML += '<ul class="pub-list pub-list--cards">' +
+            mine.map(function (p) { return window.Pub.renderCard(p, lang); }).join('') +
+            '</ul>';
+          pubSec.classList.add('visible');
+        };
+        if (!window.Pub) { pubSec.remove(); return; }
+        fetch('../data/publications/manifest.json')
+          .then(function (r) { return r.ok ? r.json() : []; })
+          .then(renderPubs)
+          .catch(function () { pubSec.remove(); });
+      })();
+
       root.querySelectorAll('.mp-photo').forEach(function(img){
         img.addEventListener('error', function(){
           this.style.display = 'none';

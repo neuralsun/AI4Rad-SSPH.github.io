@@ -60,35 +60,6 @@
       "text": "论文被 Computer Methods and Programs in Biomedicine 接收。"
     }
   ],
-  "publications": [
-    {
-      "group_en": "Journal Papers",
-      "group_cn": "期刊论文",
-      "items": [
-        {
-          "featured": true,
-          "title": "Expanding point cloud statistical shape model applications: Generalized vascular modeling for population-level hemodynamic simulations",
-          "authors": "Yao Zeng, et al.",
-          "venue": "Computer Methods and Programs in Biomedicine, 2025",
-          "tags": [
-            {
-              "label": "SCI Q1",
-              "kind": "jcr"
-            },
-            {
-              "label": "Medical AI",
-              "kind": "venue"
-            },
-            {
-              "label": "Hemodynamics",
-              "kind": "venue"
-            }
-          ],
-          "links": []
-        }
-      ]
-    }
-  ],
   "awards_en": [
     "Software copyright: ischemic stroke thrombosis image analysis system",
     "Patent: stroke evaluation device based on fractal dimension"

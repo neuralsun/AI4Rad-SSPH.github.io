@@ -25,51 +25,41 @@
     "<strong>医疗 AI 工程实践</strong> — 基于 Python、PyTorch 与 Linux 的模型开发"
   ],
   "news_en": [
-    { "date": "Mar 2026", "highlight": true, "text": "Paper on CT report analysis for bone metastasis using local and proprietary large language models published in <strong>BMC Health Services Research</strong>. Co-first author." },
-    { "date": "Sep 2025", "text": "Paper on generalized vascular modeling for population-level hemodynamic simulations published in <strong>Computer Methods and Programs in Biomedicine</strong>." },
-    { "date": "Sep 2025", "text": "Joined <strong>Donghua University</strong> and <strong>AI4Rad Lab</strong> as a PhD student." },
-    { "date": "2024", "text": "Paper on large language models for surgical record structuring published in <strong>Journal of Multidisciplinary Healthcare</strong>." }
+    {
+      "date": "Mar 2026",
+      "highlight": true,
+      "text": "Paper on CT report analysis for bone metastasis using local and proprietary large language models published in <strong>BMC Health Services Research</strong>. Co-first author."
+    },
+    {
+      "date": "Sep 2025",
+      "text": "Paper on generalized vascular modeling for population-level hemodynamic simulations published in <strong>Computer Methods and Programs in Biomedicine</strong>."
+    },
+    {
+      "date": "Sep 2025",
+      "text": "Joined <strong>Donghua University</strong> and <strong>AI4Rad Lab</strong> as a PhD student."
+    },
+    {
+      "date": "2024",
+      "text": "Paper on large language models for surgical record structuring published in <strong>Journal of Multidisciplinary Healthcare</strong>."
+    }
   ],
   "news_cn": [
-    { "date": "2026年3月", "highlight": true, "text": "关于本地与闭源大语言模型在骨转移 CT 报告分析中的研究发表于 <strong>BMC Health Services Research</strong>。共同第一作者。" },
-    { "date": "2025年9月", "text": "关于面向群体级血流动力学模拟的通用血管建模研究发表于 <strong>Computer Methods and Programs in Biomedicine</strong>。" },
-    { "date": "2025年9月", "text": "加入<strong>东华大学</strong>与 <strong>AI4Rad Lab</strong>，攻读博士学位。" },
-    { "date": "2024年", "text": "关于大语言模型辅助手术记录结构化的研究发表于 <strong>Journal of Multidisciplinary Healthcare</strong>。" }
-  ],
-  "publications": [
     {
-      "group_en": "Selected Publications",
-      "group_cn": "代表性论文",
-      "items": [
-        {
-          "title": "Enhancing bone metastasis CT report analysis: a comparison of local and proprietary large language models for privacy and resource efficiency",
-          "url": "https://doi.org/10.1186/s12913-026-14350-3",
-          "authors": "Zhuo Li*, <strong>Mengfei Wang*</strong>, Ao Liu, Yao Zeng, Bicong Yan, Zhongzheng Cao, Jinyu Zhu, Yulu Yang, Yuehua Li. <em>* Co-first authors.</em>",
-          "venue": "BMC Health Services Research, 2026",
-          "links": [{ "label": "doi", "url": "https://doi.org/10.1186/s12913-026-14350-3" }]
-        },
-        {
-          "title": "Expanding point cloud statistical shape model applications: Generalized vascular modeling for population-level hemodynamic simulations",
-          "url": "https://doi.org/10.1016/j.cmpb.2025.108924",
-          "authors": "Yao Zeng, Zheng Sun, <strong>Mengfei Wang</strong>, Zhuo Li, Ao Liu, Meixiu Pan, Haifeng Zhao, Yuehua Li.",
-          "venue": "Computer Methods and Programs in Biomedicine, 2025",
-          "links": [{ "label": "doi", "url": "https://doi.org/10.1016/j.cmpb.2025.108924" }]
-        },
-        {
-          "title": "Precision Structuring of Free-Text Surgical Record for Enhanced Stroke Management: A Comparative Evaluation of Large Language Models",
-          "url": "https://doi.org/10.2147/JMDH.S486449",
-          "authors": "<strong>Mengfei Wang</strong>, Jianyong Wei, Yao Zeng, Lisong Dai, Bicong Yan, Yueqi Zhu, Xiaoer Wei, Yidong Jin, Yuehua Li.",
-          "venue": "Journal of Multidisciplinary Healthcare, 2024",
-          "links": [{ "label": "doi", "url": "https://doi.org/10.2147/JMDH.S486449" }]
-        },
-        {
-          "title": "Ischemic stroke infarct segmentation model based on depthwise separable convolution for multimodal magnetic resonance imaging",
-          "url": "https://doi.org/10.7507/1001-5515.202308001",
-          "authors": "Yidong Jin, <strong>Mengfei Wang</strong>, Jiayan Chen, Yuehua Li.",
-          "venue": "Journal of Biomedical Engineering, 2024",
-          "links": [{ "label": "doi", "url": "https://doi.org/10.7507/1001-5515.202308001" }]
-        }
-      ]
+      "date": "2026年3月",
+      "highlight": true,
+      "text": "关于本地与闭源大语言模型在骨转移 CT 报告分析中的研究发表于 <strong>BMC Health Services Research</strong>。共同第一作者。"
+    },
+    {
+      "date": "2025年9月",
+      "text": "关于面向群体级血流动力学模拟的通用血管建模研究发表于 <strong>Computer Methods and Programs in Biomedicine</strong>。"
+    },
+    {
+      "date": "2025年9月",
+      "text": "加入<strong>东华大学</strong>与 <strong>AI4Rad Lab</strong>，攻读博士学位。"
+    },
+    {
+      "date": "2024年",
+      "text": "关于大语言模型辅助手术记录结构化的研究发表于 <strong>Journal of Multidisciplinary Healthcare</strong>。"
     }
   ],
   "services_en": [
