@@ -122,12 +122,14 @@
       "name_cn": "王孟飞",
       "role": "phd",
       "role_cn": "博士研究生",
-      "avatar_type": "initials",
+      "avatar_type": "photo",
+      "avatar_path": "images/members/mengfei-wang.jpg",
       "university": "Donghua University",
       "university_cn": "东华大学",
       "school": "School of Information Science",
       "school_cn": "信智学院",
-      "year": "2025"
+      "year": "2025",
+      "page": true
     },
     {
       "id": "yao-zeng",
