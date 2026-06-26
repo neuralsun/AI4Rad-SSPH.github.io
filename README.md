@@ -31,10 +31,12 @@ translation** of medical AI.
 
 ### 🔬 Research directions
 
-- **Vision foundation models** — detection, segmentation, and quantitative biomarkers for vascular and musculoskeletal imaging.
-- **Multimodal large language models** — integrating imaging, reports, and clinical data for structured reporting and diagnostic reasoning.
-- **Medical image generation** — synthesis, denoising, and super-resolution to improve image quality and reduce scan time.
-- **Clinical AI generalization** — robustness across sites, scanners, and patient distributions.
+Our research is built on four core AI capabilities, applied across the lab's seven clinical imaging directions.
+
+- **Vision foundation models** — visual representation and structured understanding of medical images: diagnosis, segmentation, detection, and quantification.
+- **Multimodal large language models** — integrating images, reports, clinical history, and knowledge for diagnostic reasoning and structured reporting.
+- **Medical image generation** — clinically useful synthesis, restoration, denoising, and enhancement, including cross-modal generation.
+- **Spatial intelligence & physical simulation** — 3D modeling, registration, blood-flow and musculoskeletal mechanics, and interpretable quantitative analysis.
 
 ### ⭐ Selected projects
 
@@ -57,10 +59,12 @@ translation** of medical AI.
 
 ### 🔬 研究方向
 
-- **视觉基础模型**：面向血管与骨肌影像的检测、分割与定量生物标志提取。
-- **多模态大语言模型**：融合影像、报告与临床数据，用于结构化报告与诊断推理。
-- **影像生成与增强**：图像合成、去噪与超分辨率，提升图像质量并缩短扫描时间。
-- **临床 AI 泛化性**：跨机构、跨设备、跨人群的模型迁移与分布外泛化。
+我们的研究建立在四类核心 AI 技术能力之上，服务于团队的七大临床影像方向。
+
+- **视觉基础模型**：医学影像的视觉表征与结构化理解——诊断、分割、检测与定量。
+- **多模态大语言模型**：融合影像、报告、病史与知识库，用于诊断推理与结构化报告。
+- **影像生成**：面向临床价值的图像生成、修复、去噪与增强，含跨模态合成。
+- **空间智能与物理仿真**：三维建模、配准、血流与骨肌力学仿真，以及可解释定量分析。
 
 ### ⭐ 代表性项目
 
