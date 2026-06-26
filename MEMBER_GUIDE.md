@@ -98,6 +98,7 @@ A complete real example: [`data/members/ruipeng-zhang.json`](data/members/ruipen
 - **Aspect ratio / 比例**: portrait, ~3:4 (the card is 220×293 px). 竖版人像，约 3:4。
 - **Size / 大小**: keep under ~500 KB; compress large originals (`width ≤ 800px` is plenty). 单张 < 500KB，宽度 ≤ 800px 足够。
 - **No photo?** Just omit the `photo` field — an **initials avatar** is generated automatically. 没有照片可不填，自动生成首字母头像。
+- **⚠️ Two places must agree / 两处要保持一致**: a photo must be referenced in **both** `data/members/<your-id>.json` (`photo`) **and** `data/team.json` (`avatar_type: "photo"` + `avatar_path`). The member page reads the first; the Team page reads the second. If you only set one, they will show different avatars. Ask the PI to update the `team.json` entry. 照片必须在成员页 JSON 的 `photo` 字段和 `team.json` 的 `avatar_type:"photo"` + `avatar_path` **两处同时引用**——成员主页读前者，Team 卡片读后者，只改一处会不一致。`team.json` 由 PI 维护，请联系 PI 同步。
 
 ---
 
