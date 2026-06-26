@@ -41,7 +41,7 @@ translation** of medical AI.
 | Project | Venue | Links |
 |---|---|---|
 | **HR-LLM-Stroke** — multi-agent LLM framework for emergency stroke treatment recommendation | *J Med Internet Res*, 2026 | [Paper](https://doi.org/10.2196/96304) · [Code](https://github.com/FrankZhangRp/HR-LLM-Stroke) · [Demo](https://frankzhangrp.github.io/HR-LLM-Stroke/) |
-| **BrainMIND** — LLM-based diagnostic impression generation from brain MRI reports | *npj Digital Medicine*, 2026 | [Paper](https://www.nature.com/articles/s41746-026-02380-4) · [Code](https://github.com/AI4Rad-SSPH/BrainMIND) |
+| **BrainMIND** — multicenter benchmark & reader study evaluating 10 LLMs on brain MRI diagnostic impression generation | *npj Digital Medicine*, 2026 | [Paper](https://www.nature.com/articles/s41746-026-02380-4) · [Code](https://github.com/FrankZhangRp/BrainMIND) |
 | **LumbarSR** — paired clinical CT & micro-CT dataset for lumbar vertebra super-resolution | *Scientific Data*, 2026 | [Challenge](https://github.com/FrankZhangRp/LumbarSR-Challenge) |
 | **Cerebrovascular & Stroke AI** — aneurysm detection, ASPECTS scoring, thrombus characterization | *Radiology* / *European Radiology* | — |
 
@@ -67,7 +67,7 @@ translation** of medical AI.
 | 项目 | 期刊 | 链接 |
 |---|---|---|
 | **HR-LLM-Stroke** — 面向急诊卒中治疗推荐的多智能体大语言模型框架 | 《医学互联网研究杂志》, 2026 | [论文](https://doi.org/10.2196/96304) · [代码](https://github.com/FrankZhangRp/HR-LLM-Stroke) · [演示](https://frankzhangrp.github.io/HR-LLM-Stroke/) |
-| **BrainMIND** — 基于大语言模型的脑 MRI 报告诊断印象生成 | 《npj 数字医学》, 2026 | [论文](https://www.nature.com/articles/s41746-026-02380-4) · [代码](https://github.com/AI4Rad-SSPH/BrainMIND) |
+| **BrainMIND** — 多中心基准与读片研究，评测 10 个大语言模型从脑 MRI 报告生成诊断印象的能力 | 《npj 数字医学》, 2026 | [论文](https://www.nature.com/articles/s41746-026-02380-4) · [代码](https://github.com/FrankZhangRp/BrainMIND) |
 | **LumbarSR** — 配对临床 CT 与显微 CT 的腰椎超分辨率数据集 | 《科学数据》, 2026 | [挑战赛](https://github.com/FrankZhangRp/LumbarSR-Challenge) |
 | **脑血管与卒中 AI** — 动脉瘤检测、ASPECTS 评分、血栓表征 | 《Radiology》/《European Radiology》 | — |
 
