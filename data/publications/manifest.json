@@ -54,6 +54,50 @@
     "lab": true
   },
   {
+    "file": "lumbarsr-paired-clinical-microct-dataset.json",
+    "id": "lumbarsr-paired-clinical-microct-dataset",
+    "title": "LumbarSR: A Paired Clinical CT and Photon-Counting Micro-CT Dataset for Human Lumbar Vertebrae",
+    "authors_text": "Ping Wang*, Ruipeng Zhang*, Mengfei Wang, Shenyan Zong, Jinyu Zhu, Xinyu Song, Zhenzhen Cao, Xuefei Hu, Dan Wang, Yuehua Li.",
+    "author_ids": [
+      "ping-wang",
+      "ruipeng-zhang",
+      "mengfei-wang",
+      "xinyu-song",
+      "yuehua-li"
+    ],
+    "type": "journal",
+    "year": 2026,
+    "venue": "Scientific Data (in press)",
+    "cover": "images/lumbar-sr-viz.jpg",
+    "tags": [
+      {
+        "label": "Scientific Data",
+        "kind": "venue"
+      },
+      {
+        "label": "Q1",
+        "kind": "metric"
+      },
+      {
+        "label": "Dataset",
+        "kind": "type"
+      }
+    ],
+    "doi": "",
+    "links": {
+      "code": "https://github.com/FrankZhangRp/LumbarSR-Challenge",
+      "project": "https://frankzhangrp.github.io/LumbarSR-Challenge/"
+    },
+    "topic": [
+      "Musculoskeletal Imaging",
+      "Super-Resolution",
+      "Dataset"
+    ],
+    "featured": true,
+    "abstract": "LumbarSR provides the first paired clinical CT and photon-counting micro-CT dataset of human lumbar vertebrae, enabling super-resolution benchmarks that bridge the resolution gap between in-vivo imaging and high-resolution ex-vivo micro-CT. The dataset and challenge foster reproducible evaluation of medical image super-resolution methods.",
+    "lab": true
+  },
+  {
     "file": "evaluation-large-language-models.json",
     "id": "evaluation-large-language-models",
     "title": "Evaluation of large language models for diagnostic impression generation from brain MRI report findings: a multicenter benchmark and reader study",
