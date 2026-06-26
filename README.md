@@ -29,9 +29,10 @@ The official website of **AI4Rad Lab**, a medical imaging AI research group at t
 Department of Radiology, Shanghai Sixth People's Hospital (SJTU School of Medicine).
 
 We build AI that works in real clinical radiology — from vessel segmentation and
-perfusion analysis to large-scale disease diagnosis and automated reporting — with a
-focus on **vascular & stroke imaging**, **cardiac & coronary CT**, and the **clinical
-translation** of medical AI.
+perfusion analysis to large-scale disease diagnosis and automated reporting. Our core
+clinical directions are **pan-vascular imaging** (cerebrovascular, cardiac & coronary,
+and peripheral vasculature) and **musculoskeletal imaging**, alongside broader
+radiology applications, all driving the **clinical translation** of medical AI.
 
 ## 🔬 Research directions
 
