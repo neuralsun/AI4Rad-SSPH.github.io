@@ -232,7 +232,25 @@
       (function () {
         var pubSec = document.getElementById('mp-pubs');
         if (!pubSec) return;
-        var renderPubs = function (papers) {
+        // Build {id:{en,cn}} member map from team.json so author names can be
+        // hyperlinked and the current member highlighted.
+        function fetchJson(url) {
+          return fetch(url).then(function (r) { return r.ok ? r.json() : null; });
+        }
+        if (!window.Pub) { pubSec.remove(); return; }
+        Promise.all([
+          fetchJson('../data/publications/manifest.json'),
+          fetchJson('../data/team.json')
+        ]).then(function (res) {
+          var papers = res[0] || [];
+          var team = res[1] || {};
+          var members = {};
+          Object.keys(team).forEach(function (cat) {
+            (team[cat] || []).forEach(function (mm) {
+              members[mm.id] = { en: mm.name_en, cn: mm.name_cn };
+            });
+          });
+          var ctx = { members: members, currentId: m.id };
           var mine = papers.filter(function (p) {
             return (p.author_ids || []).indexOf(m.id) >= 0;
           });
@@ -240,15 +258,10 @@
           // newest first
           mine.sort(function (a, b) { return (b.year || 0) - (a.year || 0); });
           pubSec.innerHTML += '<ul class="pub-list pub-list--cards">' +
-            mine.map(function (p) { return window.Pub.renderCard(p, lang); }).join('') +
+            mine.map(function (p) { return window.Pub.renderCard(p, lang, ctx); }).join('') +
             '</ul>';
           pubSec.classList.add('visible');
-        };
-        if (!window.Pub) { pubSec.remove(); return; }
-        fetch('../data/publications/manifest.json')
-          .then(function (r) { return r.ok ? r.json() : []; })
-          .then(renderPubs)
-          .catch(function () { pubSec.remove(); });
+        }).catch(function () { pubSec.remove(); });
       })();
 
       root.querySelectorAll('.mp-photo').forEach(function(img){

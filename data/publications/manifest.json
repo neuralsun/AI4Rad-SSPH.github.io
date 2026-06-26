@@ -3,7 +3,7 @@
     "file": "rethinking-wholebody-ct-image.json",
     "id": "rethinking-wholebody-ct-image",
     "title": "Rethinking whole-body CT image interpretation: an abnormality-centric approach",
-    "authors_text": "Z Zhao, <strong>L Dai</strong>, Y Zhang, W Xie, Y Wang",
+    "authors_text": "Z Zhao, L Dai, Y Zhang, W Xie, Y Wang",
     "author_ids": [
       "lisong-dai"
     ],
@@ -36,8 +36,12 @@
         "kind": "venue"
       },
       {
-        "label": "Q1",
-        "kind": "metric"
+        "label": "Q2",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 4.4",
+        "kind": "if"
       }
     ],
     "doi": "10.1136/jnis-2025-023355",
@@ -75,12 +79,16 @@
         "kind": "venue"
       },
       {
-        "label": "Q1",
-        "kind": "metric"
-      },
-      {
         "label": "Dataset",
         "kind": "type"
+      },
+      {
+        "label": "Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 6.9",
+        "kind": "if"
       }
     ],
     "doi": "",
@@ -101,7 +109,7 @@
     "file": "evaluation-large-language-models.json",
     "id": "evaluation-large-language-models",
     "title": "Evaluation of large language models for diagnostic impression generation from brain MRI report findings: a multicenter benchmark and reader study",
-    "authors_text": "Ming-Liang Wang*, <strong>Rui-Peng Zhang*</strong>, Wen-Juan Wu, Yu Lu, Xiao-Er Wei, Zheng Sun, Bao-Hui Guan, Jun-Jie Zhang, Xue Wu, Lei Zhang, Tian-Le Wang, Yue-Hua Li.",
+    "authors_text": "Ming-Liang Wang*, Rui-Peng Zhang*, Wen-Juan Wu, Yu Lu, Xiao-Er Wei, Zheng Sun, Bao-Hui Guan, Jun-Jie Zhang, Xue Wu, Lei Zhang, Tian-Le Wang, Yue-Hua Li.",
     "author_ids": [
       "ruipeng-zhang",
       "zheng-sun",
@@ -138,7 +146,7 @@
     "file": "enhancing-bone-metastasis-ct.json",
     "id": "enhancing-bone-metastasis-ct",
     "title": "Enhancing bone metastasis CT report analysis: a comparison of local and proprietary large language models for privacy and resource efficiency",
-    "authors_text": "Zhuo Li*, <strong>Mengfei Wang*</strong>, Ao Liu, Yao Zeng, Bicong Yan, Zhongzheng Cao, Jinyu Zhu, Yulu Yang, Yuehua Li. <em>* Co-first authors.</em>",
+    "authors_text": "Zhuo Li*, Mengfei Wang*, Ao Liu, Yao Zeng, Bicong Yan, Zhongzheng Cao, Jinyu Zhu, Yulu Yang, Yuehua Li. <em>* Co-first authors.</em>",
     "author_ids": [
       "mengfei-wang",
       "yao-zeng",
@@ -166,7 +174,7 @@
     "file": "brainmind-evaluation-large-language.json",
     "id": "brainmind-evaluation-large-language",
     "title": "BrainMIND: evaluation of large language models for diagnostic impression generation from brain MRI report findings — a multicenter benchmark and reader study",
-    "authors_text": "ML Wang*, <strong>Y Li</strong>*, et al.",
+    "authors_text": "ML Wang*, Y Li*, et al.",
     "author_ids": [
       "yuehua-li"
     ],
@@ -175,11 +183,11 @@
     "venue": "npj Digital Medicine, 2026",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 12.4",
+        "label": "IF 15.1",
         "kind": "if"
       }
     ],
@@ -217,7 +225,11 @@
       },
       {
         "label": "Q1",
-        "kind": "metric"
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 5.8",
+        "kind": "if"
       }
     ],
     "doi": "10.2196/96304",
@@ -238,7 +250,7 @@
     "file": "unibrain-universal-brain-mri.json",
     "id": "unibrain-universal-brain-mri",
     "title": "UniBrain: Universal brain MRI diagnosis with hierarchical knowledge-enhanced pre-training",
-    "authors_text": "J Lei, <strong>L Dai</strong>, H Jiang, C Wu, X Zhang, et al.",
+    "authors_text": "J Lei, L Dai, H Jiang, C Wu, X Zhang, et al.",
     "author_ids": [
       "lisong-dai",
       "yuehua-li"
@@ -248,11 +260,11 @@
     "venue": "Computerized Medical Imaging and Graphics, 2025",
     "tags": [
       {
-        "label": "JCR Q2",
+        "label": "Q2",
         "kind": "jcr"
       },
       {
-        "label": "IF 5.4",
+        "label": "IF 4.9",
         "kind": "if"
       }
     ],
@@ -273,7 +285,7 @@
     "file": "expanding-point-cloud-statistical.json",
     "id": "expanding-point-cloud-statistical",
     "title": "Expanding point cloud statistical shape model applications: Generalized vascular modeling for population-level hemodynamic simulations",
-    "authors_text": "Yao Zeng, Zheng Sun, <strong>Mengfei Wang</strong>, Zhuo Li, Ao Liu, Meixiu Pan, Haifeng Zhao, Yuehua Li.",
+    "authors_text": "Yao Zeng, Zheng Sun, Mengfei Wang, Zhuo Li, Ao Liu, Meixiu Pan, Haifeng Zhao, Yuehua Li.",
     "author_ids": [
       "mengfei-wang",
       "yao-zeng",
@@ -299,7 +311,7 @@
     "file": "deep-learningbased-automatic-aspects.json",
     "id": "deep-learningbased-automatic-aspects",
     "title": "Deep learning-based automatic ASPECTS calculation can improve diagnosis efficiency in patients with acute ischemic stroke: a multicenter study",
-    "authors_text": "J Wei, K Shang, X Wei, … <strong>L Dai</strong>, Z Sun, … Y Li",
+    "authors_text": "J Wei, K Shang, X Wei, … L Dai, Z Sun, … Y Li",
     "author_ids": [
       "lisong-dai",
       "yuehua-li"
@@ -309,11 +321,11 @@
     "venue": "European Radiology, 2025",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 5.9",
+        "label": "IF 4.7",
         "kind": "if"
       }
     ],
@@ -335,7 +347,7 @@
     "file": "biomimetic-microenvironment-nanomodulators-reactive.json",
     "id": "biomimetic-microenvironment-nanomodulators-reactive",
     "title": "Biomimetic microenvironment nanomodulators for reactive oxygen species regulation",
-    "authors_text": "… <strong>Y Li</strong>, et al.",
+    "authors_text": "… Y Li, et al.",
     "author_ids": [
       "yuehua-li"
     ],
@@ -344,7 +356,7 @@
     "venue": "ACS Nano, 2025",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
@@ -368,7 +380,7 @@
     "file": "unichest-conqueranddivide-pretraining-multisource.json",
     "id": "unichest-conqueranddivide-pretraining-multisource",
     "title": "UniChest: Conquer-and-Divide Pre-training for Multi-Source Chest X-Ray Classification",
-    "authors_text": "Tianjie Dai, <strong>Ruipeng Zhang</strong>, Feng Hong, Jiangchao Yao, Ya Zhang, Yanfeng Wang.",
+    "authors_text": "Tianjie Dai, Ruipeng Zhang, Feng Hong, Jiangchao Yao, Ya Zhang, Yanfeng Wang.",
     "author_ids": [
       "ruipeng-zhang"
     ],
@@ -423,6 +435,14 @@
       {
         "label": "Academic Radiology",
         "kind": "venue"
+      },
+      {
+        "label": "Q2",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 3.9",
+        "kind": "if"
       }
     ],
     "doi": "10.1016/j.acra.2023.07.005",
@@ -442,7 +462,7 @@
     "file": "precision-structuring-freetext-surgical.json",
     "id": "precision-structuring-freetext-surgical",
     "title": "Precision Structuring of Free-Text Surgical Record for Enhanced Stroke Management: A Comparative Evaluation of Large Language Models",
-    "authors_text": "<strong>Mengfei Wang</strong>, Jianyong Wei, Yao Zeng, Lisong Dai, Bicong Yan, Yueqi Zhu, Xiaoer Wei, Yidong Jin, Yuehua Li.",
+    "authors_text": "Mengfei Wang, Jianyong Wei, Yao Zeng, Lisong Dai, Bicong Yan, Yueqi Zhu, Xiaoer Wei, Yidong Jin, Yuehua Li.",
     "author_ids": [
       "mengfei-wang",
       "jianyong-wei",
@@ -468,7 +488,7 @@
     "file": "largescale-longtailed-disease-diagnosis.json",
     "id": "largescale-longtailed-disease-diagnosis",
     "title": "Large-scale long-tailed disease diagnosis on radiology images",
-    "authors_text": "Q Zheng, W Zhao, C Wu, X Zhang, <strong>L Dai</strong>, … et al.",
+    "authors_text": "Q Zheng, W Zhao, C Wu, X Zhang, L Dai, … et al.",
     "author_ids": [
       "lisong-dai",
       "yuehua-li"
@@ -478,11 +498,11 @@
     "venue": "Nature Communications, 2024",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 14.7",
+        "label": "IF 15.7",
         "kind": "if"
       }
     ],
@@ -503,7 +523,7 @@
     "file": "knowledgeaugmented-deep-learning-segmenting.json",
     "id": "knowledgeaugmented-deep-learning-segmenting",
     "title": "Knowledge-augmented deep learning for segmenting and detecting cerebral aneurysms with CT angiography: a multicenter study",
-    "authors_text": "J Wei, X Song, X Wei, Z Yang, <strong>L Dai</strong>, M Wang, Z Sun, et al.",
+    "authors_text": "J Wei, X Song, X Wei, Z Yang, L Dai, M Wang, Z Sun, et al.",
     "author_ids": [
       "lisong-dai",
       "yuehua-li"
@@ -513,11 +533,11 @@
     "venue": "Radiology, 2024",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 19.7",
+        "label": "IF 15.2",
         "kind": "if"
       }
     ],
@@ -538,7 +558,7 @@
     "file": "ischemic-stroke-infarct-segmentation.json",
     "id": "ischemic-stroke-infarct-segmentation",
     "title": "Ischemic stroke infarct segmentation model based on depthwise separable convolution for multimodal magnetic resonance imaging",
-    "authors_text": "Yidong Jin, <strong>Mengfei Wang</strong>, Jiayan Chen, Yuehua Li.",
+    "authors_text": "Yidong Jin, Mengfei Wang, Jiayan Chen, Yuehua Li.",
     "author_ids": [
       "mengfei-wang",
       "yuehua-li"
@@ -560,7 +580,7 @@
     "file": "fairnessguided-federated-training-generalization.json",
     "id": "fairnessguided-federated-training-generalization",
     "title": "Fairness-guided federated training for generalization and personalization in cross-silo federated learning",
-    "authors_text": "<strong>Ruipeng Zhang</strong>, Ziqing Fan, Jiangchao Yao, Ya Zhang, Yanfeng Wang.",
+    "authors_text": "Ruipeng Zhang, Ziqing Fan, Jiangchao Yao, Ya Zhang, Yanfeng Wang.",
     "author_ids": [
       "ruipeng-zhang"
     ],
@@ -598,7 +618,7 @@
     "file": "domaininspired-sharpnessaware-minimization-under.json",
     "id": "domaininspired-sharpnessaware-minimization-under",
     "title": "Domain-Inspired Sharpness-Aware Minimization Under Domain Shifts",
-    "authors_text": "<strong>Ruipeng Zhang</strong>, Ziqing Fan, Jiangchao Yao*, Ya Zhang, Yanfeng Wang*.",
+    "authors_text": "Ruipeng Zhang, Ziqing Fan, Jiangchao Yao*, Ya Zhang, Yanfeng Wang*.",
     "author_ids": [
       "ruipeng-zhang"
     ],
@@ -625,7 +645,7 @@
     "file": "development-validation-deep-learning.json",
     "id": "development-validation-deep-learning",
     "title": "Development and validation of a deep learning model to reduce the interference of rectal artifacts in MRI-based prostate cancer diagnosis",
-    "authors_text": "L Hu, X Guo, D Zhou, Z Wang, <strong>L Dai</strong>, … Y Li, et al.",
+    "authors_text": "L Hu, X Guo, D Zhou, Z Wang, L Dai, … Y Li, et al.",
     "author_ids": [
       "lisong-dai"
     ],
@@ -646,7 +666,7 @@
     "file": "coronary-inflammation-pericoronary-adipose.json",
     "id": "coronary-inflammation-pericoronary-adipose",
     "title": "Coronary inflammation based on pericoronary adipose tissue attenuation in type 2 diabetic mellitus: effect of diabetes management",
-    "authors_text": "Y Liu, <strong>L Dai</strong>, Y Dong, C Ma, P Cheng, et al.",
+    "authors_text": "Y Liu, L Dai, Y Dong, C Ma, P Cheng, et al.",
     "author_ids": [
       "lisong-dai"
     ],
@@ -667,7 +687,7 @@
     "file": "boosting-deep-learning-interpretable.json",
     "id": "boosting-deep-learning-interpretable",
     "title": "Boosting deep learning for interpretable brain MRI lesion detection through the integration of radiology report information",
-    "authors_text": "<strong>L Dai</strong>, J Lei, F Ma, Z Sun, … Y Li, et al.",
+    "authors_text": "L Dai, J Lei, F Ma, Z Sun, … Y Li, et al.",
     "author_ids": [
       "lisong-dai",
       "yuehua-li"
@@ -677,11 +697,11 @@
     "venue": "Radiology: Artificial Intelligence, 2024",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 19.7",
+        "label": "IF 8.1",
         "kind": "if"
       }
     ],
@@ -702,7 +722,7 @@
     "file": "autorgbrain-grounded-report-generation.json",
     "id": "autorgbrain-grounded-report-generation",
     "title": "AutoRG-Brain: Grounded report generation for brain MRI",
-    "authors_text": "J Lei, X Zhang, C Wu, <strong>L Dai</strong>, … Y Li",
+    "authors_text": "J Lei, X Zhang, C Wu, L Dai, … Y Li",
     "author_ids": [
       "lisong-dai",
       "yuehua-li"
@@ -748,11 +768,11 @@
       },
       {
         "label": "Q1",
-        "kind": "metric"
+        "kind": "jcr"
       },
       {
-        "label": "IF 5.9",
-        "kind": "metric"
+        "label": "IF 4.7",
+        "kind": "if"
       }
     ],
     "doi": "10.1007/s00330-024-10802-8",
@@ -785,6 +805,14 @@
       {
         "label": "Academic Radiology",
         "kind": "venue"
+      },
+      {
+        "label": "Q2",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 3.9",
+        "kind": "if"
       }
     ],
     "doi": "10.1016/j.acra.2022.12.023",
@@ -805,7 +833,7 @@
     "file": "simde-simple-domain-expansion.json",
     "id": "simde-simple-domain-expansion",
     "title": "SimDE: A Simple Domain Expansion Approach for Single-Source Domain Generalization",
-    "authors_text": "Qinwei Xu, <strong>Ruipeng Zhang</strong>, Yi-Yan Wu, Ya Zhang, Ning Liu, Yanfeng Wang.",
+    "authors_text": "Qinwei Xu, Ruipeng Zhang, Yi-Yan Wu, Ya Zhang, Ning Liu, Yanfeng Wang.",
     "author_ids": [
       "ruipeng-zhang"
     ],
@@ -846,6 +874,14 @@
       {
         "label": "Nature",
         "kind": "venue"
+      },
+      {
+        "label": "Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 6.2",
+        "kind": "if"
       }
     ],
     "doi": "10.1038/s42004-023-01044-8",
@@ -880,6 +916,14 @@
       {
         "label": "Review",
         "kind": "type"
+      },
+      {
+        "label": "Q2",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 3.3",
+        "kind": "if"
       }
     ],
     "doi": "10.3390/diagnostics13030524",
@@ -899,7 +943,7 @@
     "file": "prevalence-unruptured-cerebral-aneurysms.json",
     "id": "prevalence-unruptured-cerebral-aneurysms",
     "title": "Prevalence of unruptured cerebral aneurysms in Chinese adults aged 35 to 75 years: a cross-sectional study",
-    "authors_text": "… <strong>Y Li</strong>, et al.",
+    "authors_text": "… Y Li, et al.",
     "author_ids": [
       "yuehua-li"
     ],
@@ -908,11 +952,11 @@
     "venue": "Annals of Internal Medicine, 2023",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 39.2",
+        "label": "IF 15.3",
         "kind": "if"
       }
     ],
@@ -932,7 +976,7 @@
     "file": "grace-enhancing-federated-learning.json",
     "id": "grace-enhancing-federated-learning",
     "title": "GRACE: Enhancing Federated Learning for Medical Imaging with Generalized and Personalized Gradient Correction",
-    "authors_text": "<strong>Ruipeng Zhang</strong>, Ziqing Fan, Qinwei Xu, Jiangchao Yao*, Ya Zhang*, Yanfeng Wang*.",
+    "authors_text": "Ruipeng Zhang, Ziqing Fan, Qinwei Xu, Jiangchao Yao*, Ya Zhang*, Yanfeng Wang*.",
     "author_ids": [
       "ruipeng-zhang"
     ],
@@ -959,7 +1003,7 @@
     "file": "fourierbased-augmentation-applications-domain.json",
     "id": "fourierbased-augmentation-applications-domain",
     "title": "Fourier-based augmentation with applications to domain generalization",
-    "authors_text": "Qinwei Xu, <strong>Ruipeng Zhang</strong>, Ziqing Fan, Yanfeng Wang, Yi-Yan Wu, Ya Zhang.",
+    "authors_text": "Qinwei Xu, Ruipeng Zhang, Ziqing Fan, Yanfeng Wang, Yi-Yan Wu, Ya Zhang.",
     "author_ids": [
       "ruipeng-zhang"
     ],
@@ -997,7 +1041,7 @@
     "file": "federated-learning-bilateral-curation.json",
     "id": "federated-learning-bilateral-curation",
     "title": "Federated Learning with Bilateral Curation for Partially Class-Disjoint Data",
-    "authors_text": "Ziqing Fan, <strong>Ruipeng Zhang</strong>, Jiangchao Yao*, Bo Han, Ya Zhang, Yanfeng Wang*.",
+    "authors_text": "Ziqing Fan, Ruipeng Zhang, Jiangchao Yao*, Bo Han, Ya Zhang, Yanfeng Wang*.",
     "author_ids": [
       "ruipeng-zhang"
     ],
@@ -1024,7 +1068,7 @@
     "file": "federated-domain-generalization-generalization.json",
     "id": "federated-domain-generalization-generalization",
     "title": "Federated Domain Generalization with Generalization Adjustment",
-    "authors_text": "<strong>Ruipeng Zhang</strong>, Qinwei Xu, Jiangchao Yao, Ya Zhang*, Qi Tian, Yanfeng Wang*.",
+    "authors_text": "Ruipeng Zhang, Qinwei Xu, Jiangchao Yao, Ya Zhang*, Qi Tian, Yanfeng Wang*.",
     "author_ids": [
       "ruipeng-zhang"
     ],
@@ -1052,7 +1096,7 @@
     "file": "federated-adversarial-domain-hallucination.json",
     "id": "federated-adversarial-domain-hallucination",
     "title": "Federated Adversarial Domain Hallucination for Privacy-preserving Domain Generalization",
-    "authors_text": "Qinwei Xu, <strong>Ruipeng Zhang</strong>, Ya Zhang, Yi-Yan Wu, Yanfeng Wang.",
+    "authors_text": "Qinwei Xu, Ruipeng Zhang, Ya Zhang, Yi-Yan Wu, Yanfeng Wang.",
     "author_ids": [
       "ruipeng-zhang"
     ],
@@ -1090,7 +1134,7 @@
     "file": "clotbased-radiomics-model-cardioembolic.json",
     "id": "clotbased-radiomics-model-cardioembolic",
     "title": "Clot-based radiomics model for cardioembolic stroke prediction with CT imaging before recanalization: a multicenter study",
-    "authors_text": "J Jiang, J Wei, Y Zhu, … <strong>Y Li</strong>, et al.",
+    "authors_text": "J Jiang, J Wei, Y Zhu, … Y Li, et al.",
     "author_ids": [
       "yuehua-li"
     ],
@@ -1099,11 +1143,11 @@
     "venue": "European Radiology, 2023",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 5.9",
+        "label": "IF 4.7",
         "kind": "if"
       }
     ],
@@ -1124,7 +1168,7 @@
     "file": "assessment-automatic-rib-fracture.json",
     "id": "assessment-automatic-rib-fracture",
     "title": "Assessment of automatic rib fracture detection on chest CT using a deep learning algorithm",
-    "authors_text": "S Wang, D Wu, L Ye, Z Chen, Y Zhan, <strong>Y Li</strong>",
+    "authors_text": "S Wang, D Wu, L Ye, Z Chen, Y Zhan, Y Li",
     "author_ids": [
       "yuehua-li"
     ],
@@ -1133,11 +1177,11 @@
     "venue": "European Radiology, 2023",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 5.9",
+        "label": "IF 4.7",
         "kind": "if"
       }
     ],
@@ -1168,6 +1212,14 @@
       {
         "label": "Pharmaceutics",
         "kind": "venue"
+      },
+      {
+        "label": "Q2",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 5.5",
+        "kind": "if"
       }
     ],
     "doi": "10.3390/pharmaceutics14061122",
@@ -1187,7 +1239,7 @@
     "file": "semisupervised-domain-generalization-medical.json",
     "id": "semisupervised-domain-generalization-medical",
     "title": "Semi-Supervised Domain Generalization for Medical Image Analysis",
-    "authors_text": "<strong>Ruipeng Zhang</strong>, Qinwei Xu, Chaoqing Huang, Ya Zhang*, Yanfeng Wang.",
+    "authors_text": "Ruipeng Zhang, Qinwei Xu, Chaoqing Huang, Ya Zhang*, Yanfeng Wang.",
     "author_ids": [
       "ruipeng-zhang"
     ],
@@ -1208,7 +1260,7 @@
     "file": "prussian-blue-nanozyme-promotes.json",
     "id": "prussian-blue-nanozyme-promotes",
     "title": "Prussian Blue Nanozyme Promotes the Survival Rate of Skin Flaps",
-    "authors_text": "… <strong>Y Li</strong>, et al.",
+    "authors_text": "… Y Li, et al.",
     "author_ids": [
       "yuehua-li"
     ],
@@ -1217,7 +1269,7 @@
     "venue": "ACS Nano, 2022",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
@@ -1251,6 +1303,14 @@
       {
         "label": "Nanomaterials",
         "kind": "venue"
+      },
+      {
+        "label": "Q2",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 4.4",
+        "kind": "if"
       }
     ],
     "doi": "10.3390/nano12193383",
@@ -1270,7 +1330,7 @@
     "file": "engineering-vanadium-carbide-mxene.json",
     "id": "engineering-vanadium-carbide-mxene",
     "title": "Engineering vanadium carbide MXene as multienzyme mimetics for efficient in vivo ischemic stroke treatment",
-    "authors_text": "… <strong>Y Li</strong>, et al.",
+    "authors_text": "… Y Li, et al.",
     "author_ids": [
       "yuehua-li"
     ],
@@ -1279,11 +1339,11 @@
     "venue": "Chemical Engineering Journal, 2022",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 15.1",
+        "label": "IF 12.5",
         "kind": "if"
       }
     ],
@@ -1304,7 +1364,7 @@
     "file": "domainconditioned-normalization-testtime-domain.json",
     "id": "domainconditioned-normalization-testtime-domain",
     "title": "Domain-Conditioned Normalization for Test-Time Domain Generalization",
-    "authors_text": "Yuxuan Jiang, Yanfeng Wang, <strong>Ruipeng Zhang</strong>, Qinwei Xu, Ya Zhang, Xin Chen, Qi Tian.",
+    "authors_text": "Yuxuan Jiang, Yanfeng Wang, Ruipeng Zhang, Qinwei Xu, Ya Zhang, Xin Chen, Qi Tian.",
     "author_ids": [
       "ruipeng-zhang"
     ],
@@ -1345,6 +1405,14 @@
       {
         "label": "CNS Neurosci Ther",
         "kind": "venue"
+      },
+      {
+        "label": "Q1",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 5",
+        "kind": "if"
       }
     ],
     "doi": "10.1111/cns.13962",
@@ -1364,7 +1432,7 @@
     "file": "visualization-thrombus-enhancement-thinslab.json",
     "id": "visualization-thrombus-enhancement-thinslab",
     "title": "Visualization of thrombus enhancement on thin-slab maximum intensity projection of CT angiography: an imaging sign for predicting stroke source and thrombus compositions",
-    "authors_text": "L Wei, Y Zhu, J Deng, <strong>Y Li</strong>, M Li, H Lu, Y Zhao",
+    "authors_text": "L Wei, Y Zhu, J Deng, Y Li, M Li, H Lu, Y Zhao",
     "author_ids": [
       "yuehua-li"
     ],
@@ -1373,11 +1441,11 @@
     "venue": "Radiology, 2021",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 19.7",
+        "label": "IF 15.2",
         "kind": "if"
       }
     ],
@@ -1398,7 +1466,7 @@
     "file": "neutrophillike-cellmembranecoated-nanozyme-therapy.json",
     "id": "neutrophillike-cellmembranecoated-nanozyme-therapy",
     "title": "Neutrophil-like cell-membrane-coated nanozyme therapy for ischemic stroke",
-    "authors_text": "… <strong>Y Li</strong>, et al.",
+    "authors_text": "… Y Li, et al.",
     "author_ids": [
       "yuehua-li"
     ],
@@ -1407,7 +1475,7 @@
     "venue": "ACS Nano, 2021",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
@@ -1432,7 +1500,7 @@
     "file": "joint-learning-3d-lesion.json",
     "id": "joint-learning-3d-lesion",
     "title": "Joint learning of 3D lesion segmentation and classification for explainable COVID-19 diagnosis",
-    "authors_text": "X Wang, L Jiang, L Li, M Xu, X Deng, <strong>L Dai</strong>, et al.",
+    "authors_text": "X Wang, L Jiang, L Li, M Xu, X Deng, L Dai, et al.",
     "author_ids": [
       "lisong-dai"
     ],
@@ -1461,6 +1529,14 @@
       {
         "label": "Molecules",
         "kind": "venue"
+      },
+      {
+        "label": "Q2",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 5.1",
+        "kind": "if"
       }
     ],
     "doi": "10.3390/molecules26237340",
@@ -1511,7 +1587,7 @@
     "file": "deep-learningbased-classification-lower.json",
     "id": "deep-learningbased-classification-lower",
     "title": "Deep learning-based classification of lower extremity arterial stenosis in computed tomography angiography",
-    "authors_text": "<strong>L Dai</strong>, Q Zhou, H Zhou, H Zhang, P Cheng, et al.",
+    "authors_text": "L Dai, Q Zhou, H Zhou, H Zhang, P Cheng, et al.",
     "author_ids": [
       "lisong-dai"
     ],
@@ -1532,7 +1608,7 @@
     "file": "fourierbased-framework-domain-generalization.json",
     "id": "fourierbased-framework-domain-generalization",
     "title": "A Fourier-based Framework for Domain Generalization",
-    "authors_text": "Qinwei Xu, <strong>Ruipeng Zhang</strong>, Ya Zhang, Yanfeng Wang, Qi Tian.",
+    "authors_text": "Qinwei Xu, Ruipeng Zhang, Ya Zhang, Yanfeng Wang, Qi Tian.",
     "author_ids": [
       "ruipeng-zhang"
     ],
@@ -1559,7 +1635,7 @@
     "file": "2d-vanadium-carbide-mxenzyme.json",
     "id": "2d-vanadium-carbide-mxenzyme",
     "title": "2D vanadium carbide MXenzyme to alleviate ROS-mediated disorders",
-    "authors_text": "… <strong>Y Li</strong>, et al.",
+    "authors_text": "… Y Li, et al.",
     "author_ids": [
       "yuehua-li"
     ],
@@ -1568,11 +1644,11 @@
     "venue": "Nature Communications, 2021",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 14.7",
+        "label": "IF 15.7",
         "kind": "if"
       }
     ],
@@ -1591,7 +1667,7 @@
     "file": "rapid-vessel-segmentation-reconstruction.json",
     "id": "rapid-vessel-segmentation-reconstruction",
     "title": "Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network",
-    "authors_text": "F Fu, J Wei, M Zhang, F Yu, … <strong>Y Li</strong>, et al.",
+    "authors_text": "F Fu, J Wei, M Zhang, F Yu, … Y Li, et al.",
     "author_ids": [
       "yuehua-li"
     ],
@@ -1600,11 +1676,11 @@
     "venue": "Nature Communications, 2020",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 14.7",
+        "label": "IF 15.7",
         "kind": "if"
       }
     ],
@@ -1625,7 +1701,7 @@
     "file": "opportunistic-screening-using-lowdose.json",
     "id": "opportunistic-screening-using-lowdose",
     "title": "Opportunistic screening using low-dose CT and the prevalence of osteoporosis in China: a nationwide, multicenter study",
-    "authors_text": "X Cheng, K Zhao, X Zha, … <strong>Y Li</strong>, et al.",
+    "authors_text": "X Cheng, K Zhao, X Zha, … Y Li, et al.",
     "author_ids": [
       "yuehua-li"
     ],
@@ -1634,11 +1710,11 @@
     "venue": "Journal of Bone and Mineral Research, 2020",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 5.0",
+        "label": "IF 5.1",
         "kind": "if"
       }
     ],
@@ -1668,6 +1744,14 @@
       {
         "label": "AJNR",
         "kind": "venue"
+      },
+      {
+        "label": "Q2",
+        "kind": "jcr"
+      },
+      {
+        "label": "IF 3.5",
+        "kind": "if"
       }
     ],
     "doi": "10.3174/ajnr.A5946",
@@ -1687,7 +1771,7 @@
     "file": "detection-hemodynamically-significant-coronary.json",
     "id": "detection-hemodynamically-significant-coronary",
     "title": "Detection of hemodynamically significant coronary stenosis: CT myocardial perfusion versus machine learning CT fractional flow reserve",
-    "authors_text": "<strong>Y Li</strong>, M Yu, X Dai, Z Lu, C Shen, et al.",
+    "authors_text": "Y Li, M Yu, X Dai, Z Lu, C Shen, et al.",
     "author_ids": [
       "yuehua-li"
     ],
@@ -1696,11 +1780,11 @@
     "venue": "Radiology, 2019",
     "tags": [
       {
-        "label": "JCR Q1",
+        "label": "Q1",
         "kind": "jcr"
       },
       {
-        "label": "IF 19.7",
+        "label": "IF 15.2",
         "kind": "if"
       }
     ],
@@ -1721,7 +1805,7 @@
     "file": "brain-structural-functional-changes.json",
     "id": "brain-structural-functional-changes",
     "title": "Brain structural and functional changes in patients with major depressive disorder: a literature review",
-    "authors_text": "<strong>L Dai</strong>, H Zhou, X Xu, Z Zuo",
+    "authors_text": "L Dai, H Zhou, X Xu, Z Zuo",
     "author_ids": [
       "lisong-dai"
     ],

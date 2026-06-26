@@ -1,7 +1,7 @@
 {
   "id": "engineering-vanadium-carbide-mxene",
   "title": "Engineering vanadium carbide MXene as multienzyme mimetics for efficient in vivo ischemic stroke treatment",
-  "authors_text": "… <strong>Y Li</strong>, et al.",
+  "authors_text": "… Y Li, et al.",
   "author_ids": [
     "yuehua-li"
   ],
@@ -10,11 +10,11 @@
   "venue": "Chemical Engineering Journal, 2022",
   "tags": [
     {
-      "label": "JCR Q1",
+      "label": "Q1",
       "kind": "jcr"
     },
     {
-      "label": "IF 15.1",
+      "label": "IF 12.5",
       "kind": "if"
     }
   ],

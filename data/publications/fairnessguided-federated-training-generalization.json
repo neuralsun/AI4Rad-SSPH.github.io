@@ -1,7 +1,7 @@
 {
   "id": "fairnessguided-federated-training-generalization",
   "title": "Fairness-guided federated training for generalization and personalization in cross-silo federated learning",
-  "authors_text": "<strong>Ruipeng Zhang</strong>, Ziqing Fan, Jiangchao Yao, Ya Zhang, Yanfeng Wang.",
+  "authors_text": "Ruipeng Zhang, Ziqing Fan, Jiangchao Yao, Ya Zhang, Yanfeng Wang.",
   "author_ids": [
     "ruipeng-zhang"
   ],

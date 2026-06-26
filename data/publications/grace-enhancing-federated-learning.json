@@ -1,7 +1,7 @@
 {
   "id": "grace-enhancing-federated-learning",
   "title": "GRACE: Enhancing Federated Learning for Medical Imaging with Generalized and Personalized Gradient Correction",
-  "authors_text": "<strong>Ruipeng Zhang</strong>, Ziqing Fan, Qinwei Xu, Jiangchao Yao*, Ya Zhang*, Yanfeng Wang*.",
+  "authors_text": "Ruipeng Zhang, Ziqing Fan, Qinwei Xu, Jiangchao Yao*, Ya Zhang*, Yanfeng Wang*.",
   "author_ids": [
     "ruipeng-zhang"
   ],

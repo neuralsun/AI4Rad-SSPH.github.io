@@ -258,6 +258,9 @@ a:hover { color: var(--ai4rad-blue); }
 .pub-title a { color: inherit; }
 .pub-title a:hover { color: var(--ai4rad-teal-dark); }
 .pub-authors { font-size: 0.84rem; color: var(--text-secondary); line-height: 1.55; }
+.pub-author { color: inherit; border-bottom: 1px dotted var(--text-muted); text-decoration: none; }
+.pub-author:hover { color: var(--ai4rad-teal-dark); border-bottom-color: var(--ai4rad-teal); }
+.pub-author--me { font-weight: 700; color: var(--ai4rad-teal-dark); border-bottom: none; }
 .pub-venue { font-size: 0.82rem; font-style: italic; color: var(--text-muted); }
 .pub-abstract { font-size: 0.84rem; color: var(--text-secondary); line-height: 1.6; margin-top: 4px; }
 .pub-featured { background: var(--ai4rad-teal-soft); padding: 1px 7px; border-radius: var(--radius-sm); font-weight: 600; font-size: 0.65rem; margin-right: 6px; color: var(--ai4rad-teal-dark); vertical-align: 1px; }

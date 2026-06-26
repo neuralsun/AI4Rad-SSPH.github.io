@@ -1,7 +1,7 @@
 {
   "id": "visualization-thrombus-enhancement-thinslab",
   "title": "Visualization of thrombus enhancement on thin-slab maximum intensity projection of CT angiography: an imaging sign for predicting stroke source and thrombus compositions",
-  "authors_text": "L Wei, Y Zhu, J Deng, <strong>Y Li</strong>, M Li, H Lu, Y Zhao",
+  "authors_text": "L Wei, Y Zhu, J Deng, Y Li, M Li, H Lu, Y Zhao",
   "author_ids": [
     "yuehua-li"
   ],
@@ -10,11 +10,11 @@
   "venue": "Radiology, 2021",
   "tags": [
     {
-      "label": "JCR Q1",
+      "label": "Q1",
       "kind": "jcr"
     },
     {
-      "label": "IF 19.7",
+      "label": "IF 15.2",
       "kind": "if"
     }
   ],

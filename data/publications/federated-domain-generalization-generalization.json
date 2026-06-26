@@ -1,7 +1,7 @@
 {
   "id": "federated-domain-generalization-generalization",
   "title": "Federated Domain Generalization with Generalization Adjustment",
-  "authors_text": "<strong>Ruipeng Zhang</strong>, Qinwei Xu, Jiangchao Yao, Ya Zhang*, Qi Tian, Yanfeng Wang*.",
+  "authors_text": "Ruipeng Zhang, Qinwei Xu, Jiangchao Yao, Ya Zhang*, Qi Tian, Yanfeng Wang*.",
   "author_ids": [
     "ruipeng-zhang"
   ],

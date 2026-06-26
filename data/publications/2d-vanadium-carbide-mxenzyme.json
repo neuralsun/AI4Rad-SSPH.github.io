@@ -1,7 +1,7 @@
 {
   "id": "2d-vanadium-carbide-mxenzyme",
   "title": "2D vanadium carbide MXenzyme to alleviate ROS-mediated disorders",
-  "authors_text": "… <strong>Y Li</strong>, et al.",
+  "authors_text": "… Y Li, et al.",
   "author_ids": [
     "yuehua-li"
   ],
@@ -10,11 +10,11 @@
   "venue": "Nature Communications, 2021",
   "tags": [
     {
-      "label": "JCR Q1",
+      "label": "Q1",
       "kind": "jcr"
     },
     {
-      "label": "IF 14.7",
+      "label": "IF 15.7",
       "kind": "if"
     }
   ],

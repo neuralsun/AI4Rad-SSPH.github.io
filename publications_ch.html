@@ -78,12 +78,16 @@
       // 全站列表只显示 lab 论文（含 Yuehua Li 的）。
       papers = papers.filter(function (p) { return p.lab !== false; });
       var names = {};
+      var members = {};
       ['leader', 'pi', 'postdoc', 'phd_engineering', 'phd_medical',
        'master_engineering', 'master_medical', 'alumni'].forEach(function (cat) {
-        (team[cat] || []).forEach(function (m) { names[m.id] = m.name_cn; });
+        (team[cat] || []).forEach(function (m) {
+          names[m.id] = m.name_cn;
+          members[m.id] = { en: m.name_en, cn: m.name_cn };
+        });
       });
       memberNameById = function (id) { return names[id]; };
-      window.Pub.initFilter('pub-root', papers, 'cn', memberNameById);
+      window.Pub.initFilter('pub-root', papers, 'cn', memberNameById, { members: members });
     }).catch(function (e) {
       document.querySelector('#pub-root .pub-list').innerHTML =
         '<li class="pub-empty">加载论文列表失败，请刷新重试。</li>';

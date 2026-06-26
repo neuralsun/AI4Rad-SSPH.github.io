@@ -1,7 +1,7 @@
 {
   "id": "assessment-automatic-rib-fracture",
   "title": "Assessment of automatic rib fracture detection on chest CT using a deep learning algorithm",
-  "authors_text": "S Wang, D Wu, L Ye, Z Chen, Y Zhan, <strong>Y Li</strong>",
+  "authors_text": "S Wang, D Wu, L Ye, Z Chen, Y Zhan, Y Li",
   "author_ids": [
     "yuehua-li"
   ],
@@ -10,11 +10,11 @@
   "venue": "European Radiology, 2023",
   "tags": [
     {
-      "label": "JCR Q1",
+      "label": "Q1",
       "kind": "jcr"
     },
     {
-      "label": "IF 5.9",
+      "label": "IF 4.7",
       "kind": "if"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "id": "unichest-conqueranddivide-pretraining-multisource",
   "title": "UniChest: Conquer-and-Divide Pre-training for Multi-Source Chest X-Ray Classification",
-  "authors_text": "Tianjie Dai, <strong>Ruipeng Zhang</strong>, Feng Hong, Jiangchao Yao, Ya Zhang, Yanfeng Wang.",
+  "authors_text": "Tianjie Dai, Ruipeng Zhang, Feng Hong, Jiangchao Yao, Ya Zhang, Yanfeng Wang.",
   "author_ids": [
     "ruipeng-zhang"
   ],

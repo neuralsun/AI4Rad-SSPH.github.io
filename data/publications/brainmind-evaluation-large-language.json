@@ -1,7 +1,7 @@
 {
   "id": "brainmind-evaluation-large-language",
   "title": "BrainMIND: evaluation of large language models for diagnostic impression generation from brain MRI report findings — a multicenter benchmark and reader study",
-  "authors_text": "ML Wang*, <strong>Y Li</strong>*, et al.",
+  "authors_text": "ML Wang*, Y Li*, et al.",
   "author_ids": [
     "yuehua-li"
   ],
@@ -10,11 +10,11 @@
   "venue": "npj Digital Medicine, 2026",
   "tags": [
     {
-      "label": "JCR Q1",
+      "label": "Q1",
       "kind": "jcr"
     },
     {
-      "label": "IF 12.4",
+      "label": "IF 15.1",
       "kind": "if"
     }
   ],

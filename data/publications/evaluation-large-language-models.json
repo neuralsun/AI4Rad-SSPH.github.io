@@ -1,7 +1,7 @@
 {
   "id": "evaluation-large-language-models",
   "title": "Evaluation of large language models for diagnostic impression generation from brain MRI report findings: a multicenter benchmark and reader study",
-  "authors_text": "Ming-Liang Wang*, <strong>Rui-Peng Zhang*</strong>, Wen-Juan Wu, Yu Lu, Xiao-Er Wei, Zheng Sun, Bao-Hui Guan, Jun-Jie Zhang, Xue Wu, Lei Zhang, Tian-Le Wang, Yue-Hua Li.",
+  "authors_text": "Ming-Liang Wang*, Rui-Peng Zhang*, Wen-Juan Wu, Yu Lu, Xiao-Er Wei, Zheng Sun, Bao-Hui Guan, Jun-Jie Zhang, Xue Wu, Lei Zhang, Tian-Le Wang, Yue-Hua Li.",
   "author_ids": [
     "ruipeng-zhang",
     "zheng-sun",

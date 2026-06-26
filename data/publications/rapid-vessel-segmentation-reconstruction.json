@@ -1,7 +1,7 @@
 {
   "id": "rapid-vessel-segmentation-reconstruction",
   "title": "Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network",
-  "authors_text": "F Fu, J Wei, M Zhang, F Yu, … <strong>Y Li</strong>, et al.",
+  "authors_text": "F Fu, J Wei, M Zhang, F Yu, … Y Li, et al.",
   "author_ids": [
     "yuehua-li"
   ],
@@ -10,11 +10,11 @@
   "venue": "Nature Communications, 2020",
   "tags": [
     {
-      "label": "JCR Q1",
+      "label": "Q1",
       "kind": "jcr"
     },
     {
-      "label": "IF 14.7",
+      "label": "IF 15.7",
       "kind": "if"
     }
   ],

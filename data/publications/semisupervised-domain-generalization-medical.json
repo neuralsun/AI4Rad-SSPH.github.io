@@ -1,7 +1,7 @@
 {
   "id": "semisupervised-domain-generalization-medical",
   "title": "Semi-Supervised Domain Generalization for Medical Image Analysis",
-  "authors_text": "<strong>Ruipeng Zhang</strong>, Qinwei Xu, Chaoqing Huang, Ya Zhang*, Yanfeng Wang.",
+  "authors_text": "Ruipeng Zhang, Qinwei Xu, Chaoqing Huang, Ya Zhang*, Yanfeng Wang.",
   "author_ids": [
     "ruipeng-zhang"
   ],

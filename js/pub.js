@@ -22,8 +22,96 @@
     return '/' + p;                                  // site-root relative
   }
 
+  // Member-page base path, relative to whichever page is rendering.
+  // publications.html / team.html are at site root; members/index.html is in
+  // /members/. Detect once: if the URL contains /members/, links are relative
+  // to the current dir; otherwise they need the /members/ prefix.
+  var inMembers = /\/members\//.test(location.pathname);
+  function memberHref(id) {
+    return inMembers ? '?id=' + encodeURIComponent(id) : 'members/?id=' + encodeURIComponent(id);
+  }
+
+  // Build name variants for matching an author_id against free-form authors_text.
+  // Handles "Bi-Cong Yan"/"BiCong Yan"/"Bi Cong Yan", and Chinese names.
+  // Returns an array (longest first) for robust matching.
+  function nameVariants(name) {
+    var out = {};
+    if (!name) return [];
+    name = name.trim();
+    out[name] = true;
+    if (name.indexOf('-') >= 0) {
+      out[name.replace(/-/g, '')] = true;   // "Bi-Cong" -> "BiCong"
+      out[name.replace(/-/g, ' ')] = true;  // "Bi-Cong" -> "Bi Cong"
+    }
+    return Object.keys(out).sort(function (a, b) { return b.length - a.length; });
+  }
+
+  // Escape regex specials.
+  function reEscape(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+
+  // Build a hyphen-tolerant regex for a (non-hyphenated) team name, so that
+  // "Bicong Yan" also matches the text "Bi-Cong Yan". Each character boundary
+  // between name chars optionally allows a '-'.
+  function tolerantPattern(nameNoHyphen) {
+    var chars = nameNoHyphen.split('');
+    // word boundary (no letter/digit before), then chars with optional hyphens,
+    // then word boundary (no letter/digit after).
+    return '(?<![\\p{L}\\p{N}])' +
+      chars.map(function (c) { return reEscape(c); }).join('-?') +
+      '(?![\\p{L}\\p{N}])';
+  }
+
+  // Turn free-form authors_text into HTML where every team-member author is a
+  // link to their member page, and the *current* member (opts.currentId) is also
+  // bolded. opts: { members: {id:{en,cn}}, currentId, lang }
+  function linkAuthors(text, authorIds, opts) {
+    opts = opts || {};
+    var members = opts.members || {};
+    var currentId = opts.currentId || '';
+    if (!text) return '';
+    // Collect (matchStart, matchEnd, id) for all team authors, then apply
+    // replacements from rightmost to leftmost so offsets stay valid.
+    var hits = [];
+    (authorIds || []).forEach(function (id) {
+      if (!members[id]) return;
+      var rec = members[id];
+      var variants = nameVariants(rec.en).concat(nameVariants(rec.cn));
+      for (var k = 0; k < variants.length; k++) {
+        var v = variants[k];
+        if (!v) continue;
+        var cv = v.replace(/-/g, '');
+        var re = new RegExp(tolerantPattern(cv), 'iu');
+        var mm = re.exec(text);
+        if (mm) {
+          hits.push({ start: mm.index, end: mm.index + mm[0].length, id: id, name: mm[0] });
+          break;  // first variant that matches wins
+        }
+      }
+    });
+    // de-duplicate overlapping hits: keep earliest-starting, drop overlaps.
+    hits.sort(function (a, b) { return a.start - b.start || b.end - a.end; });
+    var kept = [];
+    var lastEnd = -1;
+    hits.forEach(function (h) {
+      if (h.start >= lastEnd) { kept.push(h); lastEnd = h.end; }
+    });
+    // apply right-to-left
+    var html = text;
+    for (var i = kept.length - 1; i >= 0; i--) {
+      var h = kept[i];
+      var origName = html.substring(h.start, h.end);
+      var isCurrent = h.id === currentId;
+      var cls = 'pub-author' + (isCurrent ? ' pub-author--me' : '');
+      var replacement = '<a class="' + cls + '" href="' + memberHref(h.id) + '">' + esc(origName) + '</a>';
+      html = html.substring(0, h.start) + replacement + html.substring(h.end);
+    }
+    return html;
+  }
+
   // Render one paper as an <li.pub-card>. `lang` is 'en' | 'cn'.
-  function renderCard(p, lang, memberNameById) {
+  // `ctx` (optional): { members, currentId } — enables author links + highlight.
+  function renderCard(p, lang, ctx) {
+    ctx = ctx || {};
     var title = esc(p.title);
     var titleInner = (p.featured ? '<span class="pub-featured">' +
       (lang === 'cn' ? '代表作' : 'Featured') + '</span>' : '') + title;
@@ -40,7 +128,12 @@
     }
     h += '<div class="pub-card__body">';
     h += '<div class="pub-title">' + titleHtml + '</div>';
-    if (p.authors_text) h += '<div class="pub-authors">' + p.authors_text + '</div>';
+    if (p.authors_text) {
+      var authorsHtml = (ctx.members && p.author_ids && p.author_ids.length)
+        ? linkAuthors(p.authors_text, p.author_ids, { members: ctx.members, currentId: ctx.currentId, lang: lang })
+        : esc(p.authors_text);
+      h += '<div class="pub-authors">' + authorsHtml + '</div>';
+    }
     if (p.venue) h += '<div class="pub-venue">' + esc(p.venue) + '</div>';
 
     if (p.tags && p.tags.length) {
@@ -66,7 +159,9 @@
 
   // ---- Filterable list controller for publications.html ----
   // papers: array from manifest.json
-  function initFilter(containerId, papers, lang, memberNameById) {
+  // ctx (optional): { members } — enables author-name hyperlinks in cards.
+  function initFilter(containerId, papers, lang, memberNameById, ctx) {
+    ctx = ctx || {};
     var root = document.getElementById(containerId);
     if (!root) return;
 
@@ -146,7 +241,7 @@
       });
       var list = root.querySelector('.pub-list');
       list.innerHTML = shown.length
-        ? shown.map(function (p) { return renderCard(p, lang, memberNameById); }).join('')
+        ? shown.map(function (p) { return renderCard(p, lang, ctx); }).join('')
         : '<li class="pub-empty">' + (lang === 'cn' ? '没有匹配的论文。' : 'No matching papers.') + '</li>';
       root.querySelector('.filter-count').textContent =
         (lang === 'cn' ? '共 ' : '') + shown.length +

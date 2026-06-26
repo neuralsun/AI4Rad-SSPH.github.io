@@ -1,7 +1,7 @@
 {
   "id": "federated-adversarial-domain-hallucination",
   "title": "Federated Adversarial Domain Hallucination for Privacy-preserving Domain Generalization",
-  "authors_text": "Qinwei Xu, <strong>Ruipeng Zhang</strong>, Ya Zhang, Yi-Yan Wu, Yanfeng Wang.",
+  "authors_text": "Qinwei Xu, Ruipeng Zhang, Ya Zhang, Yi-Yan Wu, Yanfeng Wang.",
   "author_ids": [
     "ruipeng-zhang"
   ],
