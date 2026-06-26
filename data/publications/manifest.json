@@ -87,7 +87,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 6.9",
+        "label": "IF 7.2",
         "kind": "if"
       }
     ],
@@ -187,7 +187,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 15.1",
+        "label": "IF 18",
         "kind": "if"
       }
     ],
@@ -207,17 +207,21 @@
     "file": "multiagent-llm-emergency-stroke.json",
     "id": "multiagent-llm-emergency-stroke",
     "title": "A Multi-Agent Large Language Model Framework for Emergency Treatment Recommendation in Acute Ischemic Stroke: Development and Validation Study",
-    "authors_text": "Yuehua Li, Bi-Cong Yan, Ruipeng Zhang, Xinyu Song, Li Chen, Zhongzheng Cao.",
+    "authors_text": "Bicong Yan, Ruipeng Zhang, Yanfeng Fan, Ying Li, Li Chen, Xinyu Song, Yixiao Tang, Zhongzheng Cao, Li Shen, Mengfei Wang, Zhuo Li, Yijia Xiong, Yuehua Li.",
     "author_ids": [
-      "yuehua-li",
       "bicong-yan",
       "ruipeng-zhang",
       "xinyu-song",
-      "zhongzheng-cao"
+      "yixiao-tang",
+      "zhongzheng-cao",
+      "mengfei-wang",
+      "zhuo-li",
+      "yuehua-li"
     ],
     "type": "journal",
     "year": 2026,
     "venue": "Journal of Medical Internet Research",
+    "cover": "images/hr-llm-stroke-framework.png",
     "tags": [
       {
         "label": "JMIR",
@@ -228,22 +232,24 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 5.8",
+        "label": "IF 8.2",
         "kind": "if"
       }
     ],
     "doi": "10.2196/96304",
     "links": {
       "doi": "https://doi.org/10.2196/96304",
-      "pdf": "https://doi.org/10.2196/96304"
+      "pdf": "https://doi.org/10.2196/96304",
+      "code": "https://github.com/FrankZhangRp/HR-LLM-Stroke",
+      "project": "https://frankzhangrp.github.io/HR-LLM-Stroke/"
     },
     "topic": [
       "Large Language Models",
       "Stroke Imaging",
       "Clinical Decision Support"
     ],
-    "featured": false,
-    "abstract": "Acute ischemic stroke requires rapid, guideline-driven treatment decisions within narrow time windows. This study presents a multi-agent large language model framework that orchestrates specialized agents for imaging interpretation, clinical feature extraction, and treatment recommendation, supporting real-world clinical decision-making in acute ischemic stroke. Developed and validated on multicenter data, the framework demonstrates the feasibility of agentic LLM systems for time-critical emergency stroke workflows.",
+    "featured": true,
+    "abstract": "Acute ischemic stroke requires rapid, guideline-driven treatment decisions within narrow time windows. This study presents a multi-agent large language model framework (HR-LLM-Stroke) that orchestrates specialized agents for imaging interpretation, clinical feature extraction, and treatment recommendation, supporting real-world clinical decision-making in acute ischemic stroke. Developed and validated on multicenter data, the framework demonstrates the feasibility of agentic LLM systems for time-critical emergency stroke workflows.",
     "lab": true
   },
   {
@@ -325,7 +331,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 4.7",
+        "label": "IF 6",
         "kind": "if"
       }
     ],
@@ -360,7 +366,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 15.8",
+        "label": "IF 17.3",
         "kind": "if"
       }
     ],
@@ -441,7 +447,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 3.9",
+        "label": "IF 4.7",
         "kind": "if"
       }
     ],
@@ -502,7 +508,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 15.7",
+        "label": "IF 18.1",
         "kind": "if"
       }
     ],
@@ -537,7 +543,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 15.2",
+        "label": "IF 17.6",
         "kind": "if"
       }
     ],
@@ -701,7 +707,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 8.1",
+        "label": "IF 20.1",
         "kind": "if"
       }
     ],
@@ -771,7 +777,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 4.7",
+        "label": "IF 6",
         "kind": "if"
       }
     ],
@@ -811,7 +817,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 3.9",
+        "label": "IF 4.7",
         "kind": "if"
       }
     ],
@@ -880,7 +886,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 6.2",
+        "label": "IF 6.9",
         "kind": "if"
       }
     ],
@@ -922,7 +928,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 3.3",
+        "label": "IF 3.8",
         "kind": "if"
       }
     ],
@@ -956,7 +962,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 15.3",
+        "label": "IF 17.2",
         "kind": "if"
       }
     ],
@@ -1147,7 +1153,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 4.7",
+        "label": "IF 6",
         "kind": "if"
       }
     ],
@@ -1181,7 +1187,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 4.7",
+        "label": "IF 6",
         "kind": "if"
       }
     ],
@@ -1218,7 +1224,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 5.5",
+        "label": "IF 6.9",
         "kind": "if"
       }
     ],
@@ -1273,7 +1279,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 15.8",
+        "label": "IF 17.3",
         "kind": "if"
       }
     ],
@@ -1309,7 +1315,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 4.4",
+        "label": "IF 4.8",
         "kind": "if"
       }
     ],
@@ -1411,7 +1417,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 5",
+        "label": "IF 6.6",
         "kind": "if"
       }
     ],
@@ -1445,7 +1451,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 15.2",
+        "label": "IF 17.6",
         "kind": "if"
       }
     ],
@@ -1479,7 +1485,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 15.8",
+        "label": "IF 17.3",
         "kind": "if"
       }
     ],
@@ -1648,7 +1654,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 15.7",
+        "label": "IF 18.1",
         "kind": "if"
       }
     ],
@@ -1680,7 +1686,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 15.7",
+        "label": "IF 18.1",
         "kind": "if"
       }
     ],
@@ -1714,7 +1720,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 5.1",
+        "label": "IF 6.5",
         "kind": "if"
       }
     ],
@@ -1750,7 +1756,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 3.5",
+        "label": "IF 3.7",
         "kind": "if"
       }
     ],
@@ -1784,7 +1790,7 @@
         "kind": "jcr"
       },
       {
-        "label": "IF 15.2",
+        "label": "IF 17.6",
         "kind": "if"
       }
     ],
