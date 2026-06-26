@@ -25,8 +25,8 @@
     "doi": "https://doi.org/10.1038/s41467-024-54424-6"
   },
   "topic": [
-    "ai",
-    "diagnosis"
+    "Deep Learning",
+    "Clinical Decision Support"
   ],
   "featured": false,
   "abstract": "A foundation-model approach addressing the long-tailed distribution of radiology diagnoses, improving recognition of rare conditions on medical images."

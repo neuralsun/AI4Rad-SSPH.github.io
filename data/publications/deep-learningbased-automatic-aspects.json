@@ -24,10 +24,10 @@
     "pdf": "https://doi.org/10.1007/s00330-024-10960-9"
   },
   "topic": [
-    "neuro",
-    "stroke",
-    "ai",
-    "ct"
+    "Neuroimaging",
+    "Stroke Imaging",
+    "Deep Learning",
+    "CT Imaging"
   ],
   "featured": false,
   "abstract": "Deep-learning ASPECTS scoring on non-contrast CT improves diagnostic efficiency for acute ischemic stroke across multiple centers."

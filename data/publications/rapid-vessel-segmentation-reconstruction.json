@@ -23,9 +23,9 @@
     "pdf": "https://doi.org/10.1038/s41467-020-18606-2"
   },
   "topic": [
-    "vascular",
-    "ai",
-    "ct"
+    "Vascular Imaging",
+    "Deep Learning",
+    "CT Imaging"
   ],
   "featured": false,
   "abstract": "A 3D CNN that rapidly segments and reconstructs head and neck vessels from CT angiograms with high accuracy and efficiency, validated across multiple centers."

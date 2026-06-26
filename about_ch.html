@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AI4Rad 实验室论文成果 — 医学影像人工智能期刊与会议论文。">
-  <title>论文成果 · AI4Rad 实验室</title>
+  <meta name="description" content="关于 AI4Rad 实验室 — 上海市第六人民医院放射介入科医学影像人工智能团队的使命与愿景。">
+  <title>关于 · AI4Rad 实验室</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet">
@@ -20,11 +20,11 @@
       </a>
       <div class="nav__links">
         <a href="./index_ch.html" class="nav__link">首页</a>
-        <a href="./about_ch.html" class="nav__link">关于</a>
+        <a href="./about_ch.html" class="nav__link active">关于</a>
         <a href="./team_ch.html" class="nav__link">团队</a>
-        <a href="./publications_ch.html" class="nav__link active">论文成果</a>
+        <a href="./publications_ch.html" class="nav__link">论文成果</a>
         <a href="./contact_ch.html" class="nav__link">联系</a>
-        <a href="./publications.html" class="nav__link--lang">EN</a>
+        <a href="./about.html" class="nav__link--lang">EN</a>
       </div>
       <button class="nav__theme-btn" id="themeToggle" aria-label="切换深色模式" title="切换深色模式"></button>
     </div>
@@ -32,15 +32,20 @@
 
   <main class="wrapper">
     <section class="hero reveal">
-      <h1 class="hero__title">论文成果</h1>
-      <p class="hero__subtitle">实验室代表性期刊与会议论文。完整列表亦见 <a href="https://scholar.google.com/citations?user=zj4WqewAAAAJ" target="_blank" rel="noopener">Google Scholar</a>。</p>
+      <h1 class="hero__title">关于我们</h1>
+      <p class="hero__subtitle">我们是谁，以及我们想做成什么。</p>
     </section>
 
-    <div id="pub-root" class="reveal">
-      <div class="filters"></div>
-      <p class="filter-count"></p>
-      <ul class="pub-list pub-list--cards"></ul>
-    </div>
+    <section class="reveal">
+      <h2 class="section-title">使命愿景</h2>
+      <p class="text-body">AI4Rad 实验室面向真实临床场景探索医学影像人工智能：一方面研发能切实辅助医生、服务临床的工具，提升诊疗的效率与质量；另一方面借助人工智能前沿方法，探索医学影像表征背后蕴含的生理与病理机制，让影像成为理解疾病的窗口。</p>
+    </section>
+
+    <section class="reveal">
+      <h2 class="section-title">我们是谁</h2>
+      <p class="text-body">实验室依托上海交通大学医学院附属第六人民医院放射介入科，汇聚临床医生、工程师与研究生，研究方向涵盖血管与卒中影像、心脏与冠脉 CT，以及医学 AI 的临床转化。</p>
+      <p class="text-body">更多成员信息见<a href="./team_ch.html">团队</a>页面，研究成果见<a href="./publications_ch.html">论文成果</a>，或通过<a href="./contact_ch.html">联系</a>页面与我们取得联系。</p>
+    </section>
   </main>
 
   <footer class="footer">
@@ -51,7 +56,7 @@
     <div class="footer__links">
       <a href="./index_ch.html">首页</a>
       <a href="./team_ch.html">团队</a>
-      <a href="./publications_ch.html">论文成果</a>
+      <a href="https://scholar.google.com/citations?user=zj4WqewAAAAJ&hl=zh-CN" target="_blank" rel="noopener">论文</a>
       <a href="mailto:zhangrp@sjtu.edu.cn">邮箱</a>
       <a href="https://github.com/AI4Rad-SSPH" target="_blank" rel="noopener">GitHub</a>
     </div>
@@ -67,34 +72,5 @@
   </footer>
 
   <script src="js/main.js"></script>
-  <script src="js/pub.js"></script>
-  <script>
-  (function () {
-    var memberNameById = null;
-    Promise.all([
-      fetch('data/publications/manifest.json').then(function (r) { return r.json(); }),
-      fetch('data/team.json').then(function (r) { return r.json(); })
-    ]).then(function (res) {
-      var papers = res[0], team = res[1];
-      // 全站列表只显示 lab 论文（含 Yuehua Li 的）。
-      papers = papers.filter(function (p) { return p.lab !== false; });
-      var names = {};
-      var members = {};
-      ['leader', 'pi', 'postdoc', 'phd_engineering', 'phd_medical',
-       'master_engineering', 'master_medical', 'alumni'].forEach(function (cat) {
-        (team[cat] || []).forEach(function (m) {
-          names[m.id] = m.name_cn;
-          members[m.id] = { en: m.name_en, cn: m.name_cn };
-        });
-      });
-      memberNameById = function (id) { return names[id]; };
-      window.Pub.initFilter('pub-root', papers, 'cn', memberNameById, { members: members });
-    }).catch(function (e) {
-      document.querySelector('#pub-root .pub-list').innerHTML =
-        '<li class="pub-empty">加载论文列表失败，请刷新重试。</li>';
-      console.error(e);
-    });
-  })();
-  </script>
 </body>
 </html>

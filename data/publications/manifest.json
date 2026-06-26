@@ -237,8 +237,8 @@
       "code": "https://github.com/ljy19970415/unibrain"
     },
     "topic": [
-      "neuro",
-      "ai"
+      "Neuroimaging",
+      "Deep Learning"
     ],
     "featured": false,
     "abstract": "Hierarchical knowledge-enhanced pre-training framework for universal brain MRI diagnosis, validated on in-domain and out-of-domain datasets.",
@@ -297,10 +297,10 @@
       "pdf": "https://doi.org/10.1007/s00330-024-10960-9"
     },
     "topic": [
-      "neuro",
-      "stroke",
-      "ai",
-      "ct"
+      "Neuroimaging",
+      "Stroke Imaging",
+      "Deep Learning",
+      "CT Imaging"
     ],
     "featured": false,
     "abstract": "Deep-learning ASPECTS scoring on non-contrast CT improves diagnostic efficiency for acute ischemic stroke across multiple centers.",
@@ -332,8 +332,8 @@
       "pdf": "https://doi.org/10.1021/acsnano.5c21630"
     },
     "topic": [
-      "nanomedicine",
-      "ct"
+      "Nanomedicine",
+      "CT Imaging"
     ],
     "featured": false,
     "abstract": "ROS-responsive T1-T2 dual-modal MRI nanomodulators for visualized treatment of atherosclerosis.",
@@ -471,8 +471,8 @@
       "doi": "https://doi.org/10.1038/s41467-024-54424-6"
     },
     "topic": [
-      "ai",
-      "diagnosis"
+      "Deep Learning",
+      "Clinical Decision Support"
     ],
     "featured": false,
     "abstract": "A foundation-model approach addressing the long-tailed distribution of radiology diagnoses, improving recognition of rare conditions on medical images.",
@@ -505,9 +505,9 @@
       "pdf": "https://doi.org/10.1148/radiol.233197"
     },
     "topic": [
-      "neuro",
-      "ai",
-      "ct"
+      "Neuroimaging",
+      "Deep Learning",
+      "CT Imaging"
     ],
     "featured": false,
     "abstract": "Knowledge-augmented deep learning to segment and detect cerebral aneurysms on CT angiography, validated in a multicenter study with stable external performance.",
@@ -669,9 +669,9 @@
       "pdf": "https://doi.org/10.1148/ryai.230520"
     },
     "topic": [
-      "neuro",
-      "ai",
-      "ct"
+      "Neuroimaging",
+      "Deep Learning",
+      "CT Imaging"
     ],
     "featured": false,
     "abstract": "Integrates radiology report information into deep learning to improve interpretable brain MRI lesion detection.",
@@ -696,8 +696,8 @@
       "code": "https://github.com/JiayuLei1520/AutoRG-Brain"
     },
     "topic": [
-      "neuro",
-      "ai"
+      "Neuroimaging",
+      "Deep Learning"
     ],
     "featured": false,
     "abstract": "The first brain MRI report generation system with pixel-level grounded visual clues, using a two-stage segmentation-then-generation framework.",
@@ -894,8 +894,8 @@
       "pdf": "https://doi.org/10.7326/0003-4819-159-8-201310150-00004"
     },
     "topic": [
-      "neuro",
-      "ct"
+      "Neuroimaging",
+      "CT Imaging"
     ],
     "featured": false,
     "abstract": "Cross-sectional study reporting a 7.0% prevalence of unruptured cerebral aneurysms in Chinese adults aged 35–75, with most lesions <5 mm.",
@@ -1085,9 +1085,9 @@
       "pdf": "https://doi.org/10.1007/s00330-022-09116-4"
     },
     "topic": [
-      "neuro",
-      "stroke",
-      "ct"
+      "Neuroimaging",
+      "Stroke Imaging",
+      "CT Imaging"
     ],
     "featured": false,
     "abstract": "A clot-based radiomics model on pre-treatment CT to predict cardioembolic stroke source before recanalization, validated multicenter.",
@@ -1119,8 +1119,8 @@
       "pdf": "https://doi.org/10.1007/s00330-022-09156-w"
     },
     "topic": [
-      "ai",
-      "ct"
+      "Deep Learning",
+      "CT Imaging"
     ],
     "featured": false,
     "abstract": "Deep-learning algorithm for automatic rib fracture detection on chest CT with high sensitivity, assessed for clinical deployment.",
@@ -1207,7 +1207,7 @@
       "pdf": "https://doi.org/10.1021/acsnano.2c02832"
     },
     "topic": [
-      "nanomedicine"
+      "Nanomedicine"
     ],
     "featured": false,
     "abstract": "Prussian blue nanozyme promotes skin flap survival by scavenging ROS and maintaining a normal microenvironment against ischemia-reperfusion injury.",
@@ -1273,9 +1273,9 @@
       "pdf": "https://doi.org/10.1016/j.cej.2022.135921"
     },
     "topic": [
-      "neuro",
-      "stroke",
-      "nanomedicine"
+      "Neuroimaging",
+      "Stroke Imaging",
+      "Nanomedicine"
     ],
     "featured": false,
     "abstract": "Engineered vanadium carbide MXene as multienzyme mimetics for efficient in vivo ischemic stroke treatment by alleviating oxidative stress.",
@@ -1367,9 +1367,9 @@
       "pdf": "https://doi.org/10.1148/radiol.2020201548"
     },
     "topic": [
-      "neuro",
-      "stroke",
-      "ct"
+      "Neuroimaging",
+      "Stroke Imaging",
+      "CT Imaging"
     ],
     "featured": false,
     "abstract": "Describes a thin-slab MIP imaging sign on CT angiography for predicting stroke source and thrombus histological composition.",
@@ -1401,9 +1401,9 @@
       "pdf": "https://doi.org/10.1021/acsnano.0c07973"
     },
     "topic": [
-      "neuro",
-      "stroke",
-      "nanomedicine"
+      "Neuroimaging",
+      "Stroke Imaging",
+      "Nanomedicine"
     ],
     "featured": false,
     "abstract": "Neutrophil-like cell-membrane-coated nanozyme enabling active targeting therapy for ischemic brain damage and long-term neurological recovery.",
@@ -1480,7 +1480,7 @@
       "pdf": "https://doi.org/10.1155/2021/2678379"
     },
     "topic": [
-      "Neuroradiology",
+      "Neuroimaging",
       "MRI Imaging"
     ],
     "featured": false,
@@ -1561,7 +1561,7 @@
       "pdf": "https://doi.org/10.1038/s41467-021-22278-x"
     },
     "topic": [
-      "nanomedicine"
+      "Nanomedicine"
     ],
     "featured": false,
     "abstract": "2D V₂C MXene nanozyme that scavenges reactive oxygen species to alleviate ROS-mediated inflammatory and neurodegenerative diseases.",
@@ -1593,9 +1593,9 @@
       "pdf": "https://doi.org/10.1038/s41467-020-18606-2"
     },
     "topic": [
-      "vascular",
-      "ai",
-      "ct"
+      "Vascular Imaging",
+      "Deep Learning",
+      "CT Imaging"
     ],
     "featured": false,
     "abstract": "A 3D CNN that rapidly segments and reconstructs head and neck vessels from CT angiograms with high accuracy and efficiency, validated across multiple centers.",
@@ -1627,7 +1627,7 @@
       "pdf": "https://doi.org/10.1002/jbmr.4187"
     },
     "topic": [
-      "ct"
+      "CT Imaging"
     ],
     "featured": false,
     "abstract": "Nationwide multicenter study establishing Chinese reference data for opportunistic osteoporosis screening using low-dose chest CT.",
@@ -1693,9 +1693,9 @@
       "pdf": "https://doi.org/10.1148/radiol.2019190098"
     },
     "topic": [
-      "cardiac",
-      "ai",
-      "ct"
+      "Cardiac Imaging",
+      "Deep Learning",
+      "CT Imaging"
     ],
     "featured": false,
     "abstract": "Compares CT myocardial perfusion versus machine-learning CT fractional flow reserve for detecting hemodynamically significant coronary stenosis.",

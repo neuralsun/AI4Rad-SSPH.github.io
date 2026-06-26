@@ -23,8 +23,8 @@
     "pdf": "https://doi.org/10.1007/s00330-022-09156-w"
   },
   "topic": [
-    "ai",
-    "ct"
+    "Deep Learning",
+    "CT Imaging"
   ],
   "featured": false,
   "abstract": "Deep-learning algorithm for automatic rib fracture detection on chest CT with high sensitivity, assessed for clinical deployment."

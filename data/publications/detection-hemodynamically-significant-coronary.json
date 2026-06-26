@@ -23,9 +23,9 @@
     "pdf": "https://doi.org/10.1148/radiol.2019190098"
   },
   "topic": [
-    "cardiac",
-    "ai",
-    "ct"
+    "Cardiac Imaging",
+    "Deep Learning",
+    "CT Imaging"
   ],
   "featured": false,
   "abstract": "Compares CT myocardial perfusion versus machine-learning CT fractional flow reserve for detecting hemodynamically significant coronary stenosis."

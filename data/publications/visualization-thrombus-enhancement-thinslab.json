@@ -23,9 +23,9 @@
     "pdf": "https://doi.org/10.1148/radiol.2020201548"
   },
   "topic": [
-    "neuro",
-    "stroke",
-    "ct"
+    "Neuroimaging",
+    "Stroke Imaging",
+    "CT Imaging"
   ],
   "featured": false,
   "abstract": "Describes a thin-slab MIP imaging sign on CT angiography for predicting stroke source and thrombus histological composition."

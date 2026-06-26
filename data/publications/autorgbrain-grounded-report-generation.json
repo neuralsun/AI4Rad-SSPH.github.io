@@ -16,8 +16,8 @@
     "code": "https://github.com/JiayuLei1520/AutoRG-Brain"
   },
   "topic": [
-    "neuro",
-    "ai"
+    "Neuroimaging",
+    "Deep Learning"
   ],
   "featured": false,
   "abstract": "The first brain MRI report generation system with pixel-level grounded visual clues, using a two-stage segmentation-then-generation framework."

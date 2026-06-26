@@ -5,6 +5,9 @@
 # WorkBuddy workspace metadata and temporary files
 .workbuddy/
 
+# Local editor / preview config
+.claude/
+
 # Local design reference screenshots (not part of the site)
 ai4rad_home_v2.png
 ai4rad_home_light_v2.png

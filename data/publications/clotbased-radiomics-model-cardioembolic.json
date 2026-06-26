@@ -23,9 +23,9 @@
     "pdf": "https://doi.org/10.1007/s00330-022-09116-4"
   },
   "topic": [
-    "neuro",
-    "stroke",
-    "ct"
+    "Neuroimaging",
+    "Stroke Imaging",
+    "CT Imaging"
   ],
   "featured": false,
   "abstract": "A clot-based radiomics model on pre-treatment CT to predict cardioembolic stroke source before recanalization, validated multicenter."

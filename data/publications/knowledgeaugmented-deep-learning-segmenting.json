@@ -24,9 +24,9 @@
     "pdf": "https://doi.org/10.1148/radiol.233197"
   },
   "topic": [
-    "neuro",
-    "ai",
-    "ct"
+    "Neuroimaging",
+    "Deep Learning",
+    "CT Imaging"
   ],
   "featured": false,
   "abstract": "Knowledge-augmented deep learning to segment and detect cerebral aneurysms on CT angiography, validated in a multicenter study with stable external performance."
